@@ -1,0 +1,26 @@
+{
+  "siteUrl": "2023.ipfs-thing.io",
+  "favicon": "/uploads/dot-cube.svg",
+  "gtmId": "",
+  "fathomSiteId": "",
+  "theme": "content/themes/protocol.md",
+  "logo": {
+    "logoTypeStyle": "undefined undefined ",
+    "image": "/uploads/dot-cube.svg",
+    "imageWidth": "50",
+    "imageHeight": "50"
+  },
+  "nav": {
+    "navButtons": [
+      {
+        "label": "Register",
+        "link": "https://lu.ma/ipfsthing2023",
+        "buttonStyle": "gradient"
+      }
+    ],
+    "navAlignment": "text-center",
+    "navTypeStyle": "text-black mg-copy-medium ",
+    "navBackgroundColor": "bg-white opacity-100",
+    "padding": "pt-3.5 pb-3.5 pr-10 pl-10"
+  }
+}

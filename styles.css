@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Aileron';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Aileron-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Aileron Heavy';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Aileron-Heavy.woff') format('woff');
+}
