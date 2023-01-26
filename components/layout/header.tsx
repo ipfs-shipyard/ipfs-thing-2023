@@ -101,7 +101,6 @@ export const Header = ({
 
   const nav = globalData.nav
   const navItems = nav?.navItems || []
-  const navButtons = nav?.navButtons || []
   const sectionClasses = navOpen ? "md:h-screen" : "md:h-0";
   const navClasses = navOpen ? "md:opacity-100 m-0" : "h-0 md:opacity-0 pointer-events-none";
   const backgroundClasses = navOpen ? "opacity-100" : "opacity-0 pointer-events-none";
@@ -137,14 +136,14 @@ export const Header = ({
 
   
   return (
-    <section className="top-0 w-full mb-20 sm:mb-0 z-50">
+    <section className="relative">
       <>
         {/* Desktop Nav */}
-        <div className={`md:hidden fixed z-10 top-0 left-0 right-0 ${nav?.navBackgroundColor}`}>
-          <div className={`max-w-desktop-full mx-auto  ${nav?.padding}`}>
+        <div className="md:hidden absolute z-10 top-0 left-0 right-0">
+          <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="flex items-center">
               <Logo className="flex-none" />
-              <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} mb-0 flex-grow list-none md:hidden`}>
+              <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} flex-grow list-none md:hidden`}>
 
                 {pageJumps(blocks)?.map(function (item, index) {
                   return (
@@ -170,12 +169,8 @@ export const Header = ({
                     )
                   }
                 })}
+
               </ul>
-              {navButtons.map(function (item, index) {
-                return (
-                  <a  key={index} className={`btn-${item.buttonStyle}`} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
-                )
-              })}
             </div>
           </div>
         </div>
@@ -184,9 +179,9 @@ export const Header = ({
         <div className={`${sectionClasses} hidden md:block h-screen fixed z-40 top-0 left-0 right-0`}>
           <div style={backgroundStyles} className={`${backgroundClasses} ${background} transition duration-400 absolute w-full h-screen -z-1`}></div>
           <div className={`w-full md:p-5`}>
-            <Logo className="absolute top-4 left-4 hidden" />
+            <Logo className="absolute top-4 left-4" />
             <div className={`absolute top-3 -right-2 py-1 pl-2 pr-6 rounded ${nav?.navBackgroundColor}`} onClick={() => setNavOpen(!navOpen)}>
-              <Burger color="black" isOpen={navOpen}  />
+              <Burger color="white" isOpen={navOpen}  />
             </div>
             <ul style={navStyles} className={`${navClasses} ${nav?.navTypeStyle} flex-grow hidden md:block mt-12`}>
 
@@ -215,16 +210,7 @@ export const Header = ({
                 }
               })}
 
-              {navButtons.map(function (item, index) {
-                return (
-                  <li key={index}>
-                    <a className={`btn-${item.buttonStyle}`} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
-                  </li>
-                )
-              })}
-
             </ul>
-     
           </div>
           
         </div>

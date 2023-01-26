@@ -1,5 +1,4 @@
 import React from "react";
-import type { Page } from "../.tina/__generated__/types";
 import { Feature } from "./blocks/feature";
 import { Cards } from "./blocks/cards";
 import { Accordian } from "./blocks/accordian";

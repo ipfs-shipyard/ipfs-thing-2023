@@ -33,9 +33,3 @@ export const roundedOptions: {label: string, value: string}[] = [
   { label: "24", value: "rounded-3xl" },
   { label: "Full", value: "rounded-full" },
 ]
-
-export const hAlignOptions: {label: string, value: string}[] = [
-  { label: "Left", value: "text-left" },
-  { label: "Center", value: "text-center" },
-  { label: "Right", value: "text-right" },
-];

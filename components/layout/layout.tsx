@@ -2,32 +2,31 @@ import React from "react";
 import Head from "next/head";
 import { Header } from "./header";
 import { Blocks } from "../../components/blocks-renderer";
-import layoutData from "../../content/global/index.json";
 
 const systemFonts = ['Arial','Courier','Geneva','Georgia', 'Helvetica','Impact','Lucida Console','Lucida Grande','Monaco','Palatino','Tahoma','Times New Roman','Verdana']
-const customFonts = ['Aileron', 'Aileron Heavy']
+const customFonts = ['Suisse Intl']
 
 const googleFontsLink = (fonts) => {
   const uniqueFontList = fonts
   const googleFontList = uniqueFontList.filter(item => !systemFonts.includes(item)).filter(item => !customFonts.includes(item))
-  const formattedFontList = googleFontList.map(item => item.split(' ').join('+'))
+  const formattedFontList = googleFontList.map(item => item?.split(' ').join('+'))
   const familyString = formattedFontList.join('&family=')
   const fontLink = `https://fonts.googleapis.com/css2?family=${familyString}&display=swap`
   return uniqueFontList.length > 0 ?  fontLink : ''
 }
 
-export const Layout = ({ rawData, data = layoutData, children }) => {
+export const Layout = ({ rawData, children }) => {
   const page = rawData.page
   const global = rawData.global
-  const typographyFontFamilies = global.theme?.typo.map(item => {
+  const typographyFontFamilies = global.theme?.typo?.map(item => {
     const fontObject = JSON.parse(item.typography)
-    return fontObject.family
-  })
-  const buttonFontFamilies = global.theme?.buttons.map(item => {
+    return fontObject.family || null
+  }) || []
+  const buttonFontFamilies = global.theme?.buttons?.map(item => {
     const fontObject = JSON.parse(item.typography)
-    return fontObject.family
-  })
-  const fontFamilies = typographyFontFamilies.concat(buttonFontFamilies)
+    return fontObject.family || null
+  }) || []
+  const fontFamilies = [...typographyFontFamilies, ...buttonFontFamilies]
   const uniqueFontFamilies =  unique(fontFamilies);
 
   function unique(list) {
@@ -125,6 +124,7 @@ export const Layout = ({ rawData, data = layoutData, children }) => {
       return isGradient ? getGradient(fillClass) : `var(--${getBackgroundColor(fillClass)}-color)`
     }
 
+    if (!obj.label) return
     return `
       .btn-${slugify(obj.label)} {
         display: inline-block;
@@ -149,9 +149,9 @@ export const Layout = ({ rawData, data = layoutData, children }) => {
 
   function typographyClass(obj, isMobile: boolean) {
     const typography = JSON.parse(obj?.typography)
-    const mobilePrefix = isMobile ? 'sm\\:' : ''
+    if (!obj.label) return
     return `
-      .${mobilePrefix}mg-${slugify(obj.label)} {
+      .mg-${slugify(obj.label)} {
         font-family: "${justFontFamily(typography?.family)}";
         font-weight: ${justFontWeight(typography?.family)};
         font-size: ${isMobile ? typography?.smSize : typography?.size}px;
@@ -208,6 +208,7 @@ export const Layout = ({ rawData, data = layoutData, children }) => {
             html {
               background-color: var(--${page?.backgroundColor}-color);
               scroll-behavior: smooth;
+              overflow-x: hidden;
             }
             h1 a,
             h2 a,
@@ -229,9 +230,6 @@ export const Layout = ({ rawData, data = layoutData, children }) => {
             }
             .markdown a {
               text-decoration: underline;
-            }
-            .markdown p {
-              margin: inherit;
             }
             ${buttonClasses()}
             ${typographyClasses()}

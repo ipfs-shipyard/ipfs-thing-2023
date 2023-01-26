@@ -5,8 +5,6 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Abhaya Libre", "value": "Abhaya Libre:wght@400" },
   { "label": "Acme", "value": "Acme:wght@400" },
   { "label": "Adamina", "value": "Adamina:wght@400" },
-  { "label": "Aileron", "value": "Aileron:wght@400" },
-  { "label": "Aileron Heavy", "value": "Aileron Heavy:wght@900" },
   { "label": "Alegreya Heavy", "value": "Alegreya:wght@900" },
   { "label": "Alegreya Sans Extra Light", "value": "Alegreya Sans:wght@100" },
   { "label": "Alegreya Sans Heavy", "value": "Alegreya Sans:wght@900" },
