@@ -12,12 +12,13 @@ export default function ButtonPicker(props:ButtonPickerProps) {
   
   useEffect(() => {
     const fetchData = async () => {
+      console.log("fetch from button picker")
       const fetchedData = await client.queries.global({relativePath: `../global/index.json`})
       const buttonTypeData = fetchedData?.data?.global?.theme?.buttons
       const options = buttonTypeData.map(item => ({ label: item.label, value: item.label.toLowerCase() }))
       setOptions(options);
     };
-    fetchData().catch(console.error)
+    // fetchData().catch(console.error)
   }, []);
   
   function handleChange(event) {

@@ -83,6 +83,7 @@ const FieldRow = ({ inputValue='', onUpdate=(value)=>{ value }, isMobile = false
 
   useEffect(() => {
     const fetchData = async () => {
+      console.log("fetch from type control")
       try {
         const fetchedData = await client.queries.global({relativePath: `../global/index.json`})
         const data = fetchedData?.data?.global?.theme?.typo
@@ -93,7 +94,7 @@ const FieldRow = ({ inputValue='', onUpdate=(value)=>{ value }, isMobile = false
         console.log("error", error);
       }
     };
-    fetchData();
+    // fetchData();
   }, []);
 
   useEffect(() => {
