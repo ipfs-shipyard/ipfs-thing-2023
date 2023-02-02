@@ -15,15 +15,21 @@ export default function IndexPage(
   const eventList = eventsData.map(event => {
     return (
       {
-        eventName: event.node?.eventName,
-        website: event.node?.website,
-        location: event.node?.location,
-        startDate: event.node?.startDate,
-        endDate: event.node?.endDate,
-        dateTBD: event.node?.dateTBD,
+        name: event.node?.name,
+        org: event.node?.org,
         dri: event.node?.dri,
+        website: event.node?.website,
+        date: event.node?.date,
+        days: event.node?.days,
+        times: event.node?.times,
+        venueName: event.node?.venueName,
+        venueAddress: event.node?.venueAddress,
+        attendees: event.node?.attendees,
+        difficulty: event.node?.difficulty,
+        logomark: event.node?.logomark,
+        description: event.node?.description,
+        priority: event.node?.priority,
         tag: event.node?.tag,
-        juanSpeaking: event.node?.juanSpeaking,
       }
     )
   })

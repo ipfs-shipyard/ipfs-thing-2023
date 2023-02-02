@@ -10,11 +10,16 @@ export const eventCollectionSchema: any = {
   // },
   fields: [
     {
-      label: "Event Name",
-      name: "eventName",
+      label: "Name",
+      name: "name",
       type: "string",
       isTitle: true,
       required: true,
+    },
+    {
+      label: "Organization",
+      name: "org",
+      type: "string",
     },
     {
       label: "Event Website",
@@ -22,38 +27,63 @@ export const eventCollectionSchema: any = {
       type: "string",
     },
     {
-      label: "Location",
-      name: "location",
-      type: "string",
-    },
-    {
-      label: "Start Date",
-      name: "startDate",
-      type: "datetime",
-      ui: {
-        dateFormat: "MMMM DD YYYY",
-        timeFormat: "hh:mm A",
-      },
-    },
-    {
-      label: "End Date",
-      name: "endDate",
-      type: "datetime",
-      ui: {
-        dateFormat: "MMMM DD YYYY",
-        timeFormat: "hh:mm A",
-      },
-    },
-    {
-      label: "Date TBD",
-      name: "dateTBD",
-      description: 'Enter approximate dates and tick this box to put event in correct month but render label as TBD',
-      type: 'boolean'
-    },
-    {
-      label: "Directly Responsibile Individual",
+      label: "Directly Responsible Individual",
       name: "dri",
       type: "string",
+    },
+    {
+      label: "Date",
+      name: "date",
+      type: "datetime",
+      ui: {
+        dateFormat: "MMMM DD YYYY",
+        timeFormat: "hh:mm A",
+      },
+    },
+    {
+      label: "Days",
+      name: "days",
+      type: "number",
+    },
+    {
+      label: "Times",
+      name: "times",
+      type: "string",
+    },
+    {
+      label: "Venue Name",
+      name: "venueName",
+      type: "string",
+    },
+    {
+      label: "Venue Address",
+      name: "venueAddress",
+      type: "string",
+    },
+    {
+      label: "Attendess",
+      name: "attendees",
+      type: "number",
+    },
+    {
+      label: "Difficulty",
+      name: "difficulty",
+      type: "string",
+    },
+    {
+      label: "Logo Mark",
+      name: "logomark",
+      type: "string",
+    },
+    {
+      label: "Description",
+      name: "description",
+      type: "string",
+    },
+    {
+      label: "Priority",
+      name: "priority",
+      type: "number",
     },
     {
       label: "Tag",
@@ -71,25 +101,6 @@ export const eventCollectionSchema: any = {
         {
           label: 'Industry Event',
           value: 'Industry Event',
-        },
-      ],
-    },
-    {
-      label: 'Juan Speaking',
-      name: 'juanSpeaking',
-      type: 'string',
-      options: [
-        {
-          label: 'Unknown',
-          value: 'unknown',
-        },
-        {
-          label: 'Yes',
-          value: 'yes',
-        },
-        {
-          label: 'No',
-          value: 'no',
         },
       ],
     },

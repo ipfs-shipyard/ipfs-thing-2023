@@ -54,49 +54,6 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
     "repo": "repo-name"
   }
 
-  const testEvents = {
-    "zama-party": {
-      "name": "Zama Party",
-      "org": "Zama",
-      "dri": "Jeremy Zaccherini",
-      "website": "https://lu.ma/zama-party-labweek22",
-      "date": "2023-2-2",
-      "days": 1,
-      "times": "19:00 - 22:00",
-      "venueName": "[Flat Eventos Lisboa](https://goo.gl/maps/9UJeot3L49GtbUM39)",
-      "venueAddress": "Calçada Ribeiro Santos 37 1º andar, 1200-769 Lisboa, Portugal",
-      "attendees": "",
-      "difficulty": "All Welcome",
-      "tags": [
-        "Party"
-      ],
-      "color": "yellow",
-      "logomark": "/logomarks/Zama - Square.png",
-      "description": "As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday, October 27th. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!\n",
-      "priority": 6
-    },
-    "zama-party-2": {
-      "name": "Zama Party 2",
-      "org": "Zama",
-      "dri": "Jeremy Zaccherini",
-      "website": "https://lu.ma/zama-party-labweek22",
-      "date": "2023-2-3",
-      "days": 1,
-      "times": "19:00 - 22:00",
-      "venueName": "[Flat Eventos Lisboa](https://goo.gl/maps/9UJeot3L49GtbUM39)",
-      "venueAddress": "Calçada Ribeiro Santos 37 1º andar, 1200-769 Lisboa, Portugal",
-      "attendees": "",
-      "difficulty": "All Welcome",
-      "tags": [
-        "Party"
-      ],
-      "color": "yellow",
-      "logomark": "/logomarks/Zama - Square.png",
-      "description": "As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday, October 27th. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!\n",
-      "priority": 6
-    }
-  }
-
   useEffect(() => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollTo(0, 0);
@@ -112,7 +69,7 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
         {/* <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10"> */}
             <div className="flex-none min-h-full w-full">
               <div className="content">
-                <ScheduleTable events={annotateEvents(testEvents, config)} config={config} />
+                <ScheduleTable events={annotateEvents(events, config)} config={config} />
               </div>
             </div>
           {/* </ScrollContainer> */}

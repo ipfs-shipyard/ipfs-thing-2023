@@ -1,5 +1,6 @@
 ---
 blocks:
+  - _template: eventSchedule
   - style:
       alignment: flex-col items-start gap-12
       padding: pt-20 pb-28 pr-10 pl-10
@@ -95,12 +96,10 @@ blocks:
           This event brings together maintainers or core contributors of an IPFS
           implementation, ranging from production usage to working demos. If
           this describes you, please join! If you are unsure, email
-          [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io). \
-          \
-          If you are an IPFS user, tooling developer, collaborator, or curious
+          [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io). \ \ If you
+          are an IPFS user, tooling developer, collaborator, or curious
           community member, we enthusiastically invite you to IPFS Camp, an epic
-          decentralized event organized by the community, for the community. \
-          \
+          decentralized event organized by the community, for the community. \ \
           Details on IPFS Camp 2023 are coming soon and will be announced on
           [Twitter](https://twitter.com/ipfs).
       - headline: How does the track system work?
@@ -130,20 +129,16 @@ blocks:
           details].&#x20;
       - headline: How can I lead a track?
         text: >
-          Here's what's involved:
-          * Identify an IPFS-related topic that you know a thing or two about,
-          and think others should care more about
-          * Add your track idea here \[add link]
-          * Recruit folks you collaborate regularly with to help shape the
-          content of your track
-          You will have total control over the structure of your track. Morning
-          of talks & afternoon of discussion? Go for it! Required reading before
-          attendance? Sounds great.\
-          \
-          Event organizers will work with you to help situate your track in the
-          broader schedule, give feedback, and help to make your event great.
-          We'll get you set up with AV gear, a room, and other logistical
-          support as needed.
+          Here's what's involved: \* Identify an IPFS-related topic that you
+          know a thing or two about, and think others should care more about \*
+          Add your track idea here \[add link] \* Recruit folks you collaborate
+          regularly with to help shape the content of your track You will have
+          total control over the structure of your track. Morning of talks &
+          afternoon of discussion? Go for it! Required reading before
+          attendance? Sounds great.\ \ Event organizers will work with you to
+          help situate your track in the broader schedule, give feedback, and
+          help to make your event great. We'll get you set up with AV gear, a
+          room, and other logistical support as needed.
       - headline: Will there be recordings or live virtual sessions I can attend?
         text: >
           Recordings will be uploaded to our [IPFS Youtube

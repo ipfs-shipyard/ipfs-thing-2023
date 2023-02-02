@@ -8,7 +8,8 @@ import { accordianBlockSchema } from "../components/blocks/accordian";
 import { embedBlockSchema } from "../components/blocks/embed";
 import { tailwindFeatureBlockSchema } from "../components/blocks/tailwind-feature"
 import { tailwindCardsBlockSchema } from "../components/blocks/tailwind-cards"
-import { eventTimelineBlockSchema } from "../components/blocks/event-timeline"
+// import { eventTimelineBlockSchema } from "../components/blocks/event-timeline"
+import { eventScheduleBlockSchema } from "../components/blocks/event-schedule"
 
 // Collections
 import { eventCollectionSchema } from "../schema/collections/events"
@@ -70,7 +71,8 @@ const config = defineStaticConfig({
               embedBlockSchema,
               tailwindFeatureBlockSchema,
               tailwindCardsBlockSchema,
-              eventTimelineBlockSchema,
+              // eventTimelineBlockSchema,
+              eventScheduleBlockSchema,
             ],
           },
           {

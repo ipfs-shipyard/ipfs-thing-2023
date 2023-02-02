@@ -39,55 +39,54 @@ export function EventCard({ event }) {
   const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
 
   return (
-    <p>Modal</p>
-    // <EventModal event={event}>
-    //   <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
-    //     <Card color={event.color} onClick={() => { return ""}}>
-    //       <div className="flex-1">
-    //         <div className="flex gap-2">
-    //           <h5 className="flex-1 text-lg font-bold leading-6 text-gray-900">
-    //             {event.name}
-    //           </h5>
-    //           {event.isLive &&
-    //             <div className="w-12 mt-0.5 flex-none">
-    //               <img width="48" height="18" src="/live-streaming.svg" />
-    //             </div>
-    //           }
-    //         </div>
-    //         <div className="text-sm mt-2">
-    //           {event.times !== "To be confirmed" &&
-    //             <div>
-    //               {event.times}
-    //             </div>
-    //           }
-    //           {event.venueName && event.venueName != "Private" &&
-    //             <div>
-    //               <TinaMarkdown content={event.venueName} />
-    //             </div>
-    //           }
-    //           <div>
-    //             👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
-    //           </div>
-    //           <div className="mt-3">
-    //             {event.org}
-    //           </div>
-    //         </div>
-    //       </div>
-    //       <div className="flex-1 flex items-end">
-    //         <div className="event-tags w-full">
-    //           {event.tags.map((tag, i) => (
-    //             (tag && <Tag key={i}>{tag}</Tag>)
-    //           ))}
-    //         </div>
-    //         {event.logomark &&
-    //           <div className="logomark inline-block">
-    //             <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
-    //           </div>
-    //         }
-    //       </div>
-    //     </Card>
-    //   </div>
-    // </EventModal>
+    <EventModal event={event}>
+      <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
+        <Card color={event.color} onClick={() => { return ""}}>
+          <div className="flex-1">
+            <div className="flex gap-2">
+              <h5 className="flex-1 text-lg font-bold leading-6 text-gray-900">
+                {event.name}
+              </h5>
+              {event.isLive &&
+                <div className="w-12 mt-0.5 flex-none">
+                  <img width="48" height="18" src="/live-streaming.svg" />
+                </div>
+              }
+            </div>
+            <div className="text-sm mt-2">
+              {event.times !== "To be confirmed" &&
+                <div>
+                  {event.times}
+                </div>
+              }
+              {event.venueName && event.venueName != "Private" &&
+                <div>
+                  <TinaMarkdown content={event.venueName} />
+                </div>
+              }
+              <div>
+                👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
+              </div>
+              <div className="mt-3">
+                {event.org}
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 flex items-end">
+            <div className="event-tags w-full">
+              {event.tags?.map((tag, i) => (
+                (tag && <Tag key={i}>{tag}</Tag>)
+              ))}
+            </div>
+            {event.logomark &&
+              <div className="logomark inline-block">
+                <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
+              </div>
+            }
+          </div>
+        </Card>
+      </div>
+    </EventModal>
   )
 }
 
