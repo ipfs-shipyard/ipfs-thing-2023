@@ -32,6 +32,36 @@ blocks:
         fathomId: ''
     _template: feature
   - style:
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-20 pb-8 pr-0 pl-0
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-gray-light undefined undefined
+      headlineStyles: 'text-white mg-headline-large '
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    background:
+      fillStyles: bg-accent3 opacity-100
+    headline: Check out the IPFS þing 2022 recap!
+    subhead: ''
+    body: ''
+    _template: feature
+  - style:
+      fullWidth: false
+      minHeight: min-h-0
+      padding: pt-5 pb-28 pr-0 pl-0
+    background:
+      fillStyles: bg-accent3 opacity-100
+    markup: >-
+      <div class="w-full"><div class="max-w-6xl mx-auto"><div class="relative
+      w-full h-0 overflow-hidden" style="padding-top:42.33%"><iframe
+      class="absolute inset-0" width="100%" height="100%"
+      src="https://www.youtube.com/embed/6dojCBJQmqg" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""></iframe></div></div></div>
+    _template: embed
+  - style:
       alignment: >-
         flex-row-reverse items-start gap-4 sm:flex-col-reverse sm:items-start
         sm:gap-4
@@ -79,3 +109,4 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+

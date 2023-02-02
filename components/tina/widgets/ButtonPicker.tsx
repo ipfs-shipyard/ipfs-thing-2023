@@ -18,7 +18,7 @@ export default function ButtonPicker(props:ButtonPickerProps) {
       const options = buttonTypeData.map(item => ({ label: item.label, value: item.label.toLowerCase() }))
       setOptions(options);
     };
-    // fetchData().catch(console.error)
+    fetchData().catch(console.error)
   }, []);
   
   function handleChange(event) {

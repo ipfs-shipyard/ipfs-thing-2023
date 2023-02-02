@@ -48,7 +48,7 @@ export default function ColorPicker(props:ColorPickerProps) {
       const colors = fetchedData?.data?.global?.theme?.colors || {}
       setGlobalColors(colors);
     };
-    // fetchData().catch(console.error)
+    fetchData().catch(console.error)
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);

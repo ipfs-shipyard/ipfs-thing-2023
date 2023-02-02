@@ -94,7 +94,7 @@ const FieldRow = ({ inputValue='', onUpdate=(value)=>{ value }, isMobile = false
         console.log("error", error);
       }
     };
-    // fetchData();
+    fetchData();
   }, []);
 
   useEffect(() => {
