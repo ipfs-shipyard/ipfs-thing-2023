@@ -2,11 +2,11 @@
 
 IPFS þing is a week-long gathering for the IPFS implementors community. There will be talks, workshops, discussion circles, hacking time, and more — all focused on advancing IPFS implementations.
 
-## Submitting Events
+## Submitting Tracks
 
-We encourage you to submit your events to this site via a pull request on github, to do so...
+We encourage you to submit your trackss to this site via a pull request on github, to do so...
 
-1. Create a new file in ```/content/events``` and name it your-event-name.md
+1. Create a new file in ```/content/tracks``` and name it your-track-name.md
 2. Copy and paste the following template into your new file
 
 ```
@@ -28,11 +28,11 @@ priority: 1
 ---
 ```
 
-3. Fill in the template with details for your event, please use month/day/year format for dates
+3. Fill in the template with details for your track, please use month/day/year format for dates
 4. Create a PR to this repo to add this new file
-5. The Member Services team will review and merge your event into the website
+5. The Member Services team will review and merge your track into the website
 
-Start date & end date are required to display the event on the timeline.
+Start date & end date are required to display the track on the timeline.
 
 If you don't have concrete dates, add the approximate dates & set ```dateTBD: true```.
 
