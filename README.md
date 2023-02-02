@@ -32,9 +32,7 @@ priority: 1
 4. Create a PR to this repo to add this new file
 5. The Member Services team will review and merge your track into the website
 
-Start date & end date are required to display the track on the timeline.
-
-If you don't have concrete dates, add the approximate dates & set ```dateTBD: true```.
+Date and days are required to display the track on the schedule.
 
 ## Editing Events
 
@@ -42,7 +40,7 @@ If you've already created your event but want to add or change details in the .m
 
 ## Developers
 
-This is a [Microgen](https://github.com/pathfindertools/microgen) site.
+This is a [Microgen](https://github.com/ipfs-shipyard/ipfs-thing-2023) site.
 
 To run the site locally ```yarn install``` and ```yarn dev```.
 
