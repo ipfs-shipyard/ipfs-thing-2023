@@ -169,52 +169,6 @@ export function EventModal({ children, event }) {
       <div className="h-full w-full" onClick={open}>
         {children}
       </div>
-      <Modal show={isOpen()} onClose={close} size="3xl">
-        <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
-          <div className="bg-white dark:bg-gray-400">
-            <Modal.Header>
-              {event.name}
-            </Modal.Header>
-            <Modal.Body className="space-y-6 overflow-y-scroll max-h-[70vh]">
-              <ul className="list-disc ml-4">
-                <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
-                <li><b>Times</b>: {event.times}</li>
-                {event.venueName &&
-                  <li><b>Venue</b>: <span className="inline-block"><TinaMarkdown content={event.venueName} /></span></li>
-                }
-                <li><b>Organization</b>: {event.org}</li>
-                <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
-              </ul>
-              <div className="event-tags">
-                {event.tags.map((tag, i) => (
-                  (tag && <Tag key={i}>{tag}</Tag>)
-                ))}
-              </div>
-              <p className="text-base leading-relaxed prose">
-                <TinaMarkdown content={event.description} />
-              </p>
-              {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
-            </Modal.Body>
-            <Modal.Footer>
-              {event.website &&
-                <Link href={event.website} prefetch={false} target="_blank">
-                  <a target="_blank" rel="noreferrer">
-                    {/* <Button>
-                      Website
-                    </Button> */}
-                  </a>
-                </Link>
-              }
-              <Button
-                color="alternative"
-                onClick={close}
-              >
-                Close
-              </Button>
-            </Modal.Footer>
-          </div>
-        </div>
-      </Modal>
     </>
   )
 }
@@ -264,32 +218,7 @@ export function AddEventModal({ config }) {
 
   return (
     <>
-      <Modal show={isOpen()} onClose={close}>
-        <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
-          <div className="bg-white dark:bg-gray-400">
-            <Modal.Header>
-              Add your event
-            </Modal.Header>
-            <Modal.Body className="space-y-6">
-              The event listings in this website are coordinated through GitHub.
-
-              Steps to list your event:
-              <ol className="list-decimal ml-4 mt-3">
-                <li><b>Step 1</b>: Read & file a pull-request in this repo: <br />
-                  <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                    href={config.repo} target="_blank">{config.repo}</a></li>
-                <li><b>Step 2</b>: Address any comments until your PR is merged.</li>
-                <li><b>Step 3</b>: Blastoff! ⭐️💙</li>
-              </ol>
-            </Modal.Body>
-            <Modal.Footer>
-              <Button onClick={close}>
-                Close
-              </Button>
-            </Modal.Footer>
-          </div>
-        </div>
-      </Modal>
+      <p>Modal</p>
     </>
   )
 }
