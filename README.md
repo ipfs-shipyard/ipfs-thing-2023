@@ -4,7 +4,7 @@ IPFS þing is a week-long gathering for the IPFS implementors community. There w
 
 ## Submitting Tracks
 
-We encourage you to submit your trackss to this site via a pull request on github, to do so...
+We encourage you to submit your tracks to this site via a pull request on github, to do so...
 
 1. Create a new file in ```/content/tracks``` and name it your-track-name.md
 2. Copy and paste the following template into your new file
