@@ -48,10 +48,10 @@ export function EventCard({ event }) {
             </div>
             <div className="mg-copy-small mt-2">
               {event.times !== "To be confirmed" &&
-                <span>{event.times}</span>
+                <div>{event.times}</div>
               }
               {event.venueName && event.venueName != "Private" &&
-                <span>{event.venueName}</span>
+                <div>{event.venueName}</div>
               }
               <div>
                 👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
