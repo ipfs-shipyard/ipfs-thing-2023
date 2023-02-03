@@ -32,8 +32,6 @@
     "date-fns": "^2.23.0",
     "dayjs": "^1.11.7",
     "fathom-client": "^3.5.0",
-    "flowbite": "^1.6.3",
-    "flowbite-react": "^0.3.8",
     "next": "^12.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -47,6 +45,8 @@
   },
   "resolutions": {
     "final-form": "4.20.1",
-    "@headlessui/react": "1.4.1"
+    "@headlessui/react": "1.4.1",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
   }
 }

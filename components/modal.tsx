@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { Button } from 'flowbite-react'
 
 function bindKey(bindKey, handler) {
   const kHandler = ({ key }) => {
@@ -84,7 +83,7 @@ export function Modal({ children, content, title, hash }) {
                   </a>
                 </Link>
               } */}
-              <Button color="alternative" onClick={close}>Close</Button>
+              <a className="mg-btn-primary" color="alternative" onClick={close}>Close</a>
             </div>
           </div>
         </div>
