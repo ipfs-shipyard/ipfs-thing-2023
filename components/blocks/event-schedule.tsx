@@ -50,8 +50,8 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
   const scrollContainer = useRef(null);
 
   const config = {
-    "dateStart": "2023-1-31",
-    "dateEnd": "2023-2-8",
+    "dateStart": "2023-4-15",
+    "dateEnd": "2023-4-19",
     "repo": "repo-name"
   }
 
