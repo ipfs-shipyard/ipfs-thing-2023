@@ -61,6 +61,9 @@ blocks:
       autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen=""></iframe></div></div></div>
     _template: embed
+  - background:
+      fillStyles: bg-gray-light opacity-100
+    _template: eventSchedule
   - style:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-20 pr-10 pl-10

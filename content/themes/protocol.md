@@ -43,7 +43,7 @@ buttons:
     primaryBorder: border-primary border-0
     primaryRounded: rounded-none
   - label: Gradient
-    fill: from-accent4 to-accent1 bg-gradient-to-br opacity-100
+    fill: from-accent4 to-accent3 bg-gradient-to-br opacity-100
     typography: >-
       {"color":"white","family":"Aileron
       Heavy:wght@900","size":"16","lineHeight":"20","letterSpacing":"0","smSize":"16","smLineHeight":"20","smLetterSpacing":"0"}
