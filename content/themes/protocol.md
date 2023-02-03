@@ -1,6 +1,6 @@
 ---
 name: Protocol
-desktopWidth: '1100'
+desktopWidth: '1250'
 colors:
   primary: '#0F4163'
   accent1: '#081828'

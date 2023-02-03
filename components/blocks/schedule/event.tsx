@@ -111,9 +111,9 @@ function EventModalContent({ event }) {
   )
 }
 
-export function AddCard() {
+export function AddCard({ config }) {
   return (
-    <Modal content={<AddEventModalContent />} title="Add your event" hash="add-event">
+    <Modal content={<AddEventModalContent config={config} />} title="Add your event" hash="add-event">
       <Card color="white">
         <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
           <div className="text-6xl">
@@ -128,7 +128,7 @@ export function AddCard() {
   )
 }
 
-function AddEventModalContent() {
+function AddEventModalContent({config}) {
   return (
     <>
       <p>The event listings in this website are coordinated through GitHub.</p>
@@ -136,7 +136,7 @@ function AddEventModalContent() {
       <ol className="list-decimal ml-4 mt-3">
         <li><b>Step 1</b>: Read & file a pull-request in this repo: <br />
           <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
-            href="" target="_blank">repo</a>
+            href={config.repo} target="_blank">{config.repo}</a>
         </li>
         <li><b>Step 2</b>: Address any comments until your PR is merged.</li>
         <li><b>Step 3</b>: Blastoff! ⭐️💙</li>

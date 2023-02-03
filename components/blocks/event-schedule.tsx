@@ -52,7 +52,7 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
   const config = {
     "dateStart": "2023-4-15",
     "dateEnd": "2023-4-19",
-    "repo": "repo-name"
+    "repo": "https://github.com/ipfs-shipyard/ipfs-thing-2023"
   }
 
   useEffect(() => {
@@ -66,7 +66,11 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
       background={data.background}
       navigationLabel={data.navigationLabel}
     >
-      <div className='w-full min-h-[10vh]' id='schedule'>
+      <div className="bg-gray-100 py-10 pb-0 text-center">
+        <img className="inline-block mr-3" src="/click-drag.svg" />
+        Click and drag the schedule to navigate
+      </div>
+      <div className='w-full max-w-desktop-full mx-auto min-h-[10vh]' id='schedule'>
         <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10">
             <div className="flex-none min-h-full w-full">
               <div className="content">
@@ -75,7 +79,7 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
             </div>
           </ScrollContainer>
           <div className={`bg-gray-100 p-10 pt-0`}>
-            <AddCard />
+            <AddCard config={config}/>
           </div>
         </div>
     </Section>
