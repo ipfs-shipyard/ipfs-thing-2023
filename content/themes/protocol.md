@@ -2,13 +2,13 @@
 name: Protocol
 desktopWidth: '1100'
 colors:
-  primary: '#96FA3C'
-  accent1: '#179EFF'
-  accent2: '#6BC7F8'
-  accent3: '#072F4D'
-  accent4: '#82C798'
+  primary: '#0F4163'
+  accent1: '#081828'
+  accent2: '#8BF935'
+  accent3: '#6FBD97'
+  accent4: '#1A95FA'
   white: '#FFFFFF'
-  grayLight: '#E8E8EF'
+  grayLight: '#EFEFEF'
   gray: '#B0B0BF'
   grayDark: '#7B7A80'
   black: '#051D33'
@@ -36,9 +36,9 @@ typo:
       Heavy:wght@900","size":"36","lineHeight":"40","letterSpacing":"0","margin":"0","smSize":"36","smLineHeight":"40","smLetterSpacing":"0","smMargin":"0"}
 buttons:
   - label: Primary
-    fill: bg-primary opacity-100
+    fill: bg-accent2 opacity-100
     typography: >-
-      {"color":"black","family":"Inter:wght@900","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+      {"color":"accent1","family":"Inter:wght@900","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
     padding: pt-2.5 pb-2.5 pr-9 pl-9
     primaryBorder: border-primary border-0
     primaryRounded: rounded-none

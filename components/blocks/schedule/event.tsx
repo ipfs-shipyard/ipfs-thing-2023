@@ -1,19 +1,15 @@
-import Link from "next/link";
-import { useState, useEffect } from 'react'
-import { Button } from 'flowbite-react'
-// import { Modal, Button } from 'flowbite-react'
 import dayjs from 'dayjs'
 import classNames from 'classnames'
+import { Modal } from '../../modal'
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 
-export function Card({ children, color, onClick }) {
-
-  let borderColor = 'bg-gray-400'
+function Card({ children, color }) {
+  let borderColor = 'bg-gray'
   let bgColor = 'bg-white'
 
   if (color) {
-    borderColor = 'bg-' + color + '-400'
-    bgColor = 'bg-' + color + '-100'
+    borderColor = 'bg-' + color
+    bgColor = 'bg-' + color
   }
 
   return (
@@ -21,7 +17,7 @@ export function Card({ children, color, onClick }) {
       borderColor,
       'eventcard',
       'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
-    )} onClick={onClick}>
+    )}>
       <div className={classNames(
         bgColor,
         'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
@@ -34,14 +30,12 @@ export function Card({ children, color, onClick }) {
   )
 }
 
-// hover:ml-1 hover:-mr-1 hover:mt-1 hover:-mb-1
 export function EventCard({ event }) {
   const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
-
   return (
-    <EventModal event={event}>
+    <Modal content={<EventModalContent event={event}/>} title={event.name} hash={event.hash}>
       <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
-        <Card color={event.color} onClick={() => { return ""}}>
+        <Card color={event.color}>
           <div className="flex-1">
             <div className="flex gap-2">
               <h5 className="flex-1 text-lg font-bold leading-6 text-gray-900">
@@ -86,88 +80,67 @@ export function EventCard({ event }) {
           </div>
         </Card>
       </div>
-    </EventModal>
+    </Modal>
   )
 }
 
-export function BlankCard() {
-  return (
-    <Card onClick={() => {return ""}} color="">
-      <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
-        <div className="text-6xl">
-          +
-        </div>
-        <div className="text-xl font-bold">
-          Add your event
-        </div>
-      </div>
-    </Card>
-  )
-}
-
-/**
- * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
- */
-function getLocationHash() {
-  if (typeof window !== 'undefined') {
-    return window.location.hash
-  }
-}
-
-/**
- * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
- */
-function setLocationHash(hash) {
-  if (typeof window !== 'undefined') {
-    if (history?.pushState) {
-      history.pushState(null, null, hash);
-    } else {
-      window.location.hash = hash
-    }
-  }
-}
-
-export function EventModal({ children, event }) {
-  let defaultOpenState = false
-  if (getLocationHash() === event.hash) {
-    defaultOpenState = true
-  }
-  const [openModal, setOpenModal] = useState(defaultOpenState);
-  const open = () => {
-    if (getLocationHash() !== event.hash) {
-      setLocationHash(event.hash)
-    }
-    setOpenModal(true)
-  }
-  const close = () => {
-    if (getLocationHash() === event.hash) {
-      setLocationHash('#')
-    }
-    setOpenModal(false)
-  }
-  const isOpen = () => openModal === true
-
-  const [hashChangeEventRegistered, setHashChangeEventRegistered] = useState(false);
-  if (typeof window !== 'undefined' && !hashChangeEventRegistered) {
-    window.addEventListener('hashchange', (hashChangeEvent) => {
-      const oldUrlHash = (new URL(hashChangeEvent.oldURL)).hash
-      const newUrlHash = (new URL(hashChangeEvent.newURL)).hash
-      if (newUrlHash === event.hash) {
-        open()
-      } else if (oldUrlHash === event.hash) {
-        close()
-      }
-    })
-    setHashChangeEventRegistered(true)
-  }
-
-  bindKey('Escape', close)
-
+function EventModalContent({ event }) {
   return (
     <>
-      <div className="h-full w-full" onClick={open}>
-        {children}
+      <ul className="list-disc ml-4">
+        <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
+        <li><b>Times</b>: {event.times}</li>
+        {event.venueName &&
+          <li><b>Venue</b>: <span className="inline-block">
+            <TinaMarkdown content={event.venueName} />
+          </span></li>
+        }
+        <li><b>Organization</b>: {event.org}</li>
+        <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
+      </ul>
+      <div className="event-tags">
+        {event.tags?.map((tag, i) => (
+          (tag && <Tag key={i}>{tag}</Tag>)
+        ))}
       </div>
+      <p className="text-base leading-relaxed prose">
+        <TinaMarkdown content={event.description} />
+      </p>
+      {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
+    </>
+  )
+}
+
+export function AddCard() {
+  return (
+    <Modal content={<AddEventModalContent />} title="Add your event" hash="add-event">
+      <Card color="white">
+        <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
+          <div className="text-6xl">
+            +
+          </div>
+          <div className="text-xl font-bold">
+            Add your event
+          </div>
+        </div>
+      </Card>
+    </Modal>
+  )
+}
+
+function AddEventModalContent() {
+  return (
+    <>
+      <p>The event listings in this website are coordinated through GitHub.</p>
+      <p>Steps to list your event:</p>
+      <ol className="list-decimal ml-4 mt-3">
+        <li><b>Step 1</b>: Read & file a pull-request in this repo: <br />
+          <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+            href="" target="_blank">repo</a>
+        </li>
+        <li><b>Step 2</b>: Address any comments until your PR is merged.</li>
+        <li><b>Step 3</b>: Blastoff! ⭐️💙</li>
+      </ol>
     </>
   )
 }
@@ -202,50 +175,12 @@ function TimeslotTable({ timeslots }) {
   )
 }
 
-export function AddEventModal({ config }) {
-  const [openModal, setOpenModal] = useState(false);
-  const open = () => setOpenModal(true)
-  const close = () => setOpenModal(false)
-  const isOpen = () => openModal === true
-
-  // add opener to window.
-  if (typeof window !== 'undefined') {
-    // window.showAddEventModal = open
-  }
-
-  bindKey('Escape', close)
-
-  return (
-    <>
-      <p>Modal</p>
-    </>
-  )
-}
-
-export function Tag({ children }) {
+function Tag({ children }) {
   return (
     <button className="px-1.5 py-0.5 mr-1 my-1 border border-gray-400 text-gray-400 rounded-full text-xs cursor-default">
       {children}
     </button>
   )
-}
-
-function bindKey(bindKey, handler) {
-  const kHandler = ({ key }) => {
-    if (key === bindKey) handler()
-  }
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.addEventListener('keydown', kHandler);
-    }
-
-    return () => {
-      if (typeof window !== 'undefined') {
-        window.removeEventListener('keydown', kHandler);
-      }
-    }
-  }, []);
 }
 
 function dateStr(date, days) {

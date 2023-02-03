@@ -1,9 +1,8 @@
 ---
 blocks:
-  - _template: eventSchedule
   - style:
       alignment: flex-col items-start gap-12
-      padding: pt-20 pb-28 pr-10 pl-10
+      padding: pt-36 pb-28 pr-10 pl-10
       featureImage: wpx-450  mr-auto
       featureContent: 'w-1/2 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: 'text-white mg-copy-small '
@@ -11,7 +10,7 @@ blocks:
       subheadStyles: text-white mg-headline-medium mb-7
       textStyles: text-white mg-copy-medium mb-5
     background:
-      fillStyles: from-accent3 to-black bg-gradient-to-br opacity-100
+      fillStyles: from-primary to-accent1 bg-gradient-to-br opacity-100
       ornaments:
         - src: /uploads/dot-ring.svg
           alignment: right
@@ -42,7 +41,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: bg-primary opacity-100
     headline: Check out the IPFS þing 2022 recap!
     subhead: ''
     body: ''
@@ -50,16 +49,16 @@ blocks:
   - style:
       fullWidth: false
       minHeight: min-h-0
-      padding: pt-5 pb-28 pr-0 pl-0
+      padding: pt-10 pb-24 pr-0 pl-0
     background:
-      fillStyles: bg-accent3 opacity-100
+      fillStyles: bg-primary opacity-100
     markup: >-
-      <div class="w-full"><div class="max-w-6xl mx-auto"><div class="relative
-      w-full h-0 overflow-hidden" style="padding-top:42.33%"><iframe
-      class="absolute inset-0" width="100%" height="100%"
-      src="https://www.youtube.com/embed/6dojCBJQmqg" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture"
+      <div class="w-full"><div class="max-w-desktop-full px-10 mx-auto"><div
+      class="relative w-full h-0 overflow-hidden"
+      style="padding-top:42.33%"><iframe class="absolute inset-0" width="100%"
+      height="100%" src="https://www.youtube.com/embed/6dojCBJQmqg"
+      title="YouTube video player" frameborder="0" allow="accelerometer;
+      autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen=""></iframe></div></div></div>
     _template: embed
   - style:

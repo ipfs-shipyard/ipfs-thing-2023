@@ -1,12 +1,13 @@
 import { useRef, useEffect } from 'react'
 import { Section } from "../section";
+import { AddCard } from './schedule/event'
 
 import { backgroundSchema } from "../../schema/background"
 import { navigationLabelSchema } from "../../schema/navigation-label";
 import dayjs from 'dayjs'
 
 import ScrollContainer from 'react-indiana-drag-scroll'
-import ScheduleTable from './schedule.tsx/schedule-table';
+import ScheduleTable from './schedule/schedule-table';
 
 function dayOffset(start, date) {
   return dayjs(date).diff(dayjs(start), 'days')
@@ -50,7 +51,7 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
 
   const config = {
     "dateStart": "2023-1-31",
-    "dateEnd": "2023-2-4",
+    "dateEnd": "2023-2-8",
     "repo": "repo-name"
   }
 
@@ -66,13 +67,16 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
       navigationLabel={data.navigationLabel}
     >
       <div className='w-full pt-10 lg:pt-56 pb-28 min-h-[10vh]' id='schedule'>
-        {/* <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10"> */}
+        <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10">
             <div className="flex-none min-h-full w-full">
               <div className="content">
                 <ScheduleTable events={annotateEvents(events, config)} config={config} />
               </div>
             </div>
-          {/* </ScrollContainer> */}
+          </ScrollContainer>
+          <div className={`bg-gray-100 p-10 pt-0`}>
+            <AddCard />
+          </div>
         </div>
     </Section>
   );
