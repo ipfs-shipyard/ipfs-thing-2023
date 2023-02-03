@@ -171,7 +171,7 @@ export const Header = ({
                 })}
 
               </ul>
-              <a className="btn-gradient" href="https://lu.ma/ipfsthing2023" target="_blank">Register</a>
+              <a className="btn-gradient" href="https://lu.ma/ipfsthing-preregistration" target="_blank">Register</a>
             </div>
           </div>
         </div>
