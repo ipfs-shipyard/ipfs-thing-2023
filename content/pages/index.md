@@ -2,7 +2,7 @@
 blocks:
   - style:
       alignment: flex-col items-start gap-12
-      padding: pt-36 pb-28 pr-10 pl-10
+      padding: pt-40 pb-28 pr-10 pl-10
       featureImage: wpx-450  mr-auto
       featureContent: 'w-1/2 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: 'text-white mg-copy-small '

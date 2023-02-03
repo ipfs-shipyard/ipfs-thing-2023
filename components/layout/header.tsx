@@ -139,9 +139,8 @@ export const Header = ({
     <section className="relative">
       <>
         {/* Desktop Nav */}
-        <div className="md:hidden absolute z-10 top-0 left-0 right-0">
-          <div className="absolute inset-0 bg-white"></div>
-          <div className={`relative max-w-desktop-full mx-auto ${nav?.padding}`}>
+        <div className="md:hidden absolute z-10 top-0 left-0 right-0 bg-white">
+          <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="flex items-center">
               <Logo className="flex-none" />
               <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} flex-grow list-none md:hidden`}>
@@ -172,6 +171,7 @@ export const Header = ({
                 })}
 
               </ul>
+              <a className="btn-gradient" href="https://lu.ma/ipfsthing-preregistration" target="_blank">Register</a>
             </div>
           </div>
         </div>
