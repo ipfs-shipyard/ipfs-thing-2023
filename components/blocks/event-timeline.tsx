@@ -72,7 +72,7 @@ export const EventTimeline = ({ data, events, parentField = "" }) => {
                     </p>
                   }
                   <h2 className={`${styles.headlineStyles}`} data-tinafield={`${parentField}.headline`}>
-                    <EventTimelineHeadline name={event.eventName} website={event.website} fathomId={data.fathomId} />
+                    <EventTimelineHeadline name={event.name} website={event.website} fathomId={data.fathomId} />
                   </h2>
                   {event.location &&
                     <h4 className={`${styles.subheadStyles}`} data-tinafield={`${parentField}.subhead`}>

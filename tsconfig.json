@@ -30,5 +30,5 @@
     ".forestry/config.ts",
     "schema/navigation-label.ts",
     "schema/background.ts"
-   ]
+, "components/blocks/schedule"   ]
 }

@@ -1,12 +1,13 @@
 import { useRef, useEffect } from 'react'
 import { Section } from "../section";
+import { AddCard } from './schedule/event'
 
 import { backgroundSchema } from "../../schema/background"
 import { navigationLabelSchema } from "../../schema/navigation-label";
 import dayjs from 'dayjs'
 
 import ScrollContainer from 'react-indiana-drag-scroll'
-import ScheduleTable from './schedule.tsx/schedule-table';
+import ScheduleTable from './schedule/schedule-table';
 
 function dayOffset(start, date) {
   return dayjs(date).diff(dayjs(start), 'days')
@@ -49,52 +50,9 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
   const scrollContainer = useRef(null);
 
   const config = {
-    "dateStart": "2023-1-31",
-    "dateEnd": "2023-2-4",
-    "repo": "repo-name"
-  }
-
-  const testEvents = {
-    "zama-party": {
-      "name": "Zama Party",
-      "org": "Zama",
-      "dri": "Jeremy Zaccherini",
-      "website": "https://lu.ma/zama-party-labweek22",
-      "date": "2023-2-2",
-      "days": 1,
-      "times": "19:00 - 22:00",
-      "venueName": "[Flat Eventos Lisboa](https://goo.gl/maps/9UJeot3L49GtbUM39)",
-      "venueAddress": "Calçada Ribeiro Santos 37 1º andar, 1200-769 Lisboa, Portugal",
-      "attendees": "",
-      "difficulty": "All Welcome",
-      "tags": [
-        "Party"
-      ],
-      "color": "yellow",
-      "logomark": "/logomarks/Zama - Square.png",
-      "description": "As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday, October 27th. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!\n",
-      "priority": 6
-    },
-    "zama-party-2": {
-      "name": "Zama Party 2",
-      "org": "Zama",
-      "dri": "Jeremy Zaccherini",
-      "website": "https://lu.ma/zama-party-labweek22",
-      "date": "2023-2-3",
-      "days": 1,
-      "times": "19:00 - 22:00",
-      "venueName": "[Flat Eventos Lisboa](https://goo.gl/maps/9UJeot3L49GtbUM39)",
-      "venueAddress": "Calçada Ribeiro Santos 37 1º andar, 1200-769 Lisboa, Portugal",
-      "attendees": "",
-      "difficulty": "All Welcome",
-      "tags": [
-        "Party"
-      ],
-      "color": "yellow",
-      "logomark": "/logomarks/Zama - Square.png",
-      "description": "As part of LabWeek22 by Protocal Labs, Zama is throwing a party on Thursday, October 27th. The idea is to connect web3 entrepreneurs and builders, meet the Zama team, discuss privacy, crypto—graphy and blockchain... And have a good time!!!!\n",
-      "priority": 6
-    }
+    "dateStart": "2023-4-15",
+    "dateEnd": "2023-4-19",
+    "repo": "https://github.com/ipfs-shipyard/ipfs-thing-2023"
   }
 
   useEffect(() => {
@@ -108,14 +66,21 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
       background={data.background}
       navigationLabel={data.navigationLabel}
     >
-      <div className='w-full pt-10 lg:pt-56 pb-28 min-h-[10vh]' id='schedule'>
-        {/* <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10"> */}
+      <div className="bg-gray-100 py-10 pb-0 text-center">
+        <img className="inline-block mr-3" src="/click-drag.svg" />
+        Click and drag the schedule to navigate
+      </div>
+      <div className='w-full max-w-desktop-full mx-auto min-h-[10vh]' id='schedule'>
+        <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10">
             <div className="flex-none min-h-full w-full">
               <div className="content">
-                <ScheduleTable events={annotateEvents(testEvents, config)} config={config} />
+                <ScheduleTable events={annotateEvents(events, config)} config={config} />
               </div>
             </div>
-          {/* </ScrollContainer> */}
+          </ScrollContainer>
+          <div className={`bg-gray-100 p-10 pt-0`}>
+            <AddCard config={config}/>
+          </div>
         </div>
     </Section>
   );
