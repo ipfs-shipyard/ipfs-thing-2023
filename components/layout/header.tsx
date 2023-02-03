@@ -139,7 +139,7 @@ export const Header = ({
     <section className="relative">
       <>
         {/* Desktop Nav */}
-        <div className="md:hidden absolute z-10 top-0 left-0 right-0">
+        <div className="md:hidden absolute z-10 top-0 left-0 right-0 bg-white">
           <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="flex items-center">
               <Logo className="flex-none" />
@@ -171,6 +171,7 @@ export const Header = ({
                 })}
 
               </ul>
+              <a className="btn-gradient" href="https://lu.ma/ipfsthing2023" target="_blank">Register</a>
             </div>
           </div>
         </div>
