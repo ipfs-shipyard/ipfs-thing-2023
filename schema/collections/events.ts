@@ -1,7 +1,7 @@
 export const eventCollectionSchema: any = {
-  label: "Events",
+  label: "Tracks",
   name: "event",
-  path: "content/events",
+  path: "content/tracks",
   format: "md",
   // ui: {
   //   router: ({ document }) => {

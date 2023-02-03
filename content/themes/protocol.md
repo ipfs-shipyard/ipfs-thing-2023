@@ -15,7 +15,7 @@ colors:
 typo:
   - label: Copy Small
     typography: >-
-      {"family":"Inter:wght@400","size":"15","lineHeight":"20","letterSpacing":"0","margin":"0","smSize":"15","smLineHeight":"20","smLetterSpacing":"0","smMargin":"0"}
+      {"family":"Inter:wght@400","size":"15","lineHeight":"22","letterSpacing":"0","margin":"0","smSize":"15","smLineHeight":"22","smLetterSpacing":"0","smMargin":"0"}
   - label: Copy Medium
     typography: >-
       {"family":"Aileron:wght@400","size":"18","lineHeight":"28","letterSpacing":"0","margin":"10","smSize":"18","smLineHeight":"28","smLetterSpacing":"0","smMargin":"20"}

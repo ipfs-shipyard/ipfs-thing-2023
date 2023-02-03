@@ -1,7 +1,6 @@
 import dayjs from 'dayjs'
 import classNames from 'classnames'
 import { Modal } from '../../modal'
-import { TinaMarkdown } from "tinacms/dist/rich-text";
 
 function Card({ children, color }) {
   let borderColor = 'bg-gray'
@@ -47,16 +46,12 @@ export function EventCard({ event }) {
                 </div>
               }
             </div>
-            <div className="text-black mg-copy-small mt-2">
+            <div className="mg-copy-small mt-2">
               {event.times !== "To be confirmed" &&
-                <div>
-                  {event.times}
-                </div>
+                <span>{event.times}</span>
               }
               {event.venueName && event.venueName != "Private" &&
-                <div>
-                  <TinaMarkdown content={event.venueName} />
-                </div>
+                <span>{event.venueName}</span>
               }
               <div>
                 👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
@@ -87,12 +82,12 @@ export function EventCard({ event }) {
 function EventModalContent({ event }) {
   return (
     <>
-      <ul className="list-disc ml-4">
+      <ul className="list-disc mg-copy-medium  ml-4">
         <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
         <li><b>Times</b>: {event.times}</li>
         {event.venueName &&
           <li><b>Venue</b>: <span className="inline-block">
-            <TinaMarkdown content={event.venueName} />
+            {event.venueName}
           </span></li>
         }
         <li><b>Organization</b>: {event.org}</li>
@@ -103,8 +98,8 @@ function EventModalContent({ event }) {
           (tag && <Tag key={i}>{tag}</Tag>)
         ))}
       </div>
-      <p className="text-base leading-relaxed prose">
-        <TinaMarkdown content={event.description} />
+      <p className="mg-copy-medium mt-4">
+        {event.description}
       </p>
       {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
     </>
@@ -113,7 +108,7 @@ function EventModalContent({ event }) {
 
 export function AddCard({ config }) {
   return (
-    <Modal content={<AddEventModalContent config={config} />} title="Add your event" hash="add-event">
+    <Modal content={<AddEventModalContent config={config} />} title="Add your event" hash="#add-event">
       <Card color="white">
         <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
           <div className="text-6xl">
