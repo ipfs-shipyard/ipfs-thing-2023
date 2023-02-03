@@ -72,8 +72,8 @@ export function Modal({ children, content, title, hash }) {
         <div className="modal-fader absolute inset-0 bg-black opacity-50"></div>
         <div className="modal-wrap relative w-full max-w-3xl bg-gradient-to-r from-accent4 via-accent2 to-accent3 p-1">
           <div className="bg-white">
-            <div className="modal-header p-5">{title}</div>
-            <div className="modal-body p-5 overflow-y-scroll border-gray-light border-b border-t max-h-[70vh]">
+            <div className="modal-header p-5 mg-headline-medium">{title}</div>
+            <div className="modal-body p-5 mg-copy-medium overflow-y-scroll border-gray-light border-b border-t max-h-[70vh]">
               {content}
             </div>
             <div className="modal-footer p-5">

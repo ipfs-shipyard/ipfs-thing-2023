@@ -38,7 +38,7 @@ export function EventCard({ event }) {
         <Card color={event.color}>
           <div className="flex-1">
             <div className="flex gap-2">
-              <h5 className="flex-1 text-lg font-bold leading-6 text-gray-900">
+              <h5 className="flex-1 text-black mg-headline-small">
                 {event.name}
               </h5>
               {event.isLive &&
@@ -47,7 +47,7 @@ export function EventCard({ event }) {
                 </div>
               }
             </div>
-            <div className="text-sm mt-2">
+            <div className="text-black mg-copy-small mt-2">
               {event.times !== "To be confirmed" &&
                 <div>
                   {event.times}

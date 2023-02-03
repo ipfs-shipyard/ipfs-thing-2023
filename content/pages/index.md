@@ -61,20 +61,6 @@ blocks:
       autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen=""></iframe></div></div></div>
     _template: embed
-  - style:
-      alignment: 'flex-col-reverse items-center '
-      padding: pt-16 pb-0 pr-10 pl-10
-      featureImage: '  mx-auto'
-      featureContent: w-full min-h-0 text-left
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black mg-headline-large undefined
-      subheadStyles: text-black mg-copy-medium undefined
-      textStyles: text-black undefined undefined
-    background:
-      fillStyles: bg-gray-light opacity-100
-    headline: Schedule
-    subhead: All scheduled events are optional.
-    _template: feature
   - background:
       fillStyles: bg-gray-light opacity-100
     navigationLabel: Schedule
