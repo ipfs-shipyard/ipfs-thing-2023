@@ -1,5 +1,5 @@
 {
-  "name": "Microgen",
+  "name": "ipfs-thing-23",
   "version": "1.1",
   "license": "MIT",
   "private": true,
@@ -44,8 +44,6 @@
     "typescript": "^4.5.2"
   },
   "resolutions": {
-    "final-form": "4.20.1",
-    "@headlessui/react": "1.4.1",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.2"
   }
