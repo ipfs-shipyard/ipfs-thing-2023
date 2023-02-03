@@ -19,8 +19,8 @@ if(isBrowser) {
 const App = ({ Component, pageProps }) => {
   // Initialize Fathom when the app loads
   useEffect(() => {
-    Fathom.load(pageProps.data.global.fathomSiteId, {
-      includedDomains: [pageProps.data.global.siteUrl]
+    Fathom.load(pageProps?.data?.global?.fathomSiteId, {
+      includedDomains: [pageProps?.data?.global?.siteUrl]
     })
   }, [])
 
