@@ -47,6 +47,7 @@ module.exports = {
       }
     },
     screens: {
+			xl: { max: "1250px" },
 			lg: { max: "1000px" },
 			md: { max: "800px" },
 			sm: { max: "700px" },

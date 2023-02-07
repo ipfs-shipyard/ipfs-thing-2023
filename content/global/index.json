@@ -11,16 +11,9 @@
     "imageHeight": "50"
   },
   "nav": {
-    "navButtons": [
-      {
-        "label": "Register",
-        "link": "https://lu.ma/ipfsthing2023",
-        "buttonStyle": "gradient"
-      }
-    ],
     "navAlignment": "text-center",
-    "navTypeStyle": "text-black mg-copy-medium ",
-    "navBackgroundColor": "bg-white opacity-100",
+    "navTypeStyle": "text-black mg-copy-medium  sm:text-white sm:mg-copy-medium sm:",
+    "navBackgroundColor": "bg-accent4 opacity-100",
     "padding": "pt-3.5 pb-3.5 pr-10 pl-10"
   }
 }
