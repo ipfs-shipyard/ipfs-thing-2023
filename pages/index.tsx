@@ -13,25 +13,7 @@ export default function IndexPage(
   });
   const eventsData = props.events.eventConnection.edges
   const eventList = eventsData.map(event => {
-    return (
-      {
-        name: event.node?.name,
-        org: event.node?.org,
-        dri: event.node?.dri,
-        website: event.node?.website,
-        date: event.node?.date,
-        days: event.node?.days,
-        times: event.node?.times,
-        venueName: event.node?.venueName,
-        venueAddress: event.node?.venueAddress,
-        attendees: event.node?.attendees,
-        difficulty: event.node?.difficulty,
-        logomark: event.node?.logomark,
-        description: event.node?.description,
-        priority: event.node?.priority,
-        tag: event.node?.tag,
-      }
-    )
+    return ({ ...event.node }) 
   })
 
   return (

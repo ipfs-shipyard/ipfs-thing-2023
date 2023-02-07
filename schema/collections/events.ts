@@ -3,11 +3,6 @@ export const eventCollectionSchema: any = {
   name: "event",
   path: "content/tracks",
   format: "md",
-  // ui: {
-  //   router: ({ document }) => {
-  //     return `/event/${document._sys.filename}`;
-  //   },
-  // },
   fields: [
     {
       label: "Name",
@@ -86,8 +81,8 @@ export const eventCollectionSchema: any = {
       type: "number",
     },
     {
-      label: "Tag",
-      name: "tag",
+      label: "Category",
+      name: "category",
       type: "string",
       options: [
         {
@@ -103,6 +98,12 @@ export const eventCollectionSchema: any = {
           value: 'Industry Event',
         },
       ],
+    },
+    {
+      label: "Tags",
+      name: "tags",
+      type: "string",
+      list: true,
     },
   ],
 }

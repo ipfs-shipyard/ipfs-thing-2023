@@ -143,7 +143,7 @@ export const Header = ({
           <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
             <div className="flex items-center">
               <Logo className="flex-none" />
-              <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} flex-grow list-none md:hidden`}>
+              <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} mb-0 flex-grow list-none md:hidden`}>
 
                 {pageJumps(blocks)?.map(function (item, index) {
                   return (

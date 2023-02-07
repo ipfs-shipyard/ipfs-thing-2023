@@ -32,7 +32,7 @@ function Card({ children, color }) {
 export function EventCard({ event }) {
   const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
   return (
-    <Modal content={<EventModalContent event={event}/>} title={event.name} hash={event.hash}>
+    <Modal content={<EventModalContent event={event}/>} title={event.name} link={event.website} hash={event.hash}>
       <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
         <Card color={event.color}>
           <div className="flex-1">
@@ -62,7 +62,7 @@ export function EventCard({ event }) {
             </div>
           </div>
           <div className="flex-1 flex items-end">
-            <div className="event-tags w-full">
+            <div className="event-tags">
               {event.tags?.map((tag, i) => (
                 (tag && <Tag key={i}>{tag}</Tag>)
               ))}
@@ -108,7 +108,7 @@ function EventModalContent({ event }) {
 
 export function AddCard({ config }) {
   return (
-    <Modal content={<AddEventModalContent config={config} />} title="Add your event" hash="#add-event">
+    <Modal content={<AddEventModalContent config={config} />} title="Add your event" link="" hash="#add-event">
       <Card color="white">
         <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
           <div className="text-6xl">
@@ -172,9 +172,9 @@ function TimeslotTable({ timeslots }) {
 
 function Tag({ children }) {
   return (
-    <button className="px-1.5 py-0.5 mr-1 my-1 border border-gray-400 text-gray-400 rounded-full text-xs cursor-default">
+    <span className="inline-block px-1.5 py-0.5 mr-1.5 my-1 border border-gray text-gray mg-copy-small rounded-full cursor-default">
       {children}
-    </button>
+    </span>
   )
 }
 

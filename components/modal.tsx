@@ -34,7 +34,7 @@ function setLocationHash(hash) {
   }
 }
 
-export function Modal({ children, content, title, hash }) {
+export function Modal({ children, content, title, link, hash }) {
   const [openModal, setOpenModal] = useState(getLocationHash() === hash);
   const open = () => {
     setLocationHash(hash)
@@ -72,18 +72,14 @@ export function Modal({ children, content, title, hash }) {
         <div className="modal-wrap relative w-full max-w-3xl bg-gradient-to-r from-accent4 via-accent2 to-accent3 p-1">
           <div className="bg-white">
             <div className="modal-header p-5 mg-headline-medium">{title}</div>
-            <div className="modal-body p-5 mg-copy-medium overflow-y-scroll border-gray-light border-b border-t max-h-[70vh]">
+            <div className="modal-body p-5 overflow-y-scroll border-gray-light border-b border-t max-h-[70vh]">
               {content}
             </div>
-            <div className="modal-footer p-5">
-              {/* {event.website &&
-                <Link href={event.website} prefetch={false} target="_blank">
-                  <a target="_blank" rel="noreferrer">
-                    <Button>Website</Button>
-                  </a>
-                </Link>
-              } */}
-              <a className="mg-btn-primary" color="alternative" onClick={close}>Close</a>
+            <div className="modal-footer p-5 flex gap-4">
+              {link &&
+                <a href={link} target="_blank" className="btn-gradient">Website</a>
+              }
+              <a className="btn-outline" onClick={close}>Close</a>
             </div>
           </div>
         </div>

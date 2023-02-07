@@ -167,7 +167,7 @@ export const themeCollectionSchema: any = {
         },
         {
           label: "Border",
-          name: "primaryBorder",
+          name: "border",
           type: "string",
           ui: {
             component: "borderControl",

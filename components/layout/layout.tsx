@@ -77,10 +77,10 @@ export const Layout = ({ rawData, children }) => {
       return roundedOptions[obj.primaryRounded]
     }
     const getBorder = (obj) => {
-      if (obj.primaryBorder?.length > 1) {
+      if (obj.border?.length < 2) {
         return ""
       }
-      const borderClasses = obj.primaryBorder.split(" ")
+      const borderClasses = obj.border.split(" ")
       const borderColor = borderClasses[0].replace("border-", "")
       const borderWidth = borderClasses[1].split("-").at(-1)
       const borderSideClasses = borderClasses[1].split("-")
@@ -92,7 +92,7 @@ export const Layout = ({ rawData, children }) => {
         "l": "border-left",
         "r": "border-right",
       }
-      return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color)`
+      return `border: 1px solid var(--gray-color)`
     }
     const getGradient = (tailwind: string) => {
       const tailwindClasses: string[] = tailwind.split(" ") || []
@@ -127,6 +127,7 @@ export const Layout = ({ rawData, children }) => {
     if (!obj.label) return
     return `
       .btn-${slugify(obj.label)} {
+        cursor: pointer;
         display: inline-block;
         color: var(--${color}-color);
         background: ${getBackground(obj)};
@@ -137,6 +138,7 @@ export const Layout = ({ rawData, children }) => {
         padding: ${getPadding(obj, "pt-")} ${getPadding(obj, "pr-")} ${getPadding(obj, "pb-")} ${getPadding(obj, "pl-")};
         border-radius: ${getRadius(obj)};
         text-align: center;
+        user-select: none;
         ${getBorder(obj)};
       }
     `
