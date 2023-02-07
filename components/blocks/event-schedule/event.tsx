@@ -82,7 +82,7 @@ export function EventCard({ event }) {
 function EventModalContent({ event }) {
   return (
     <>
-      <ul className="list-disc mg-copy-medium  ml-4">
+      <ul className="list-disc mg-copy-small ml-4">
         <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
         <li><b>Times</b>: {event.times}</li>
         {event.venueName &&
@@ -98,7 +98,7 @@ function EventModalContent({ event }) {
           (tag && <Tag key={i}>{tag}</Tag>)
         ))}
       </div>
-      <p className="mg-copy-medium mt-4">
+      <p className="mg-copy-small mt-4">
         {event.description}
       </p>
       {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
@@ -143,24 +143,25 @@ function AddEventModalContent({config}) {
 function TimeslotTable({ timeslots }) {
   return (
     <div>
-      <h4 className="py-3 text-sm text-gray-900">Schedule</h4>
-      <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <h4 className="py-3 mg-small text-black font-bold">Schedule</h4>
+      <table className="w-full">
+        <thead className="bg-gray-light text-left mg-copy-xs">
           <tr>
-            <th scope="col" className="px-6 py-3">time</th>
-            <th scope="col" className="px-6 py-3">speaker</th>
-            <th scope="col" className="px-6 py-3">info</th>
+            <th scope="col" className="px-6 py-3">TIME</th>
+            <th scope="col" className="px-6 py-3">SPEAKER</th>
+            <th scope="col" className="px-6 py-3">INFO</th>
           </tr>
         </thead>
         <tbody>
-          {timeslots.map((timeslot, i) => (
-            <tr key={i} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-              <th scope="row" className="px-6 py-4 font-medium text-gray-900 align-top dark:text-white whitespace-nowrap">{timeslot.startTime}</th>
-              <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
+          {timeslots?.map((timeslot, i) => (
+            <tr key={i} className="bg-white mg-copy-small border-b border-gray-light">
+              <th scope="row" className="px-6 py-4 align-top whitespace-nowrap text-left">{timeslot.time}</th>
+              <td className="px-6 py-4 align-top">{timeslot.speakers}</td>
               <td className="px-6 py-4">
                 <span className="font-bold">{timeslot.title}</span>
-                <br />
-                <p>{timeslot.description}</p>
+                {timeslot.description && (
+                  <p>{timeslot.description}</p>
+                )}
               </td>
             </tr>
           ))}

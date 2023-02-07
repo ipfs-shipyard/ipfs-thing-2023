@@ -2,7 +2,7 @@
 name: Content Routing
 org: TBD
 dri: TBD
-website: https://protocol.ai
+website: 'https://protocol.ai'
 date: '2023-04-15T05:00:00.000Z'
 days: 1
 times: '19:00 - 22:00'
@@ -14,6 +14,20 @@ logomark: ''
 description: TBD
 priority: 1
 category: PLN Event
-tags:
+tags: []
+schedule:
+  - label: Breakfast
+timeslots:
+  - time: '17:00'
+    speakers: Jim
+    title: Dinner
+    description: This is going to be delicious.
+  - time: '9:00'
+    speakers: John
+    title: Breakfast
+    description: It's kinda like this.
 ---
+
+
+
 

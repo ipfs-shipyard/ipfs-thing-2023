@@ -105,5 +105,36 @@ export const eventCollectionSchema: any = {
       type: "string",
       list: true,
     },
+    {
+      type: "object",
+      label: "Time Slots",
+      name: "timeslots",
+      list: true,
+      ui: {
+        component: "itemListField"
+      },
+      fields: [
+        {
+          label: "Time",
+          name: "time",
+          type: "string",
+        },
+        {
+          label: "Speakers",
+          name: "speakers",
+          type: "string",
+        },
+        {
+          label: "Title",
+          name: "title",
+          type: "string",
+        },
+        {
+          label: "Description",
+          name: "description",
+          type: "string",
+        },
+      ]
+    }
   ],
 }
