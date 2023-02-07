@@ -81,10 +81,10 @@ export const Layout = ({ rawData, children }) => {
       if (borderClasses?.length !== 2) {
         return ""
       }
-      const borderWidth = borderClasses[1]?.split("-")?.at(-1)
       // const borderColor = borderClasses[0]?.replace("border-", "")
+      // const borderWidth = borderClasses[1]?.split("-").at(-1)
       // const borderSideClasses = borderClasses[1]?.split("-")
-      // const borderSideKey = borderSideClasses.length === 2 ? borderSideClasses[1] : "a"
+      // const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
       // const borderSides = {
       //   "a": "border",
       //   "t": "border-top",
@@ -92,8 +92,8 @@ export const Layout = ({ rawData, children }) => {
       //   "l": "border-left",
       //   "r": "border-right",
       // }
-      // return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color)`
-      return `border: ${borderWidth}px solid var(--gray-color)`
+      // return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color);`
+      return `border: 1px solid var(--gray-color);`
     }
     const getGradient = (tailwind: string) => {
       const tailwindClasses: string[] = tailwind.split(" ") || []
@@ -140,7 +140,7 @@ export const Layout = ({ rawData, children }) => {
         border-radius: ${getRadius(obj)};
         text-align: center;
         user-select: none;
-        ${getBorder(obj)};
+        ${getBorder(obj)}
       }
     `
   }
