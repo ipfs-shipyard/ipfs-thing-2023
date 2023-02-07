@@ -15,7 +15,5 @@ description: TBD
 priority: 1
 category: PLN Event
 tags:
-  - Talks
-  - Workshops
 ---
 
