@@ -12,20 +12,20 @@ function Card({ children, color }) {
   }
 
   return (
-    <div className={classNames(
-      borderColor,
-      'eventcard',
-      'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
-    )}>
+    <>
       <div className={classNames(
-        bgColor,
-        'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
+        'cursor-pointer p-0.5 shadow-md h-full whitespace-normal bg-gray bg-gradient-to-br hover:from-accent4 hover:via-accent2 hover:to-accent3'
       )}>
-        <div className="flex flex-col h-full text-xs text-gray-600">
-          {children}
+        <div className={classNames(
+          bgColor,
+          'event-card-background relative block p-3 sm:px-3 sm:py-2 h-full bg-white'
+        )}>
+          <div className="flex flex-col h-full text-xs text-gray-600">
+            {children}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

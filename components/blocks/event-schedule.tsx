@@ -1,13 +1,13 @@
 import { useRef, useEffect } from 'react'
 import { Section } from "../section";
-import { AddCard } from './schedule/event'
+import { AddCard } from './event-schedule/event'
 
 import { backgroundSchema } from "../../schema/background"
 import { navigationLabelSchema } from "../../schema/navigation-label";
 import dayjs from 'dayjs'
 
 import ScrollContainer from 'react-indiana-drag-scroll'
-import ScheduleTable from './schedule/schedule-table';
+import ScheduleTable from './event-schedule/schedule-table';
 
 function dayOffset(start, date) {
   return dayjs(date).diff(dayjs(start), 'days')
@@ -44,7 +44,6 @@ function annotateEvents(events, config) {
     return event
   })
 }
-
 
 export const EventSchedule = ({ data, events, parentField = "" }) => {
   const scrollContainer = useRef(null);

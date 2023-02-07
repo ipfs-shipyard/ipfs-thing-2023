@@ -29,6 +29,7 @@
     ".forestry/types.ts",
     ".forestry/config.ts",
     "schema/navigation-label.ts",
-    "schema/background.ts"
-, "components/blocks/schedule"   ]
+    "schema/background.ts",
+    "components/blocks/event-schedule"
+  ]
 }

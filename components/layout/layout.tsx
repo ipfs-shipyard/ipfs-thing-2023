@@ -233,7 +233,10 @@ export const Layout = ({ rawData, children }) => {
             }
             ${buttonClasses()}
             ${typographyClasses()}
-            
+            .event-card-background:hover {
+              background: rgba(255,255,255,.9);
+            }
+
             @media only screen and (max-width: 700px) {
               ${typographyClasses(true)}
             }
