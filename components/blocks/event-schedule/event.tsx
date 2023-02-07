@@ -101,7 +101,7 @@ function EventModalContent({ event }) {
       <p className="mg-copy-small mt-4">
         {event.description}
       </p>
-      {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
+      {event.timeslots?.length >= 1 && <TimeslotTable timeslots={event.timeslots} />}
     </>
   )
 }
