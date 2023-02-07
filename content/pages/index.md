@@ -5,7 +5,7 @@ blocks:
       padding: pt-36 pb-28 pr-10 pl-10
       featureImage: wpx-450  mr-auto
       featureContent: 'w-1/2 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
-      labelStyles: 'text-white mg-copy-small '
+      labelStyles: 'text-white mg-headline-medium '
       headlineStyles: 'text-white mg-headline-medium '
       subheadStyles: text-white mg-headline-medium mb-7
       textStyles: text-white mg-copy-medium mb-5
@@ -205,4 +205,5 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
