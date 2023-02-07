@@ -24,7 +24,18 @@ attendees: 100
 difficulty: All Welcome
 logomark: URL to a square PNG
 description: Track description
-priority: 1
+category: PLN Event
+tags:
+  - Tag 1
+  - Tag 2
+timeslots:
+  - time: 09:00
+    speakers: None
+    title: Breakfast
+    description: Lunch will be provided.
+  - time: 10:30
+    speakers: Juan Benet
+    title: Opening Keynote
 ---
 ```
 
