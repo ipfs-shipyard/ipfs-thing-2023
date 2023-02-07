@@ -77,10 +77,10 @@ export const Layout = ({ rawData, children }) => {
       return roundedOptions[obj.primaryRounded]
     }
     const getBorder = (obj) => {
-      if (obj.border && obj.border?.length < 2) {
+      const borderClasses = obj?.border?.split(" ")
+      if (borderClasses?.length !== 2) {
         return ""
       }
-      const borderClasses = obj.border.split(" ")
       const borderColor = borderClasses[0]?.replace("border-", "")
       const borderWidth = borderClasses[1]?.split("-").at(-1)
       const borderSideClasses = borderClasses[1]?.split("-")
@@ -139,6 +139,7 @@ export const Layout = ({ rawData, children }) => {
         border-radius: ${getRadius(obj)};
         text-align: center;
         user-select: none;
+        ${getBorder(obj)};
       }
     `
   }
