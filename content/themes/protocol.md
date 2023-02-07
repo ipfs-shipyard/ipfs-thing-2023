@@ -38,7 +38,7 @@ buttons:
   - label: Outline
     fill: bg-white opacity-100
     typography: >-
-      {"color":"text-black","family":"Inter:wght@400","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+      {"color":"text-black","family":"Inter:wght@400","size":"18","lineHeight":"20","letterSpacing":"0","smSize":"18","smLineHeight":"20","smLetterSpacing":"0"}
     padding: pt-2.5 pb-2.5 pr-5 pl-5
     border: border-gray border-1
     primaryRounded: rounded
@@ -58,7 +58,3 @@ buttons:
     primaryRounded: rounded-md
 linkColor: primary
 ---
-
-
-
-
