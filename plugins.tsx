@@ -25,11 +25,12 @@ export const SectionListItemsPlugin = {
         banner: 'Banner',
         embed: 'Embed',
         feature: 'Feature',
-        photoCards: 'Photo Cards',
-        postCards: 'Post Cards',
+        cards: 'Cards',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
         textCards: 'Text Cards',
+        eventSchedule: 'Event Schedule',
+        accordian: 'Accordian',
       }
       const sectionName = item.headline || item.subhead || item.label || item.title || ''
       const sectionNameShort = sectionName.match(/^.{24}\w*/)
