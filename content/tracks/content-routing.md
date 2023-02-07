@@ -17,15 +17,7 @@ category: PLN Event
 tags: []
 schedule:
   - label: Breakfast
-timeslots:
-  - time: '17:00'
-    speakers: Jim
-    title: Dinner
-    description: This is going to be delicious.
-  - time: '9:00'
-    speakers: John
-    title: Breakfast
-    description: It's kinda like this.
+timeslots: []
 ---
 
 
