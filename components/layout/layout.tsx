@@ -77,7 +77,7 @@ export const Layout = ({ rawData, children }) => {
       return roundedOptions[obj.primaryRounded]
     }
     const getBorder = (obj) => {
-      if (obj.border?.length < 2) {
+      if (obj.border && obj.border?.length < 2) {
         return ""
       }
       const borderClasses = obj.border.split(" ")
