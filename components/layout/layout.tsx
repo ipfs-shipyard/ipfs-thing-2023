@@ -139,7 +139,6 @@ export const Layout = ({ rawData, children }) => {
         border-radius: ${getRadius(obj)};
         text-align: center;
         user-select: none;
-        ${getBorder(obj)};
       }
     `
   }
