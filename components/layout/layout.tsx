@@ -81,9 +81,9 @@ export const Layout = ({ rawData, children }) => {
         return ""
       }
       const borderClasses = obj.border.split(" ")
-      const borderColor = borderClasses[0].replace("border-", "")
-      const borderWidth = borderClasses[1].split("-").at(-1)
-      const borderSideClasses = borderClasses[1].split("-")
+      const borderColor = borderClasses[0]?.replace("border-", "")
+      const borderWidth = borderClasses[1]?.split("-").at(-1)
+      const borderSideClasses = borderClasses[1]?.split("-")
       const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
       const borderSides = {
         "a": "border",
@@ -92,7 +92,7 @@ export const Layout = ({ rawData, children }) => {
         "l": "border-left",
         "r": "border-right",
       }
-      return `border: 1px solid var(--gray-color)`
+      return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color)`
     }
     const getGradient = (tailwind: string) => {
       const tailwindClasses: string[] = tailwind.split(" ") || []
