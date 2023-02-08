@@ -108,14 +108,14 @@ function EventModalContent({ event }) {
 
 export function AddCard({ config }) {
   return (
-    <Modal content={<AddEventModalContent config={config} />} title="Add your event" link="" hash="#add-event">
+    <Modal content={<AddEventModalContent config={config} />} title="Submit a track or talk" link="" hash="#add-event">
       <Card color="white">
         <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
           <div className="text-6xl">
             +
           </div>
           <div className="text-xl font-bold">
-            Add your event
+            Submit a track or talk
           </div>
         </div>
       </Card>
