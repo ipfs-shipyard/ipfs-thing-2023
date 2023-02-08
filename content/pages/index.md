@@ -67,6 +67,49 @@ blocks:
     _template: eventSchedule
   - style:
       alignment: flex-col-reverse items-start gap-6
+      padding: pt-20 pb-0 pr-10 pl-10
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-headline-large mb-5
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    cardStyle:
+      fillStyles: ' opacity-100'
+      grid: >-
+        grid-cols-4 justify-center gap-12 sm:grid-cols-1 sm:justify-center
+        sm:gap-6
+      alignment: flex-row items-start  text-center
+      image: '  object-center object-fill'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-2 pb-2 pr-2 pl-2
+      borderStyles: border-white border-0
+      labelStyles: text-black undefined undefined
+      headlineStyles: 'text-black undefined '
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
+    label: ''
+    headline: Participating Teams
+    subhead: ''
+    items:
+      - image:
+          src: /uploads/ipfs-logo.jpg
+      - image:
+          src: /uploads/number-zero-logo.jpg
+        headline: ''
+        subhead: ''
+      - image:
+          src: /uploads/protocollabs.svg
+        headline: ''
+        subhead: ''
+      - image:
+          src: /uploads/fission-logo.svg
+        headline: ''
+        subhead: ''
+    _template: cards
+  - style:
+      alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-20 pr-10 pl-10
       featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -205,6 +248,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
