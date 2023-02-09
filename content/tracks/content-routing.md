@@ -3,9 +3,9 @@ name: Content Routing
 org: TBD
 dri: TBD
 website: 'https://protocol.ai'
-date: '2023-04-15T05:00:00.000Z'
+date: '2023-04-15T15:00:00.000Z'
 days: 1
-times: '19:00 - 22:00'
+times: ''
 venueName: Radisson Grand Place Brussels
 venueAddress: 'Rue du Fossé aux Loups 47, 1000 Bruxelles, Belgium'
 attendees: 50
@@ -19,6 +19,7 @@ schedule:
   - label: Breakfast
 timeslots: []
 ---
+
 
 
 
