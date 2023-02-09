@@ -12,13 +12,14 @@ attendees: 50
 difficulty: All Welcome
 logomark: ''
 description: TBD
-priority: 1
+priority: 2
 category: PLN Event
 tags: []
 schedule:
   - label: Breakfast
 timeslots: []
 ---
+
 
 
 
