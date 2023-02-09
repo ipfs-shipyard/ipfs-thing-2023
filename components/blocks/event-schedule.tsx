@@ -49,8 +49,8 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
   const scrollContainer = useRef(null);
 
   const config = {
-    "dateStart": "2023-4-15",
-    "dateEnd": "2023-4-19",
+    "dateStart": "2023-4-14",
+    "dateEnd": "2023-4-20",
     "repo": "https://github.com/ipfs-shipyard/ipfs-thing-2023"
   }
 
