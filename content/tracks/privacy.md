@@ -12,6 +12,7 @@ attendees: 50
 difficulty: All Welcome
 logomark: ''
 description: TBD
-priority: 1
+priority: 2
 ---
+
 
