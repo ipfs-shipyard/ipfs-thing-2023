@@ -7,6 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: 'Rue du Fossé aux Loups 47, 1000 Bruxelles, Belgium'
 description: Daily Breakfast
 difficulty: All Welcome
+priority: 2
 ---
 
 
