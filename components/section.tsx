@@ -23,7 +23,7 @@ export const Section = ({
         {background?.src && <img className={`w-full h-full object-cover ${background?.position}`} src={background.src} alt="background image" />}
       </div>
       {background?.ornaments?.length > 0 &&
-        <div className="ornaments absolute inset-0 -z-1">
+        <div className="ornaments absolute inset-0 -z-1 sm:hidden">
           {background.ornaments.map(function (ornament, index) {
             const wrapStyle = {
               transform: `translate(${ornament.xOffset || 0}px,${ornament.yOffset || 0}px)`,
