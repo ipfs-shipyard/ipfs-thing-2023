@@ -92,21 +92,26 @@ blocks:
     label: ''
     headline: Participating Teams
     subhead: ''
+    body: ''
     items:
       - image:
           src: /uploads/ipfs-logo.jpg
+        body: ''
       - image:
           src: /uploads/number-zero-logo.jpg
         headline: ''
         subhead: ''
+        body: ''
       - image:
           src: /uploads/protocollabs.svg
         headline: ''
         subhead: ''
+        body: ''
       - image:
           src: /uploads/fission-logo.svg
         headline: ''
         subhead: ''
+        body: ''
     _template: cards
   - style:
       alignment: flex-col-reverse items-start gap-6
@@ -155,8 +160,9 @@ blocks:
           track(s), sessions, arrival and departure dates, and activities that
           are interesting and relevant to you. We are actively working on
           putting together an amazing schedule. We want your suggestions,
-          feedback, and additions here \[add link]. Please jump in to help make
-          this thing a thing that helps you.
+          feedback, and additions
+          [here](https://airtable.com/shr2Eq1juLJh0ri3i). Please jump in to help
+          make this thing a thing that helps you.
       - headline: How do I participate in IPFS Thing?
         text: >
           First, make sure to pre-register
@@ -248,6 +254,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
