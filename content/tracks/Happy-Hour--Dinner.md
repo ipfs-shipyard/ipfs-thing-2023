@@ -1,5 +1,5 @@
 ---
-name: Happy Hour & Dinner
+name: Dinner
 date: '2023-04-16T01:00:00.000Z'
 days: 5
 times: '8:00-11:00pm'
@@ -9,5 +9,6 @@ description: Daily Happy Hour + Dinner
 difficulty: All Welcome
 priority: 4
 ---
+
 
 
