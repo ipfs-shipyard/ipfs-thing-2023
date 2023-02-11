@@ -112,6 +112,7 @@ blocks:
         headline: ''
         subhead: ''
         body: ''
+    navigationLabel: Participating Teams
     _template: cards
   - style:
       alignment: flex-col-reverse items-start gap-6
@@ -254,6 +255,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
