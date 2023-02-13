@@ -6,7 +6,9 @@ times: ''
 venueName: 'Brussels, Belgium'
 venueAddress: ''
 difficulty: All Welcome
+priority: 0
 ---
+
 
 
 
