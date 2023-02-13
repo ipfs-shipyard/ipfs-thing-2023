@@ -178,8 +178,12 @@ blocks:
           accommodations.
       - headline: 'Can I become a sponsor, what does that include?'
         text: >
-          Yes! We offer multiple levels of sponsorship \[add sponsorship
-          details].&#x20;
+          Yes! We offer multiple levels of sponsorship. From Scholars, Node, and
+          Cluster, to Network and Interplanetary, there will be a sponsorship
+          for you! Please email us at
+          [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) for more
+          information on what is included in each sponsorship and to
+          apply.&#x20;
       - headline: How can I lead a track?
         text: >
           Here's what's involved: \* Identify an IPFS-related topic that you
@@ -255,6 +259,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
