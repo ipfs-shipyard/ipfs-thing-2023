@@ -167,7 +167,9 @@ blocks:
       - headline: How do I participate in IPFS Thing?
         text: >
           First, make sure to pre-register
-          [here](https://lu.ma/ipfsthing-preregistration)!
+          [here](https://lu.ma/ipfsthing-preregistration)! Once you are fully
+          registered, feel free to submit your idea for a talk, a track to lead,
+          or just get excited for April 15th!
       - headline: Is there a cost to participate?
         text: >
           Yes, the event will be ticketed with different pricing tiers.
@@ -270,6 +272,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
