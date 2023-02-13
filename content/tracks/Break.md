@@ -6,7 +6,7 @@ times: '3:30-4:00pm'
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: 'Rue du Fossé aux Loups 47, 1000 Bruxelles, Belgium'
 difficulty: All Welcome
-priority: 3
+priority: 4
 ---
 
 
