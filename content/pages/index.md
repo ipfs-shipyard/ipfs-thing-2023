@@ -170,12 +170,12 @@ blocks:
           [here](https://lu.ma/ipfsthing-preregistration)!
       - headline: Is there a cost to participate?
         text: >
-          Yes, the event will be ticketed with different pricing tiers \[add
-          tiers]. All meals during the event will be covered for participants.
-          Participants (or their employers) are responsible for flights and
-          accommodations. Several hotel blocks are being reserved and will be
-          added here when confirmed; you are also free to book your own
-          accommodations.
+          Yes, the event will be ticketed with different pricing tiers. All
+          meals during the event will be covered for participants. Participants
+          (or their employers) are responsible for their flights and
+          accommodations. We have a hotel room block at Radisson Grand Place
+          Brussels, however, you are also free to book your own accommodations
+          elsewhere nearby.
       - headline: 'Can I become a sponsor, what does that include?'
         text: >
           Yes! We offer multiple levels of sponsorship. From Scholars, Node, and
@@ -259,6 +259,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
