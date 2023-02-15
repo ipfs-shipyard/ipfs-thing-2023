@@ -135,6 +135,20 @@ blocks:
     subhead: ''
     body: ''
     items:
+      - headline: Code of Conduct + Covid Policy
+        text: >+
+
+
+          We will be following the IPFS [Code of
+          Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md),
+          and the IPFS Code of Conduct [Events
+          Addendum](https://github.com/ipfs/community/blob/master/code-of-conduct-for-events.md)
+          as part of the above CoC
+
+
+          * Covid Policy- Masks and testing are optional and at your
+          discretion.&#x20;
+
       - headline: What is IPFS Thing?
         subhead: ''
         text: >
@@ -217,10 +231,6 @@ blocks:
           Recordings will be uploaded to our [IPFS Youtube
           channel](https://www.youtube.com/@IPFSbot). Please check there for any
           updates. There will not be any live streaming.&#x20;
-      - headline: What about childcare?
-        text: >
-          Please email [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io)
-          and we will do our best to accommodate.
       - headline: How do I contact the organizers?
         text: >
           You can reach out to us at
@@ -275,6 +285,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
