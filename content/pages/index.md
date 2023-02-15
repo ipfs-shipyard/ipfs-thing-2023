@@ -142,7 +142,7 @@ blocks:
           community. There will be talks, workshops, discussion circles,
           co-working and hacking time, and more — all focused on advancing IPFS
           implementations.
-      - headline: Who is it for?
+      - headline: Who should attend IPFS þing?
         subhead: ''
         text: >
           This event brings together maintainers or core contributors of an IPFS
@@ -152,13 +152,15 @@ blocks:
 
 
           If you are an IPFS user, tooling developer, collaborator, or curious
-          community member, we enthusiastically invite you to IPFS Camp, an epic
-          decentralized event organized by the community, for the
+          community member, we enthusiastically invite you to [IPFS
+          Camp](https://youtube.com/playlist?list=PLuhRWgmPaHtSEv2DM9J7nSvN7dnVFMM6q),
+          an epic decentralized event organized by the community, for the
           community.&#x20;
 
 
           Details on IPFS Camp 2023 are coming soon and will be announced on
-          [Twitter](https://twitter.com/ipfs).
+          [Twitter](https://twitter.com/ipfs). Follow to make sure you don't
+          miss any updates!
       - headline: How does the track system work?
         subhead: ''
         text: >
@@ -203,7 +205,7 @@ blocks:
           information on what is included in each sponsorship and to
           apply.&#x20;
       - headline: How can I lead a track?
-        text: >+
+        text: >
           Here's what's involved:&#x20;
 
 
@@ -225,7 +227,6 @@ blocks:
           broader schedule, give feedback, and help to make your event great.
           We'll get you set up with AV gear, a room, and other logistical
           support as needed.
-
       - headline: Will there be recordings or live virtual sessions I can attend?
         text: >
           Recordings will be uploaded to our [IPFS Youtube
@@ -289,6 +290,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
