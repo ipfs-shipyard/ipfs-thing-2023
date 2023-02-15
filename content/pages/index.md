@@ -184,7 +184,7 @@ blocks:
           understanding and we hope to see you in Brussels.
 
 
-          * Early Bird Builders Ticket | $99
+          * Early Bird Builders Ticket | $99 \*Limited availability
 
           * General Ticket | $650
 
@@ -296,6 +296,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
