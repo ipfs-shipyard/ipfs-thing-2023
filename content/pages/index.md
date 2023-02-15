@@ -273,7 +273,7 @@ blocks:
       - headline: LINKS
         subhead: ''
         body: |
-          IPFS\
+          [IPFS](https://ipfs.io/)\
           Event Github
       - headline: LEGAL
         subhead: ''
@@ -289,6 +289,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
