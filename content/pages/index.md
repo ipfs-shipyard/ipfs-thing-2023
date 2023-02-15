@@ -121,7 +121,7 @@ blocks:
       labelStyles: text-black undefined undefined
       headlineStyles: text-black mg-headline-large undefined
       subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
+      textStyles: text-black undefined mb-5
     cardStyle:
       fillStyles: bg-white opacity-100
       fillStylesActive: bg-gray-light opacity-100
@@ -293,38 +293,3 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

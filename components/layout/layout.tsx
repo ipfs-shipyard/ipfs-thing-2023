@@ -234,6 +234,9 @@ export const Layout = ({ rawData, children }) => {
             .markdown a {
               text-decoration: underline;
             }
+            .markdown p {
+              margin-bottom: inherit;
+            }
             ${buttonClasses()}
             ${typographyClasses()}
             .event-card-background:hover {
