@@ -186,7 +186,9 @@ blocks:
 
           * Supporters Ticket | $2000
 
-          * Scholars Ticket | Free (does not include flights or accommodations)
+          * Scholars Ticket | Free (does not include flights or
+          accommodations)If you would like to be nominated, please reach out to
+          a fellow IPFS community member. Self-nominations are also welcome.
 
 
           All meals during the event will be covered for participants.
@@ -291,6 +293,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
