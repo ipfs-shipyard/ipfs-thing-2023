@@ -144,7 +144,6 @@ export const Header = ({
             <div className="flex items-center">
               <Logo className="flex-none" />
               <ul style={navStyles} className={`${nav?.navTypeStyle} ${nav?.navAlignment} mb-0 flex-grow list-none md:hidden`}>
-
                 {pageJumps(blocks)?.map(function (item, index) {
                   return (
                     <li className="inline-block ml-6 first:ml-0" key={index}>
@@ -152,26 +151,22 @@ export const Header = ({
                     </li>
                   )
                 })}
-
-                {navItems.map(function (item, index) {
-                  const subNavItems = item.subNavItems || null
-                  if (subNavItems) {
-                    return (
-                      <li className="relative inline-block ml-6" key={index}>
-                        <Dropdown item={item} />
-                      </li>
-                    )
-                  } else {
-                    return (
-                      <li className="inline-block ml-8" key={index}>
-                        <a style={linkStyles} className={"block no-underline"} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
-                      </li>
-                    )
-                  }
-                })}
-
               </ul>
-              <a className="btn-gradient" href="https://lu.ma/ipfsthing-preregistration" target="_blank">Register</a>
+              {navItems.map(function (item, index) {
+                const subNavItems = item.subNavItems || null
+                if (subNavItems) {
+                  return (
+                    <li className="relative inline-block ml-6" key={index}>
+                      <Dropdown item={item} />
+                    </li>
+                  )
+                } else {
+                  return (
+                    <a className={"btn-gradient"} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
+                  )
+                }
+              })}
+              {/* <a className="btn-gradient" href="https://lu.ma/ipfsthing-preregistration" target="_blank">Register</a> */}
             </div>
           </div>
         </div>

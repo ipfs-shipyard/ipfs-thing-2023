@@ -11,6 +11,12 @@
     "imageHeight": "50"
   },
   "nav": {
+    "navItems": [
+      {
+        "label": "Get Tickets Now!",
+        "link": "https://lu.ma/ipfsthing2023"
+      }
+    ],
     "navAlignment": "text-center",
     "navTypeStyle": "text-black mg-copy-medium  sm:text-white sm:mg-copy-medium sm:",
     "navBackgroundColor": "bg-accent4 opacity-100",
