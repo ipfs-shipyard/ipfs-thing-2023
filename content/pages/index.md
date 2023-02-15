@@ -216,7 +216,7 @@ blocks:
         text: >
           Recordings will be uploaded to our [IPFS Youtube
           channel](https://www.youtube.com/@IPFSbot). Please check there for any
-          updates.&#x20;
+          updates. There will not be any live streaming.&#x20;
       - headline: What about childcare?
         text: >
           Please email [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io)
@@ -275,6 +275,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
