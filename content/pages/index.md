@@ -275,6 +275,7 @@ blocks:
         body: |
           [IPFS](https://ipfs.io/)\
           Event Github
+        link: 'https://github.com/ipfs-shipyard/ipfs-thing-2023'
       - headline: LEGAL
         subhead: ''
         body: |
@@ -289,6 +290,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
