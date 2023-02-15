@@ -167,10 +167,10 @@ blocks:
           This is a choose-your-own-adventure event, so please choose the
           track(s), sessions, arrival and departure dates, and activities that
           are interesting and relevant to you. We are actively working on
-          putting together an amazing schedule. We want your suggestions,
-          feedback, and additions
-          [here](https://airtable.com/shr2Eq1juLJh0ri3i). Please jump in to help
-          make this thing a thing that helps you.
+          putting together an amazing schedule based on your suggestions,
+          feedback, and additions. You can request a track or submit a talk
+          directly in the [schedule
+          section](https://2023.ipfs-thing.io/#schedule) of our website.
       - headline: How do I participate in IPFS Thing?
         text: >
           First, make sure to pre-register
@@ -290,6 +290,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
