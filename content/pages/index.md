@@ -26,8 +26,8 @@ blocks:
       Everything from talks, workshops, discussion circles, hacking time, and
       more — all focused on advancing IPFS implementations.
     buttons:
-      - label: Pre-register now!
-        link: 'https://lu.ma/ipfsthing-preregistration'
+      - label: Get Tickets Now!
+        link: 'https://lu.ma/ipfsthing2023'
         buttonStyle: primary
         fathomId: ''
     _template: feature
@@ -291,6 +291,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
