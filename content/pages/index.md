@@ -70,6 +70,59 @@ blocks:
       padding: pt-20 pb-0 pr-10 pl-10
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-headline-large undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    cardStyle:
+      fillStyles: bg-gray-light opacity-50
+      grid: >-
+        grid-cols-3 justify-center gap-6 sm:grid-cols-1 sm:justify-center
+        sm:gap-6
+      alignment: flex-row items-start  text-center
+      image: '  object-center object-cover'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-7 pb-7 pr-5 pl-5
+      borderStyles: border-gray border-1
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-headline-medium mb-1
+      subheadStyles: text-black mg-headline-medium mb-5
+      textStyles: text-black mg-copy-medium mb-3.5
+      buttonType: outline
+      buttonLayout: justify-between
+      buttonWidth: w-auto
+    label: ''
+    headline: Tickets
+    subhead: ''
+    items:
+      - headline: Early Bird Ticket
+        subhead: $99
+        body: |
+          ​Available until 22 February. ​Limited tickets available.
+        link: 'https://lu.ma/ipfsthing2023'
+        buttonLabel: Purchase Ticket
+      - headline: General Ticket
+        subhead: $650
+        body: >
+          ​You are welcome to support the event at this General Ticket price if
+          you are able and would like to leave your Early Bird ticket for
+          another.
+        link: 'https://lu.ma/ipfsthing2023'
+        buttonLabel: Purchase Ticket
+      - headline: Supporters Ticket
+        subhead: $2000
+        body: >
+          ​Your supporter's ticket covers the cost of your own attendance &
+          contributes to the IPFS Scholar's Program for others to attend as
+          well. Thank you for your support!
+        link: 'https://lu.ma/ipfsthing2023'
+        buttonLabel: Purchase Ticket
+    navigationLabel: Tickets
+    _template: cards
+  - style:
+      alignment: flex-col-reverse items-start gap-6
+      padding: pt-20 pb-0 pr-10 pl-10
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black undefined undefined
       headlineStyles: text-black mg-headline-large mb-5
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
@@ -186,9 +239,7 @@ blocks:
 
           * Supporters Ticket | $2000
 
-          * Scholars Ticket | Free (does not include flights or
-          accommodations)If you would like to be nominated, please reach out to
-          a fellow IPFS community member. Self-nominations are also welcome.
+          * Scholars Ticket | Free (does not include flights or accommodations)
 
 
           All meals during the event will be covered for participants.
