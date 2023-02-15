@@ -11,7 +11,9 @@ venueAddress: 'Rue du Fossé aux Loups 47, 1000 Bruxelles, Belgium'
 attendees: 50
 difficulty: All Welcome
 logomark: ''
-description: TBD
+description: >-
+  Approaches and protocols to content routing in IPFS, what we've learned so
+  far, and directions for the future.
 priority: 2
 category: PLN Event
 tags: []
@@ -19,6 +21,7 @@ schedule:
   - label: Breakfast
 timeslots: []
 ---
+
 
 
 
