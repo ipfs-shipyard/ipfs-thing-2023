@@ -137,17 +137,27 @@ blocks:
     items:
       - headline: Code of Conduct + Covid Policy
         text: >+
-
-
           We will be following the IPFS [Code of
           Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md),
           and the IPFS Code of Conduct [Events
           Addendum](https://github.com/ipfs/community/blob/master/code-of-conduct-for-events.md)
-          as part of the above CoC
+          as part of the above CoC.
 
 
-          * Covid Policy- Masks and testing are optional and at your
-          discretion.&#x20;
+          IPFS þing's Covid Policy:
+
+
+          * Masks will be provided on-site.
+
+          * Masks and testing are optional and at your discretion.&#x20;
+
+          * If you are leading a track, you may decide to require masks at your
+          track specifically.
+
+          * If you are presenting any symptoms of being sick or have come in
+          contact with someone who has presented symptoms or tested positive in
+          the last five days, please do not attend the event for your own and
+          all other attendees' health and safety. Rest up and feel better!
 
       - headline: What is IPFS Thing?
         subhead: ''
@@ -285,6 +295,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
