@@ -174,14 +174,10 @@ blocks:
       - headline: How do I participate in IPFS Thing?
         text: "First, make sure you have registered for IPFS þing. You can register directly from our [website](https://2023.ipfs-thing.io/).\_\n\nTell a friend - Let us know if there is someone you think we should invite, or direct them to our [website](https://2023.ipfs-thing.io/).\_\n\nLead a Track - Submit your track in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\nGive a Talk - Not ready to lead an entire track, but still would like to contribute? Submit your talk in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\nApply as an IPFS Scholar - Interested in applying to the IPFS Scholars program, please fill out an application [here](https://airtable.com/shrCIJoHbEnv0wmhl).\_\n\nVolunteer - Email [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) if you’d like to help make the production of this event a success. We could really use your help!\_\n\nSponsor - Your support helps bring together different implementation teams from around the world to advance IPFS. If you’re interested in sponsorship, please email us at [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) for more information.\_\n\nKeep up the momentum! - After the event, all of the tracks will be posted to the IPFS Youtube channel. You can check out the playlists from last year [here](https://www.youtube.com/playlist?list=PLuhRWgmPaHtQhyXIhu2P6e-8WlYOf8wyH). After IPFS þing, be sure to share your talk or track videos with the world! Help the broader community see all of the great work that has transpired and get a sense of what they can expect to see more of at IPFS Camp 2023!\n"
       - headline: Is there a cost to participate?
-        text: >+
-          As our IPFS and DWeb community and their excitement continues to grow,
-          we are no longer able to sustain our previous model of free events.
-          These events require significant overhead and therefore IPFS þing and
-          IPFS Camp will be moving to a ticketed & sponsored event structure.
-          ​We recognize that times are hard for everyone and therefore have
-          proposed tiered pricing for IPFS þing. ​Thank you so much for your
-          understanding and we hope to see you in Brussels.
+        text: >
+          As IPFS þing is a community-driven event your ticket price plus
+          sponsorships allow us as a community to come together. Thank you so
+          much for your understanding and we hope to see you in Brussels.
 
 
           * Early Bird Builders Ticket | $99 \*Limited availability
@@ -201,7 +197,6 @@ blocks:
           We have a limited hotel block at the venue, Radisson Grand Place, and
           rooms will be available on a first-come, first-serve basis. You are
           also free to book your own accommodations nearby.
-
       - headline: 'Can I become a sponsor, what does that include?'
         text: >
           Yes! We offer multiple levels of sponsorship. From Scholars, Node, and
@@ -222,7 +217,7 @@ blocks:
           You can reach out to us at
           [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io)
       - headline: Code of Conduct + Covid Policy
-        text: >+
+        text: >
           We will be following the IPFS [Code of
           Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md),
           and the IPFS Code of Conduct [Events
@@ -244,7 +239,6 @@ blocks:
           contact with someone who has presented symptoms or tested positive in
           the last five days, please do not attend the event for your own and
           all other attendees' health and safety. Rest up and feel better!
-
     navigationLabel: FAQ
     _template: accordian
   - style:
@@ -295,6 +289,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
