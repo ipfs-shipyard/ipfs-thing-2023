@@ -211,28 +211,7 @@ blocks:
           information on what is included in each sponsorship and to
           apply.&#x20;
       - headline: How can I lead a track?
-        text: >
-          Here's what's involved:&#x20;
-
-
-          * Identify an IPFS-related topic that you know a thing or two about,
-          and think others should care more about \*&#x20;
-
-          * Add your track idea [here.](https://airtable.com/shr2Eq1juLJh0ri3i)
-
-          * Recruit folks you collaborate regularly with to help shape the
-          content of your track.
-
-
-          &#x20;You will have total control over the structure of your track.
-          Morning of talks & afternoon of discussion? Go for it! Required
-          reading before attendance? Sounds great.
-
-
-          Event organizers will work with you to help situate your track in the
-          broader schedule, give feedback, and help to make your event great.
-          We'll get you set up with AV gear, a room, and other logistical
-          support as needed.
+        text: "Here's what's involved:&#x20;\n\n* Identify an IPFS-related topic that you know a thing or two about, and think others should care more about.\n* Add your track idea [here.](https://airtable.com/shr2Eq1juLJh0ri3i)\n* Recruit folks you collaborate regularly with to help shape the content of your track.\n\nYou will have total control over the structure of your track. Morning of talks & afternoon of discussion? Go for it! Required reading before attendance? Sounds great.\n\nEvent organizers will work with you to help situate your track in the broader schedule, give feedback, and help to make your event great. We'll get you set up with AV gear, a room, and other logistical support as needed.\_If you have any special requests, please be sure to let us know as soon as you can.\n"
       - headline: Will there be recordings or live virtual sessions I can attend?
         text: >
           Recordings will be uploaded to our [IPFS Youtube
@@ -296,6 +275,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
