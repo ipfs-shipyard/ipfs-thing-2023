@@ -279,8 +279,9 @@ blocks:
       - headline: LEGAL
         subhead: ''
         body: |
-          Privacy Policy\
-          Terms & Conditions
+          [Privacy Policy](https://discuss.ipfs.tech/privacy)\
+          [Terms of Use](https://discuss.ipfs.tech/tos)\
+          [DMCA Policy](https://ipfs.tech/legal/)
     _template: cards
 backgroundColor: white
 meta:
@@ -290,6 +291,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
