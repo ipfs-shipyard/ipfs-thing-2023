@@ -10,5 +10,7 @@ description: >-
   applications (eg Skiff, Fleek, zarr/desci/research?) - Roundtable about
   challenges identified.
 priority: 2
+attendees: 50
 ---
+
 
