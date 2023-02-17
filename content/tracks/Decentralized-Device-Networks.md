@@ -11,5 +11,7 @@ description: >-
   IPFS as a foundation for IoT networks. We’ll examine what’s working, and
   develop strategies on how to improve what isn’t.
 priority: 2
+attendees: 50
 ---
+
 
