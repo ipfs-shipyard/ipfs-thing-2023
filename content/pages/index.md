@@ -63,7 +63,7 @@ blocks:
     _template: embed
   - background:
       fillStyles: bg-gray-light opacity-100
-    navigationLabel: Schedule
+    navigationLabel: Preliminary Schedule
     _template: eventSchedule
   - style:
       alignment: flex-col-reverse items-start gap-6
@@ -93,6 +93,7 @@ blocks:
     label: ''
     headline: Tickets
     subhead: ''
+    body: ''
     items:
       - headline: Early Bird Ticket
         subhead: $99
@@ -344,3 +345,4 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
