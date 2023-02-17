@@ -10,5 +10,7 @@ description: >-
   rigorous network measurements, performance evaluation, and recommendations for
   builders and operators.
 priority: 2
+attendees: 50
 ---
+
 
