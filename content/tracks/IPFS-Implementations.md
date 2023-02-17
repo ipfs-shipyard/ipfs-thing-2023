@@ -11,5 +11,8 @@ description: >-
   them, and if you dare, let yourself be nerd sniped into working on the
   protocol itself.
 priority: 2
+attendees: 0
+difficulty: All Welcome
 ---
+
 
