@@ -65,7 +65,7 @@ export const EventSchedule = ({ data, events, parentField = "" }) => {
       background={data.background}
       navigationLabel={data.navigationLabel}
     >
-      <div className="bg-gray-100 py-10 pb-0 text-center hidden xl:block">
+      <div className="bg-gray-100 py-10 pb-0 text-center">
         <img className="inline-block mr-3" src="/click-drag.svg" />
         Click and drag the schedule to navigate
       </div>
