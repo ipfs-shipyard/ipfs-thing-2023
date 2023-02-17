@@ -283,7 +283,7 @@ blocks:
           You can reach out to us at
           [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io)
       - headline: Code of Conduct + Covid Policy
-        text: >+
+        text: >
           We will be following the IPFS [Code of
           Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md),
           and the IPFS Code of Conduct [Events
@@ -302,7 +302,6 @@ blocks:
           contact with someone who has presented symptoms or tested positive in
           the last five days, please do not attend the event for your own and
           all other attendees' health and safety. Rest up and feel better!
-
     navigationLabel: FAQ
     _template: accordian
   - style:
@@ -354,7 +353,9 @@ meta:
     IPFS þing is a week-long gathering for the IPFS implementors community.
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
+  ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
