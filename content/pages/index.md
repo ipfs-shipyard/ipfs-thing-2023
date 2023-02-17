@@ -237,9 +237,9 @@ blocks:
         text: "First, make sure you have registered for IPFS þing. You can register directly from our [website](https://2023.ipfs-thing.io/).\_\n\nTell a friend - Let us know if there is someone you think we should invite, or direct them to our [website](https://2023.ipfs-thing.io/).\_\n\nLead a Track - Submit your track in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\nGive a Talk - Not ready to lead an entire track, but still would like to contribute? Submit your talk in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\nApply as an IPFS Scholar - Interested in applying to the IPFS Scholars program, please fill out an application [here](https://airtable.com/shrCIJoHbEnv0wmhl).\_\n\nVolunteer - Email [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) if you’d like to help make the production of this event a success. We could really use your help!\_\n\nSponsor - Your support helps bring together different implementation teams from around the world to advance IPFS. If you’re interested in sponsorship, please email us at [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) for more information.\_\n\nKeep up the momentum! - After the event, all of the tracks will be posted to the IPFS Youtube channel. You can check out the playlists from last year [here](https://www.youtube.com/playlist?list=PLuhRWgmPaHtQhyXIhu2P6e-8WlYOf8wyH). After IPFS þing, be sure to share your talk or track videos with the world! Help the broader community see all of the great work that has transpired and get a sense of what they can expect to see more of at IPFS Camp 2023!\n"
       - headline: Is there a cost to participate?
         text: >
-          As IPFS þing is a community-driven event your ticket price plus
-          sponsorships allow us as a community to come together. Thank you so
-          much for your understanding and we hope to see you in Brussels.
+          Your ticket price, combined with generous sponsorships, cover the
+          costs of convening this fantastic community (including venue, food,
+          A/V, recordings, and more).
 
 
           * Early Bird Builders Ticket | $99 \*Limited availability
@@ -259,7 +259,7 @@ blocks:
           We have a limited hotel block at the venue, Radisson Grand Place, at a
           group rate of 229 EUR per night. These rooms will be available on a
           first-come, first-serve basis and you will receive instructions on how
-          to book once requested via event registration You are also free to
+          to book once requested via event registration. You are also free to
           book your own accommodations nearby.
       - headline: 'Can I become a sponsor, what does that include?'
         text: >
@@ -355,6 +355,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
