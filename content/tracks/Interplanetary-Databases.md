@@ -12,5 +12,7 @@ description: >-
   share notes on what’s working, and hear presentations from teams pushing the
   envelope on what databases can do and where they can exist.
 priority: 2
+attendees: 50
 ---
+
 
