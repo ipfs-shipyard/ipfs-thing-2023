@@ -246,7 +246,7 @@ blocks:
 
           * **General Ticket** | $650
 
-          * \*\*Supporters Ticket \*\*| $2000
+          * **Supporters Ticket** | $2000
 
           * **Scholars Ticket** | Free (does not include flights or
           accommodations)
@@ -354,6 +354,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
