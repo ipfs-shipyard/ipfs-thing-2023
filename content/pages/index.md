@@ -257,11 +257,12 @@ blocks:
           and accommodations.&#x20;
 
 
-          We have a limited hotel block at the venue, Radisson Grand Place, at a
-          group rate of 229 EUR per night. These rooms will be available on a
-          first-come, first-serve basis and you will receive instructions on how
-          to book once requested via event registration. You are also free to
-          book your own accommodations nearby.
+          We have a limited hotel block for the dates of 14-20 April at the
+          venue, Radisson Grand Place, at a group rate of 229 EUR per night.
+          These rooms will be available on a first-come, first-serve basis, and
+          you will receive instructions on how to book once requested via event
+          registration. You are also free to book your own accommodations
+          nearby.
       - headline: 'Can I become a sponsor, what does that include?'
         text: >
           Yes! We offer multiple levels of sponsorship. From Scholars, Node, and
@@ -354,6 +355,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
