@@ -120,6 +120,19 @@ blocks:
     navigationLabel: Tickets
     _template: cards
   - style:
+      alignment: 'flex-col items-center '
+      padding: pt-20 pb-20 pr-10 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black  undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black mg-copy-small undefined
+    headline: ''
+    subhead: ''
+    body: "The IPFS þing Scholars program offers an opportunity for individuals from underrepresented communities or unique circumstances to join this event.\_\n\n[Nominate a Scholar](https://airtable.com/shrCIJoHbEnv0wmhl)\_by March 1, 2023.\n"
+    _template: feature
+  - style:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-0 pr-10 pl-10
       featureContent: w-1/2 min-h-0 text-left
@@ -347,6 +360,7 @@ meta:
     There will be talks, workshops, discussion circles, hacking time, and more
     focused entirely on the advancement of IPFS implementations.
 ---
+
 
 
 
