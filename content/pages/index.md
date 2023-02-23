@@ -29,9 +29,9 @@ blocks:
       - label: Submit a Track or Talk!
         link: 'https://2023.ipfs-thing.io/submit/'
         buttonStyle: gradient
-      - label: 'Submit '
+      - label: Get Tickets Now!
         link: 'https://lu.ma/ipfsthing2023'
-        buttonStyle: primary
+        buttonStyle: gradient
         fathomId: ''
     _template: feature
   - style:
@@ -358,6 +358,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
