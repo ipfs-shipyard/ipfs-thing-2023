@@ -26,7 +26,10 @@ blocks:
       Everything from talks, workshops, discussion circles, hacking time, and
       more — all focused on advancing IPFS implementations.
     buttons:
-      - label: Get Tickets Now!
+      - label: Submit a Track or Talk!
+        link: 'https://2023.ipfs-thing.io/submit/'
+        buttonStyle: gradient
+      - label: 'Submit '
         link: 'https://lu.ma/ipfsthing2023'
         buttonStyle: primary
         fathomId: ''
@@ -355,6 +358,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
