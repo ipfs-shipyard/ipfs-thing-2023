@@ -167,8 +167,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/imageedit_78_6115021011.png
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -214,16 +212,18 @@ blocks:
           src: /uploads/logo.jpg
         body: ''
       - image:
-          src: /uploads/fleek-footer.png
+          src: /uploads/download.png
         body: ''
       - image:
           src: /uploads/Ofcom_logo.svg.png
         body: ''
       - image:
-          src: /uploads/download.png
+          src: /uploads/fleek-footer.png
         body: ''
       - image:
           src: /uploads/Screenshot 2023-02-24 at 11.39.27 AM.png
+      - image:
+          src: /uploads/imageedit_78_6115021011.png
       - image:
           src: /uploads/imageedit_51_4338072445.png
         body: ''
@@ -406,6 +406,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
