@@ -179,7 +179,7 @@ blocks:
       padding: pt-20 pb-0 pr-10 pl-10
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-black undefined undefined
-      headlineStyles: 'text-black mg-headline-large '
+      headlineStyles: 'text-black mg-headline-medium '
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
     cardStyle:
@@ -443,6 +443,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
