@@ -147,7 +147,7 @@ blocks:
       textStyles: text-black undefined undefined
     cardStyle:
       fillStyles: ' opacity-100'
-      grid: grid-cols-3 items-start gap-6
+      grid: grid-cols-3 items-start gap-8
       alignment: flex-row items-start  undefined
       image: '  undefined undefined'
       imagePadding: pt-0 pb-0 pr-0 pl-0
@@ -162,17 +162,22 @@ blocks:
     background:
       fillStyles: ' opacity-100'
     label: ''
-    headline: Sponsoring Teams
+    headline: Sponsors
     subhead: ''
+    body: ''
     items:
       - image:
           src: /uploads/fission-logo.svg
         headline: ''
         subhead: ''
+        body: ''
       - image:
           src: /uploads/wordmark-full-salmon.svg
+        label: ''
         headline: ''
         subhead: ''
+        body: ''
+    navigationLabel: Sponsors
     _template: cards
   - style:
       alignment: flex-col-reverse items-start gap-6
@@ -245,6 +250,7 @@ blocks:
         body: ''
       - image:
           src: /uploads/imageedit_70_2493934929.png
+        body: ''
       - image:
           src: /uploads/logo.jpg
         body: ''
@@ -265,10 +271,13 @@ blocks:
         body: ''
       - image:
           src: /uploads/imageedit_36_3927922137.jpg
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-02-24 at 11.39.27 AM.png
+        body: ''
       - image:
           src: /uploads/imageedit_78_6115021011.png
+        body: ''
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -443,6 +452,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
