@@ -207,7 +207,7 @@ blocks:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
-          src: /uploads/number-zero-logo.jpg
+          src: /uploads/wordmark-full-salmon.svg
         headline: ''
         subhead: ''
         body: ''
@@ -443,6 +443,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
