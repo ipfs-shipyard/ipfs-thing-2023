@@ -177,7 +177,7 @@ blocks:
         headline: ''
         subhead: ''
         body: ''
-    navigationLabel: Sponsors
+    navigationLabel: ''
     _template: cards
   - style:
       alignment: flex-col-reverse items-start gap-6
@@ -452,6 +452,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
