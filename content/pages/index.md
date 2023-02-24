@@ -167,6 +167,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/Screenshot 2023-02-24 at 11.39.27 AM.png
+      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -187,30 +189,43 @@ blocks:
       - image:
           src: /uploads/imageedit_34_7503593612.png
         label: ''
+        body: ''
       - image:
           src: /uploads/logo-long.svg
+        body: ''
       - image:
           src: /uploads/imageedit_45_8687816939.png
+        body: ''
       - image:
           src: /uploads/1_ycBer-fYaZ1sH9oM51McYA.png
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-02-24 at 11.25.27 AM.png
+        body: ''
       - image:
           src: /uploads/logo.png
+        body: ''
       - image:
           src: /uploads/600b22445b7c725b1c42a93b_logo-ceramic-full.png
+        body: ''
       - image:
           src: /uploads/Ofcom_logo.svg.png
+        body: ''
       - image:
           src: /uploads/logo.jpg
+        body: ''
       - image:
           src: /uploads/fleek-footer.png
+        body: ''
       - image:
           src: /uploads/download.png
+        body: ''
       - image:
           src: /uploads/imageedit_51_4338072445.png
+        body: ''
       - image:
           src: /uploads/imageedit_54_4581600038.png
+        body: ''
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -385,6 +400,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
