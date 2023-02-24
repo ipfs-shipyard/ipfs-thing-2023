@@ -167,7 +167,9 @@ blocks:
           src: /uploads/fission-logo.svg
         headline: ''
         subhead: ''
-      - headline: Headline
+      - image:
+          src: /uploads/wordmark-full-salmon.svg
+        headline: Headline
         subhead: Subhead
       - headline: Headline
         subhead: Subhead
@@ -441,6 +443,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
