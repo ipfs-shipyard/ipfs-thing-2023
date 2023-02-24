@@ -167,7 +167,7 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/logo.jpg
+          src: /uploads/fleek-footer.png
       - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
@@ -203,6 +203,8 @@ blocks:
           src: /uploads/600b22445b7c725b1c42a93b_logo-ceramic-full.png
       - image:
           src: /uploads/Ofcom_logo.svg.png
+      - image:
+          src: /uploads/logo.jpg
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -377,6 +379,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
