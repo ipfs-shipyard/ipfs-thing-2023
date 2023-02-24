@@ -139,6 +139,34 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-start gap-6
+      padding: pt-20 pb-20 pr-20 pl-20
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-headline-large undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    cardStyle:
+      fillStyles: bg-gray
+      grid: grid-cols-3 items-start gap-6
+      imagePadding: pt-0 pr-0 pb-0 pl-0
+      contentPadding: pt-2 pr-2 pb-2 pl-2
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    label: ''
+    headline: Sponsoring Teams
+    subhead: ''
+    items:
+      - headline: Headline
+        subhead: Subhead
+      - headline: Headline
+        subhead: Subhead
+      - headline: Headline
+        subhead: Subhead
+    _template: cards
+  - style:
+      alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-0 pr-10 pl-10
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -406,6 +434,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
