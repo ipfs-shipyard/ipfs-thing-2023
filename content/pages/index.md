@@ -159,6 +159,8 @@ blocks:
       textStyles: text-black undefined undefined
       buttonLayout: undefined
       buttonWidth: undefined
+    background:
+      fillStyles: ' opacity-100'
     label: ''
     headline: Sponsoring Teams
     subhead: ''
@@ -441,6 +443,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
