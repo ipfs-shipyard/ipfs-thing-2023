@@ -190,7 +190,7 @@ blocks:
     cardStyle:
       fillStyles: ' opacity-100'
       grid: >-
-        grid-cols-4 justify-center gap-12 sm:grid-cols-2 sm:justify-center
+        grid-cols-4 justify-center gap-6 sm:grid-cols-2 sm:justify-center
         sm:gap-12
       alignment: flex-row items-start  text-center
       image: '  object-center object-fill'
@@ -452,6 +452,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
