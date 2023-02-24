@@ -221,10 +221,6 @@ blocks:
           src: /uploads/fleek-footer.png
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-02-24 at 11.39.27 AM.png
-      - image:
-          src: /uploads/imageedit_78_6115021011.png
-      - image:
           src: /uploads/imageedit_51_4338072445.png
         body: ''
       - image:
@@ -232,6 +228,10 @@ blocks:
         body: ''
       - image:
           src: /uploads/imageedit_36_3927922137.jpg
+      - image:
+          src: /uploads/Screenshot 2023-02-24 at 11.39.27 AM.png
+      - image:
+          src: /uploads/imageedit_78_6115021011.png
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -406,6 +406,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
