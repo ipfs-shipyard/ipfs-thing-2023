@@ -206,6 +206,8 @@ blocks:
       - image:
           src: /uploads/fleek-footer.png
       - image:
+          src: /uploads/download.png
+      - image:
           src: /uploads/imageedit_51_4338072445.png
       - image:
           src: /uploads/imageedit_54_4581600038.png
@@ -383,6 +385,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
