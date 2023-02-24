@@ -139,7 +139,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-start gap-6
-      padding: pt-20 pb-20 pr-20 pl-20
+      padding: pt-20 pb-20 pr-20 pl-10
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black mg-headline-large undefined
@@ -443,6 +443,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
