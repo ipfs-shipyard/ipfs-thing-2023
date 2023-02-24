@@ -167,8 +167,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/Ofcom_logo.svg.png
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -201,6 +199,8 @@ blocks:
           src: /uploads/logo.png
       - image:
           src: /uploads/600b22445b7c725b1c42a93b_logo-ceramic-full.png
+      - image:
+          src: /uploads/Ofcom_logo.svg.png
     navigationLabel: Participating Teams
     _template: cards
   - style:
