@@ -146,20 +146,27 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
     cardStyle:
-      fillStyles: bg-gray
+      fillStyles: ' opacity-100'
       grid: grid-cols-3 items-start gap-6
-      imagePadding: pt-0 pr-0 pb-0 pl-0
-      contentPadding: pt-2 pr-2 pb-2 pl-2
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      alignment: flex-row items-start  undefined
+      image: '  undefined undefined'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-2 pb-2 pr-2 pl-2
+      borderStyles: border-white border-0
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     label: ''
     headline: Sponsoring Teams
     subhead: ''
     items:
-      - headline: Headline
-        subhead: Subhead
+      - image:
+          src: /uploads/fission-logo.svg
+        headline: ''
+        subhead: ''
       - headline: Headline
         subhead: Subhead
       - headline: Headline
@@ -434,6 +441,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
