@@ -98,14 +98,6 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: Early Bird Ticket
-        subhead: $99
-        body: |
-          Purchase until 24 February.&#x20;
-
-          ​Limited tickets available.
-        link: 'https://lu.ma/ipfsthing2023'
-        buttonLabel: Purchase Ticket
       - headline: General Ticket
         subhead: $650
         body: >
@@ -277,6 +269,7 @@ blocks:
         body: ''
       - image:
           src: /uploads/imageedit_82_5904182285.png
+        body: ''
       - image:
           src: /uploads/imageedit_78_6115021011.png
         body: ''
@@ -454,6 +447,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
