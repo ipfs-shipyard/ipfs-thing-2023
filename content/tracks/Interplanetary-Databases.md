@@ -11,9 +11,10 @@ description: >-
   gather those brave enough to take on CAP theorem in a decentralized context,
   share notes on what’s working, and hear presentations from teams pushing the
   envelope on what databases can do and where they can exist.
-priority: 5
+priority: 4
 attendees: 50
 ---
+
 
 
 
