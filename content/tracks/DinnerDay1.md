@@ -4,8 +4,9 @@ date: '2023-04-16T01:00:00.000Z'
 times: '8:00-11:00pm'
 venueName: 'Radisson Grand Place, Brussels'
 difficulty: All Welcome
-priority: 7
+priority: 9
 ---
+
 
 
 
