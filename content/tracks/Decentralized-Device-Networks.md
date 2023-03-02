@@ -10,8 +10,9 @@ description: >-
   better when built offline-first, this track will gather practitioners using
   IPFS as a foundation for IoT networks. We’ll examine what’s working, and
   develop strategies on how to improve what isn’t.
-priority: 2
+priority: 3
 attendees: 50
 ---
+
 
 
