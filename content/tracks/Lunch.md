@@ -1,6 +1,6 @@
 ---
 name: Lunch
-date: '2023-04-15T17:30:00.000Z'
+date: '2023-04-15T10:30:00.000Z'
 days: 5
 times: '12:30-1:30pm'
 venueName: 'Radisson Grand Place, Brussels'
@@ -9,6 +9,7 @@ description: Daily Lunch Break
 difficulty: All Welcome
 priority: 4
 ---
+
 
 
 
