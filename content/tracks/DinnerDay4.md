@@ -1,11 +1,13 @@
 ---
 name: Closing Dinner
-date: '2023-04-19T01:00:00.000Z'
+date: '2023-04-19T18:00:00.000Z'
 times: '8:00-11:00pm'
 venueName: 'Radisson Grand Place, Brussels'
 difficulty: All Welcome
-priority: 9
+priority: 10
+days: 1
 ---
+
 
 
 
