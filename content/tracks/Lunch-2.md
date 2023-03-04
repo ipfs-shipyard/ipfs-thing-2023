@@ -5,6 +5,7 @@ days: 1
 times: '12:30-1:30pm'
 venueName: 'Radisson Grand Place, Brussels'
 difficulty: All Welcome
-priority: 4
+priority: 2
 ---
+
 
