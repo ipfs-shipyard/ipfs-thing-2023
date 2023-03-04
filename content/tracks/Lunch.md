@@ -7,8 +7,9 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: 'Rue du Fossé aux Loups 47, 1000 Bruxelles, Belgium'
 description: Daily Lunch Break
 difficulty: All Welcome
-priority: 4
+priority: 2
 ---
+
 
 
 
