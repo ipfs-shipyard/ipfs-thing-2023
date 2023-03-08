@@ -127,7 +127,7 @@ blocks:
       textStyles: text-black mg-copy-small undefined
     headline: ''
     subhead: ''
-    body: "The IPFS þing Scholars program offers an opportunity for individuals from underrepresented communities or unique circumstances to join this event.\_\n\n[Nominate a Scholar](https://airtable.com/shrCIJoHbEnv0wmhl)\_by March 1, 2023.\n"
+    body: "The IPFS þing Scholars program offers a fully-paid for opportunity for individuals from underrepresented communities or unique circumstances to join this event!\n\n[Nominate a Scholar](https://airtable.com/shrCIJoHbEnv0wmhl)\_by March 20th, 2023.\n"
     _template: feature
   - style:
       alignment: flex-col-reverse items-start gap-6
@@ -447,6 +447,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
