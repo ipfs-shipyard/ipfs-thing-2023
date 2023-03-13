@@ -201,6 +201,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/Screenshot 2023-03-13 at 3.31.48 PM.png
+      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -447,6 +449,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
