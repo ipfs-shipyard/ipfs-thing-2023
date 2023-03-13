@@ -201,6 +201,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/dClimate_logo_semibold_Logo.jpg
+      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -449,6 +451,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
