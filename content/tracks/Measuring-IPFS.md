@@ -3,7 +3,7 @@ name: Measuring IPFS
 date: '2023-04-17T15:00:00.000Z'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
-venueAddress: 'Rue du Fossé aux Loups 47, 1000 Bruxelles, Belgium'
+venueAddress: ''
 difficulty: All Welcome
 description: >-
   A data-driven approach to the design and operation of IPFS and libp2p through
@@ -12,5 +12,6 @@ description: >-
 priority: 2
 attendees: 50
 ---
+
 
 
