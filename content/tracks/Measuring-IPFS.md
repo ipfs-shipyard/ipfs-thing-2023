@@ -11,7 +11,9 @@ description: >-
   builders and operators.
 priority: 2
 attendees: 50
+times: '10:00am - 6:00pm'
 ---
+
 
 
 
