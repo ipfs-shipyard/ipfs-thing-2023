@@ -10,12 +10,15 @@ description: >-
   surface for IPFS. There are opportunities and major challenges to bringing
   IPFS support in web rendering engines and browsers, to web content served
   through gateways, to IPFS network access from HTTP web apps and browser
-  extensions. This track will start with a show-and-tell of lightning talks, but
-  the primary activity will be a series of working sessions on specific
-  challenges. Submissions are open for both!
+  extensions. This track will have talks on: current and future browser
+  implementations, approaches to managing and publishing IPFS content on the
+  web, building apps that connecting to the IPFS from within HTTP contexts,
+  culminating in planning for group working sessions around on specific IPFS+Web
+  challenges on day 4 & 5 of IPFS þing.
 priority: 4
 times: '10:00am - 6:00pm'
 ---
+
 
 
 
