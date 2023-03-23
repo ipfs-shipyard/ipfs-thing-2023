@@ -201,11 +201,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/fireproof-black.png
-      - image:
-          src: /uploads/dClimate_logo_semibold_Logo.jpg
-        body: ''
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -270,16 +265,21 @@ blocks:
           src: /uploads/imageedit_36_3927922137.jpg
         body: ''
       - image:
+          src: /uploads/dClimate_logo_semibold_Logo.jpg
+        body: ''
+      - image:
           src: /uploads/Screenshot 2023-02-24 at 11.39.27 AM.png
         body: ''
       - image:
-          src: /uploads/imageedit_102_5409924062.png
-        body: ''
+          src: /uploads/fireproof-black.png
       - image:
           src: /uploads/imageedit_82_5904182285.png
         body: ''
       - image:
           src: /uploads/imageedit_78_6115021011.png
+        body: ''
+      - image:
+          src: /uploads/imageedit_102_5409924062.png
         body: ''
     navigationLabel: Participating Teams
     _template: cards
@@ -455,6 +455,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
