@@ -201,6 +201,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/Main - Color.png
+      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -272,6 +274,7 @@ blocks:
         body: ''
       - image:
           src: /uploads/fireproof-black.png
+        body: ''
       - image:
           src: /uploads/imageedit_82_5904182285.png
         body: ''
@@ -455,6 +458,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
