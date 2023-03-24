@@ -185,7 +185,7 @@ blocks:
         grid-cols-4 justify-center gap-12 sm:grid-cols-2 sm:justify-center
         sm:gap-12
       alignment: flex-row items-start  text-center
-      image: '  object-center object-fill'
+      image: '  object-center object-scale-down'
       imagePadding: pt-0 pb-0 pr-0 pl-0
       contentPadding: pt-2 pb-2 pr-2 pl-2
       borderStyles: border-white border-0
