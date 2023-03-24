@@ -1,6 +1,23 @@
 ---
 blocks:
   - style:
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-20 pb-10 pr-10 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-1/2 min-h-0 text-center
+      labelStyles: 'text-black undefined '
+      headlineStyles: text-accent2 mg-headline-small undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-accent2 undefined undefined
+    background:
+      fillStyles: bg-black opacity-100
+    label: Promo Code
+    headline: 'FLASH SALE! '
+    subhead: Subhead
+    body: |
+      Use Promo Code THING23 for 45% off! Valid until March 31
+    _template: feature
+  - style:
       alignment: flex-col items-start gap-12
       padding: pt-36 pb-28 pr-10 pl-10
       featureImage: wpx-450  mr-auto
@@ -472,6 +489,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
