@@ -162,7 +162,7 @@ export const Header = ({
                   )
                 } else {
                   return (
-                    <a className={"btn-gradient"} href={item.link} target={linkTarget(item.link)}>{item.label}</a>
+                    <a className={"btn-gradient"} href={item.link} target={linkTarget(item.link)} key={index}>{item.label}</a>
                   )
                 }
               })}
