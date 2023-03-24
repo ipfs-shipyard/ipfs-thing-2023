@@ -15,7 +15,9 @@ blocks:
     headline: 'FLASH SALE! '
     subhead: Subhead
     body: |
-      Use Promo Code THING23 for 45% off! Valid until March 31
+      Use Promo Code **THING23** for 45% off a Standard Ticket!&#x20;
+
+      Valid until March 31.
     _template: feature
   - style:
       alignment: flex-col items-start gap-12
@@ -489,6 +491,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
