@@ -98,7 +98,16 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: General Ticket
+      - label: ''
+        headline: Student
+        body: >
+          If you would like to apply to attend IPFS þing as a student, please
+          select this option. Please note that once you register, someone will
+          follow up to verify via your student email address or valid ID.&#x20;
+        link: 'https://lu.ma/ipfsthing2023'
+        buttonLabel: Purchase Ticket
+      - label: ''
+        headline: General Ticket
         subhead: $650
         body: >
           ​You are welcome to support the event at this General Ticket price if
@@ -462,6 +471,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
