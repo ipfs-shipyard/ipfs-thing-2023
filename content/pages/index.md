@@ -100,10 +100,11 @@ blocks:
     items:
       - label: ''
         headline: Student
+        subhead: $350
         body: >
           If you would like to apply to attend IPFS þing as a student, please
-          select this option. Please note that once you register, someone will
-          follow up to verify via your student email address or valid ID.&#x20;
+          select this option. You must be able to show proof of your student
+          status with a valid email address or student ID.&#x20;
         link: 'https://lu.ma/ipfsthing2023'
         buttonLabel: Purchase Ticket
       - label: ''
@@ -471,6 +472,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
