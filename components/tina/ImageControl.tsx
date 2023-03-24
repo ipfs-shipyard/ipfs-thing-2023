@@ -19,6 +19,7 @@ const margins = [
 const fits = [
   { label: "lock", value: "object-fill" },
   { label: "crop", value: "object-cover" },
+  { label: "contain", value: "object-contain" },
 ]
 
 function buildOptions(options: { label: string, value: string }[] = [], isMobile = false) {

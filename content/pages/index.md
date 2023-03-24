@@ -140,8 +140,8 @@ blocks:
     cardStyle:
       fillStyles: ' opacity-100'
       grid: grid-cols-3 items-start gap-8
-      alignment: flex-row items-start  undefined
-      image: '  undefined undefined'
+      alignment: flex-row items-center  text-left
+      image: '  object-center object-contain'
       imagePadding: pt-0 pb-0 pr-0 pl-0
       contentPadding: pt-2 pb-2 pr-2 pl-2
       borderStyles: border-white border-0
@@ -182,10 +182,10 @@ blocks:
     cardStyle:
       fillStyles: ' opacity-100'
       grid: >-
-        grid-cols-4 justify-center gap-12 sm:grid-cols-2 sm:justify-center
-        sm:gap-12
+        grid-cols-4 justify-center gap-8 sm:grid-cols-2 sm:justify-center
+        sm:gap-8
       alignment: flex-row items-start  text-center
-      image: '  object-center object-fill'
+      image: '  object-center object-contain'
       imagePadding: pt-0 pb-0 pr-0 pl-0
       contentPadding: pt-2 pb-2 pr-2 pl-2
       borderStyles: border-white border-0
@@ -202,6 +202,7 @@ blocks:
     items:
       - image:
           src: /uploads/Screenshot 2023-03-23 at 3.24.18 PM.png
+        body: ''
       - image:
           src: /uploads/Main - Color.png
         body: ''
@@ -461,6 +462,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
