@@ -117,6 +117,14 @@ blocks:
     subhead: ''
     body: ''
     items:
+      - headline: Student
+        subhead: $350
+        body: >
+          Apply for the student rate. You must be able to present a valid
+          university email address, university ID, or other official
+          documentation.&#x20;
+        link: 'https://airtable.com/shrW4PaFIfTcq3FiG'
+        buttonLabel: Receive My Student Promo Code
       - label: ''
         headline: General Ticket
         subhead: $650
@@ -482,6 +490,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
