@@ -233,14 +233,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/1_uTtp2N3dt5-dW8VPC_GTqQ.png
-      - image:
-          src: /uploads/Screenshot 2023-03-23 at 3.24.18 PM.png
-        body: ''
-      - image:
-          src: /uploads/Main - Color.png
-        body: ''
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -321,6 +313,14 @@ blocks:
         body: ''
       - image:
           src: /uploads/imageedit_102_5409924062.png
+        body: ''
+      - image:
+          src: /uploads/1_uTtp2N3dt5-dW8VPC_GTqQ.png
+      - image:
+          src: /uploads/Screenshot 2023-03-23 at 3.24.18 PM.png
+        body: ''
+      - image:
+          src: /uploads/Main - Color.png
         body: ''
     navigationLabel: Participating Teams
     _template: cards
@@ -496,6 +496,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
