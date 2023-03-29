@@ -88,6 +88,27 @@ blocks:
     navigationLabel: Preliminary Schedule
     _template: eventSchedule
   - style:
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-8 pb-8 pr-7 pl-7
+      featureImage: '  mx-auto'
+      featureContent: w-1/2 min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    background:
+      fillStyles: ' opacity-100'
+    label: ''
+    headline: ''
+    subhead: ''
+    body: >
+      \*Please note that these tracks may not land on the days as it is
+      displayed here. Our schedule is constantly evolving as we are parsing
+      through talk submissions. We will announce when the schedule has
+      solidified into their appropriate days.&#x20;
+    navigationLabel: ''
+    _template: feature
+  - style:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-0 pr-10 pl-10
       featureContent: w-1/2 min-h-0 text-left
@@ -316,6 +337,7 @@ blocks:
         body: ''
       - image:
           src: /uploads/1_uTtp2N3dt5-dW8VPC_GTqQ.png
+        body: ''
       - image:
           src: /uploads/Screenshot 2023-03-23 at 3.24.18 PM.png
         body: ''
@@ -496,6 +518,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
