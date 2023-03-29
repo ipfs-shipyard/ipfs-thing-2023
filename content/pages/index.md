@@ -311,7 +311,13 @@ blocks:
           src: /uploads/fleek-footer.png
         body: ''
       - image:
+          src: /uploads/Screenshot 2023-03-23 at 3.24.18 PM.png
+        body: ''
+      - image:
           src: /uploads/imageedit_51_4338072445.png
+        body: ''
+      - image:
+          src: /uploads/imageedit_36_3927922137.jpg
         body: ''
       - image:
           src: /uploads/imageedit_54_4581600038.png
@@ -320,13 +326,10 @@ blocks:
         subhead: ''
         body: ''
       - image:
-          src: /uploads/imageedit_102_5409924062.png
-        body: ''
-      - image:
-          src: /uploads/imageedit_36_3927922137.jpg
-        body: ''
-      - image:
           src: /uploads/Main - Color.png
+        body: ''
+      - image:
+          src: /uploads/imageedit_102_5409924062.png
         body: ''
       - image:
           src: /uploads/dClimate_logo_semibold_Logo.jpg
@@ -338,27 +341,24 @@ blocks:
           src: /uploads/fireproof-black.png
         body: ''
       - image:
-          src: /uploads/imageedit_82_5904182285.png
-        body: ''
-      - image:
           src: /uploads/imageedit_78_6115021011.png
         body: ''
       - image:
-          src: /uploads/Screenshot 2023-03-23 at 3.24.18 PM.png
+          src: /uploads/imageedit_82_5904182285.png
         body: ''
+      - image:
+          src: /uploads/consensys-vector-logo.png
       - image:
           src: /uploads/1_uTtp2N3dt5-dW8VPC_GTqQ.png
         body: ''
       - image:
           src: /uploads/imageedit_108_9622538487.png
       - image:
-          src: /uploads/logo-and-name.png
-      - image:
           src: /uploads/favicon.png
       - image:
-          src: /uploads/fnsz6sbe6b6zgpejybxk.png
+          src: /uploads/logo-and-name.png
       - image:
-          src: /uploads/consensys-vector-logo.png
+          src: /uploads/fnsz6sbe6b6zgpejybxk.png
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -533,6 +533,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
