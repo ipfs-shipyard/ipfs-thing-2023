@@ -256,6 +256,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/favicon.png
+      - image:
           src: /uploads/fnsz6sbe6b6zgpejybxk.png
       - image:
           src: /uploads/consensys-vector-logo.png
@@ -524,6 +526,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
