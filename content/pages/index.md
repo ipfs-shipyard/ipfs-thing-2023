@@ -256,6 +256,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/logo-and-name.png
+      - image:
           src: /uploads/favicon.png
       - image:
           src: /uploads/fnsz6sbe6b6zgpejybxk.png
@@ -526,6 +528,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
