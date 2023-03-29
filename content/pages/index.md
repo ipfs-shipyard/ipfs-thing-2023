@@ -97,7 +97,7 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
     background:
-      fillStyles: ' opacity-100'
+      fillStyles: bg-gray opacity-20
     label: ''
     headline: ''
     subhead: ''
@@ -133,6 +133,8 @@ blocks:
       buttonType: outline
       buttonLayout: justify-between
       buttonWidth: w-auto
+    background:
+      fillStyles: ' opacity-100'
     label: ''
     headline: Tickets
     subhead: ''
@@ -518,6 +520,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
