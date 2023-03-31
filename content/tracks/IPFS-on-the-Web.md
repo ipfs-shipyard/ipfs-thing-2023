@@ -17,7 +17,16 @@ description: >-
   challenges on day 4 & 5 of IPFS þing.
 priority: 4
 times: '10:00am - 6:00pm'
+tags:
+  - Browsers
+  - Web
+timeslots:
+  - time: '10:00'
+    speakers: Dietrich Ayala
+    title: Welcome
+    description: Welcome session and intro talk
 ---
+
 
 # IPFS on the Web
 
