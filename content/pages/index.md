@@ -256,6 +256,10 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/foundation-logo-circle.svg
+      - image:
+          src: /uploads/6387d0980511073bd6a54991_Estuary - Logo Web-1.png
+      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -348,17 +352,22 @@ blocks:
         body: ''
       - image:
           src: /uploads/consensys-vector-logo.png
+        body: ''
       - image:
           src: /uploads/1_uTtp2N3dt5-dW8VPC_GTqQ.png
         body: ''
       - image:
           src: /uploads/imageedit_108_9622538487.png
+        body: ''
       - image:
           src: /uploads/favicon.png
+        body: ''
       - image:
           src: /uploads/logo-and-name.png
+        body: ''
       - image:
           src: /uploads/fnsz6sbe6b6zgpejybxk.png
+        body: ''
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -533,6 +542,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
