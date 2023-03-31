@@ -256,7 +256,7 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/logo_new.svg
+          src: /uploads/imageedit_117_4068833393.png
       - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
@@ -380,6 +380,8 @@ blocks:
           src: /uploads/108926577.png
       - image:
           src: /uploads/DrMQ2AEX_400x400.png
+      - image:
+          src: /uploads/logo_new.svg
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -554,6 +556,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
