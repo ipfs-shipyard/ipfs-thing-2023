@@ -256,20 +256,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/favicon copy.jpg
-      - image:
-          src: /uploads/108926577.png
-      - image:
-          src: /uploads/aacb49457c3aace79a1038dd02996b402260215d.png
-      - image:
-          src: /uploads/logo copy.jpg
-      - image:
-          src: /uploads/ipld.c2e6094f.svg
-      - image:
-          src: /uploads/DrMQ2AEX_400x400.png
-      - image:
-          src: /uploads/6387d0980511073bd6a54991_Estuary - Logo Web-1.png
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -373,11 +359,25 @@ blocks:
           src: /uploads/favicon.png
         body: ''
       - image:
+          src: /uploads/fnsz6sbe6b6zgpejybxk.png
+        body: ''
+      - image:
+          src: /uploads/6387d0980511073bd6a54991_Estuary - Logo Web-1.png
+      - image:
+          src: /uploads/ipld.c2e6094f.svg
+      - image:
+          src: /uploads/logo copy.jpg
+      - image:
+          src: /uploads/aacb49457c3aace79a1038dd02996b402260215d.png
+      - image:
           src: /uploads/logo-and-name.png
         body: ''
       - image:
-          src: /uploads/fnsz6sbe6b6zgpejybxk.png
-        body: ''
+          src: /uploads/favicon copy.jpg
+      - image:
+          src: /uploads/108926577.png
+      - image:
+          src: /uploads/DrMQ2AEX_400x400.png
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -552,6 +552,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
