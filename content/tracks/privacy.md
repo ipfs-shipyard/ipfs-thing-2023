@@ -3,7 +3,7 @@ name: 'Standards,  Governance, and DWeb Policy'
 org: ''
 dri: TBD
 website: ''
-date: '2023-04-17T15:00:00.000Z'
+date: '2023-04-17T03:00:00.000Z'
 days: 1
 times: '10:00am - 6:00pm'
 venueName: Radisson Grand Place Brussels
@@ -20,6 +20,7 @@ description: >-
   robust, sustainable commons?
 priority: 2
 ---
+
 
 
 
