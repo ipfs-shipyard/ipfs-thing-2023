@@ -1,0 +1,42 @@
+name: Airtable2PullRequest
+on: 
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - webhook
+permissions:
+  contents: write
+jobs:
+  checkout-update-and-pr:
+    runs-on: ubuntu-latest
+    environment: Actions
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo ${{ github.repository }}
+          
+          # delete remote branch from prev run if exists
+          (git push origin -d airtable-import || true)
+          
+          # checkout new branch for pr
+          git checkout main -b airtable-import
+          
+          # run script which pulls all data, formats it, writes changes to local checkout
+          AIRTABLE_TOKEN=${{ vars.AIRTABLE_TOKEN }} node scripts/airtable-import.js
+          
+          # pick up any new files
+          git add content/tracks/*.toml
+          
+          # gha needs a user to do any writes
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          
+          # commit and push to new remote branch
+          git commit -a -m "Airtable import"
+          git push origin airtable-import
+          
+          # make a pr, et viola
+          gh pr create -B main -H airtable-import -R ${{ github.repository }} --title 'Merge airtable import' --body 'Created by Github action, see .github/workflows/main.yml'
+        env:
+          GH_TOKEN: ${{ github.token }}
