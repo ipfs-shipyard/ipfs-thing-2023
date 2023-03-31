@@ -256,8 +256,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/imageedit_117_4068833393.png
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -355,11 +353,7 @@ blocks:
           src: /uploads/1_uTtp2N3dt5-dW8VPC_GTqQ.png
         body: ''
       - image:
-          src: /uploads/imageedit_108_9622538487.png
-        body: ''
-      - image:
-          src: /uploads/favicon.png
-        body: ''
+          src: /uploads/logo_new.svg
       - image:
           src: /uploads/fnsz6sbe6b6zgpejybxk.png
         body: ''
@@ -381,7 +375,13 @@ blocks:
       - image:
           src: /uploads/DrMQ2AEX_400x400.png
       - image:
-          src: /uploads/logo_new.svg
+          src: /uploads/imageedit_117_4068833393.png
+      - image:
+          src: /uploads/favicon.png
+        body: ''
+      - image:
+          src: /uploads/imageedit_108_9622538487.png
+        body: ''
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -556,6 +556,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
