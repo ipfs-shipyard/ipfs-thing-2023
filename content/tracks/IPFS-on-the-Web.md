@@ -24,23 +24,9 @@ timeslots:
   - time: '10:00'
     speakers: Dietrich Ayala
     title: Welcome
-    description: >-
-      Welcome session and intro talk. Welcome session and intro talk. Welcome
-      session and intro talk. Welcome session and intro talk. Welcome session
-      and intro talk. Welcome session and intro talk. Welcome session and intro
-      talk. Welcome session and intro talk. Welcome session and intro talk.
-      Welcome session and intro talk. Welcome session and intro talk. Welcome
-      session and intro talk. Welcome session and intro talk. Welcome session
-      and intro talk. Welcome session and intro talk. Welcome session and intro
-      talk. Welcome session and intro talk. Welcome session and intro talk.
-      Welcome session and intro talk. Welcome session and intro talk. Welcome
-      session and intro talk. Welcome session and intro talk. Welcome session
-      and intro talk. 
-  - time: '10:30'
-    speakers: Dietrich Ayala
-    title: Test Talk
-    description: asdf
+    description: Welcome session and intro talk.
 ---
+
 
 
 
