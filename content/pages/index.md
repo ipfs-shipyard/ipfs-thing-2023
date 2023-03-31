@@ -257,7 +257,8 @@ blocks:
     items:
       - image:
           src: /uploads/logo copy.jpg
-      - {}
+      - image:
+          src: /uploads/ipld.c2e6094f.svg
       - image:
           src: /uploads/DrMQ2AEX_400x400.png
       - image:
@@ -545,6 +546,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
