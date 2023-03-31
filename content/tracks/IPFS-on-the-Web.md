@@ -24,8 +24,20 @@ timeslots:
   - time: '10:00'
     speakers: Dietrich Ayala
     title: Welcome
-    description: Welcome session and intro talk
+    description: >-
+      Welcome session and intro talk. Welcome session and intro talk. Welcome
+      session and intro talk. Welcome session and intro talk. Welcome session
+      and intro talk. Welcome session and intro talk. Welcome session and intro
+      talk. Welcome session and intro talk. Welcome session and intro talk.
+      Welcome session and intro talk. Welcome session and intro talk. Welcome
+      session and intro talk. Welcome session and intro talk. Welcome session
+      and intro talk. Welcome session and intro talk. Welcome session and intro
+      talk. Welcome session and intro talk. Welcome session and intro talk.
+      Welcome session and intro talk. Welcome session and intro talk. Welcome
+      session and intro talk. Welcome session and intro talk. Welcome session
+      and intro talk.
 ---
+
 
 
 # IPFS on the Web
