@@ -26,7 +26,7 @@ jobs:
           AIRTABLE_TOKEN=${{ vars.AIRTABLE_TOKEN }} node scripts/airtable-import.js
           
           # pick up any new files
-          git add content/tracks/*.toml
+          git add content/tracks/*.md
           
           # gha needs a user to do any writes
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
