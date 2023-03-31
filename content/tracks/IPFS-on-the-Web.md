@@ -35,8 +35,13 @@ timeslots:
       talk. Welcome session and intro talk. Welcome session and intro talk.
       Welcome session and intro talk. Welcome session and intro talk. Welcome
       session and intro talk. Welcome session and intro talk. Welcome session
-      and intro talk.
+      and intro talk. 
+  - time: '10:30'
+    speakers: Dietrich Ayala
+    title: Test Talk
+    description: asdf
 ---
+
 
 
 
