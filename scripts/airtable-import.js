@@ -233,8 +233,8 @@ const talkToMD = talk => {
     endTime.getMinutes().toString().padEnd(2, '0')
   ].join('');
 
-  // remove linebreaks from description until can be supported
-  const desc = talk.desc ? talk.desc.replace(/\r?\n|\r/g, '') : '';
+  // ugh
+  const desc = talk.desc ? htmlLinebreaks(talk.desc) : '';
 
   return [
     `  - time: '${timeStr}'`,
@@ -254,7 +254,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  ${escapeHtml(track.trackDesc)}
+  ${htmlLinebreaks(escapeHtml(track.trackDesc))}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
 org: ${escapeHtml(track.trackOrg) || '' }
@@ -339,7 +339,7 @@ ${track.desc}
 `;
 };
 
-function escapeHtml(text) {
+const escapeHtml = text => {
   if (!text) {
     return '';
   }
@@ -353,6 +353,10 @@ function escapeHtml(text) {
   };
 
   return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+};
+
+const htmlLinebreaks = text =>{
+  return text.replace(/\r?\n|\r/g, '<br>');
 }
 
 getAirtableData(url, options, onRecordsReady);
