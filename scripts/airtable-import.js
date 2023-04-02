@@ -4,7 +4,7 @@ const https = require('https');
 const token = process.env.AIRTABLE_TOKEN;
 
 // right now just dumps talks to console vs writing files
-const DEBUG = false;
+const DEBUG = process.env.DEBUG;
 
 if (!token.length) {
   process.error(1);
@@ -109,7 +109,7 @@ const onRecordsReady = records => {
     .forEach(t => {
       const path = './content/tracks/' + t.filename;
       if (DEBUG) {
-        console.log('writing', t.filename);
+        console.log('writing', t);
       }
       else {
         writeFile(path, t.md);
@@ -201,11 +201,12 @@ const trackToMD = track => {
 
 const talkToMD = talk => {
   return [
-    `- time: '${talk.startTime}'`,
-    `speakers: "${talk.firstName + ' ' + talk.lastName}"`,
-    `title: ${talk.title}`,
-    `description: >-`,
-    `${talk.desc}`
+    `  - time: '${talk.startTime}'`,
+    `    speakers: "${talk.firstName + ' ' + talk.lastName}"`,
+    `    title: ${talk.title}`,
+    `    description: >-`,
+    `${talk.desc}`,
+    ``
   ].join('\n');
 }
 
