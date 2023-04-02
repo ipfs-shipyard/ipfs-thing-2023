@@ -45,6 +45,7 @@ const fields = {
   'Last Modified': 'lastModifiedDate',
 
   // track details
+  'Time': 'time', // date + time
   'Track Description': 'trackDesc',
   'Track Date': 'trackDate',
   'Priority': 'priority',
