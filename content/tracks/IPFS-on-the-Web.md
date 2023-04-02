@@ -28,8 +28,9 @@ timeslots:
   - time: '11:00 - 11:30'
     speakers: Dietrich
     title: Test talk
-    description: Test description.
+    description: Test description…  with linebreaks.
 ---
+
 
 
 
