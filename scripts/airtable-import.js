@@ -11,19 +11,18 @@ if (!token.length) {
 const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses?&view=IPFS%20%C3%BEing%202023%20Track%20%26%20Talk%20Submissions';
 
 const fields = {
-
   // for all
-	'Title': 'title',
-	'Talk or Track?': 'type',
-	'Time': 'time', // date + time
+  'Title': 'title',
+  'Talk or Track?': 'type',
+  'Time': 'time', // date + time
   'Start Time': 'startTime',
 
   // talk details
-	'Talk Description': 'desc',
-	'What track(s) would be suitable for your session?': 'tracks',
-	'Archive of Original Tracks Submission': 'tracksSubmittedFor',
-	'What format(s) are suitable for your talk or workshop?': 'format',
-	'Talk Status': 'status',
+  'Talk Description': 'desc',
+  'What track(s) would be suitable for your session?': 'tracks',
+  'Archive of Original Tracks Submission': 'tracksSubmittedFor',
+  'What format(s) are suitable for your talk or workshop?': 'format',
+  'Talk Status': 'status',
 
   // for talks
   'Track Date (from TrackLink)': 'trackDate',
@@ -31,60 +30,62 @@ const fields = {
   'Order': 'order',
 
   // speaker / track lead
-	'Title & Organization': 'spkrTitle',
-	'If you are affiliated with an organization and would like your logo to be displayed on our event website as a participating team at IPFS thing, please upload a high res image below.': 'logo',
-	'Headshot': 'headshot',
-	'Last Name': 'lastName',
-	'Email Address': 'email',
-	'First Name': 'firstName',
+  'Title & Organization': 'spkrTitle',
+  'If you are affiliated with an organization and would like your logo to be displayed on our event website as a participating team at IPFS thing, please upload a high res image below.': 'logo',
+  'Headshot': 'headshot',
+  'Last Name': 'lastName',
+  'Email Address': 'email',
+  'First Name': 'firstName',
 
   // meta
-	'Created': 'createdDate',
-	'Last Modified By': 'lastModifiedBy',
-	'Last Modified': 'lastModifiedDate',
+  'Created': 'createdDate',
+  'Last Modified By': 'lastModifiedBy',
+  'Last Modified': 'lastModifiedDate',
 
   // track details
-	'Track Description': 'trackDesc',
+  'Track Description': 'trackDesc',
   'Track Date': 'trackDate',
   'Priority': 'priority',
   'Track Status': 'trackStatus',
   'Track Filename': 'trackFilename',
   'Track Length': 'trackLength',
+  'Track Attendees': 'trackAttendees',
+  'Track Org': 'trackOrg',
 };
 
 const options = {
-	headers: {
+  headers: {
     'Authorization': 'Bearer ' + token
   }
 };
 
 // add some error handling jeez
 const getAirtableData = (url, options, callback) => {
-	https.get(url, options, res => {
-		let data = [];
+  https.get(url, options, res => {
+    let data = [];
 
-		res.on('data', chunk => {
-			data.push(chunk);
-		});
+    res.on('data', chunk => {
+      data.push(chunk);
+    });
 
-		res.on('end', () => {
-			const bc = Buffer.concat(data);
-			const str = bc.toString();
-			const obj = JSON.parse(str);
-			const records = cleanDump(obj.records);
-			callback(records);
-		});
-	}).on('error', err => {
-		console.log('Error: ', err.message);
-	});
+    res.on('end', () => {
+      const bc = Buffer.concat(data);
+      const str = bc.toString();
+      const obj = JSON.parse(str);
+      const records = cleanDump(obj.records);
+      callback(records);
+    });
+  }).on('error', err => {
+    console.log('Error: ', err.message);
+  });
 };
 
 const onRecordsReady = records => {
-	const talks = getTalks(records);
+  const talks = getTalks(records);
 
-	const tracks = getTracks(records);
+  const tracks = getTracks(records);
 
-	const grouped = groupTracks(tracks, talks);
+  const grouped = groupTracks(tracks, talks);
 
   const trackTitles = Object.keys(grouped);
 
@@ -181,7 +182,7 @@ const groupTracks = (tracks, talks) => {
 };
 
 const trackToMD = track => {
-	return '---\n'
+  return '---\n'
     + trackDetailsToMD(track)
     + track.talks.map(talkToMD).join('\n')
     + '\n---\n';
@@ -198,7 +199,7 @@ const talkToMD = talk => {
 }
 
 const trackDetailsToMD = track => {
-	return `
+  return `
 name: ${track.title}
 date: '${track.trackDate}'
 days: 1
@@ -214,14 +215,14 @@ timeslots:
 };
 
 const trackToTOML = track => {
-	return trackDetailsToTOML(track)
+  return trackDetailsToTOML(track)
     + '\n\n'
     + track.talks.map(talkToTOML).join('\n');
 };
 
 const talkToTOML = talk => {
   return [
-		'[[timeslots]]',
+    '[[timeslots]]',
     `startTime="${talk.startTime}"`,
     `speaker="${talk.firstName + ' ' + talk.lastName}"`,
     `title="${talk.title}"`,
@@ -231,7 +232,7 @@ const talkToTOML = talk => {
 }
 
 const trackDetailsToTOML = track => {
-	return `
+  return `
 # the name of your track or event
 name = "${track.title}"
 
