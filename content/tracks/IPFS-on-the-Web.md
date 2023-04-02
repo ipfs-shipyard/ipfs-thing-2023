@@ -25,7 +25,12 @@ timeslots:
     speakers: Dietrich Ayala
     title: Welcome
     description: Welcome session and intro talk.
+  - time: '11:00 - 11:30'
+    speakers: Dietrich
+    title: Test talk
+    description: Test description.
 ---
+
 
 
 
