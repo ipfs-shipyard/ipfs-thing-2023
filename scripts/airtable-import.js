@@ -239,25 +239,25 @@ const talkToMD = talk => {
   return [
     `  - time: '${timeStr}'`,
     `    speakers: ${talk.firstName + ' ' + talk.lastName}`,
-    `    title: ${talk.title}`,
-    `    description: ${desc}`,
+    `    title: "${escapeHtml(talk.title)}"`,
+    `    description: "${escapeHtml(desc)}"`,
     ``
   ].join('\n');
 }
 
 const trackDetailsToMD = track => {
   return `
-name: ${track.title}
+name: "${escapeHtml(track.title)}"
 date: '${track.trackDate}'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  ${track.trackDesc}
+  ${escapeHtml(track.trackDesc)}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
-org: ${track.trackOrg || '' }
+org: ${escapeHtml(track.trackOrg) || '' }
 times: '${track.time}'
 timeslots:
 `;
@@ -338,5 +338,21 @@ ${track.desc}
 
 `;
 };
+
+function escapeHtml(text) {
+  if (!text) {
+    return '';
+  }
+
+  const map = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;'
+  };
+
+  return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+}
 
 getAirtableData(url, options, onRecordsReady);
