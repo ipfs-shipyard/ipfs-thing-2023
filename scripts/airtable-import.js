@@ -233,12 +233,14 @@ const talkToMD = talk => {
     endTime.getMinutes().toString().padEnd(2, '0')
   ].join('');
 
+  // remove linebreaks from description until can be supported
+  const desc = talk.desc ? talk.desc.replace(/\r?\n|\r/g, '') : '';
+
   return [
     `  - time: '${timeStr}'`,
     `    speakers: ${talk.firstName + ' ' + talk.lastName}`,
     `    title: ${talk.title}`,
-    `    description: >-`,
-    `${talk.desc}`,
+    `    description: ${desc}`,
     ``
   ].join('\n');
 }
