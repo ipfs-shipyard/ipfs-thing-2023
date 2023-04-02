@@ -1,57 +1,24 @@
 ---
-
 name: Data Transfer
-date: '2023-04-15'
+org: ''
+dri: TBD
+website: ''
+date: '2023-04-16T15:00:00.000Z'
 days: 1
-venueName: 'Radisson Grand Place, Brussels'
+times: '10:00am - 6:00pm'
+venueName: Radisson Grand Place Brussels
 venueAddress: ''
-difficulty: All Welcome
-description: >-
-  Come join the Protocol Thunderdome as we battle to determine the best way to move content addressed bytes! We'll review recent progress in data transfer, including work coming out of the Move The Bytes Working Group, and explore how we can make IPFS 10x faster at getting your stuff than Web2!
-priority: 2
 attendees: 50
-org: 
-times: '10:00 AM - 6:00 PM'
-timeslots:
-- time: '2023-04-15T09:50:00.000Z'
-speakers: "James Walker"
-title: CAR Mirror Reflections
+difficulty: All Welcome
+logomark: ''
 description: >-
-CAR Mirror describes a method for efficiently diffing, deduplicating, packaging, and transmitting IPLD data from source to sink.  In this talk I'll give an introduction to the CAR Mirror protocol and then review the current state of the Go implementation.
-- time: '2023-04-15T14:40:00.000Z'
-speakers: "Floris Bruynooghe"
-title: Delta Chat and Iroh
-description: >-
-Delta Chat is a messenger using email as transport and with no additional infrastructure.  This talk will discuss how the minimalist Iroh is used by Delta Chat to easily set up a second device by connecting both devices peer-to-peer.
-- time: '2023-04-15T09:25:00.000Z'
-speakers: "Rüdiger Klaehn"
-title: Moving the bytes with bao
-description: >-
-At number0 we have chosen to use blake3 verified streaming for data synchronization. I will explain how bao works, what the tradeoffs are, and what higher layers will benefit from lightning fast partial sync of large files.
-- time: '2023-04-15T12:25:00.000Z'
-speakers: "Philipp Krüger"
-title: Data Transfer batching Techniques featuring Blake3, CAR Mirror, and more
-description: >-
-Batching block transfer is the main way to optimize DAG exchange compared to bitswap.
-This talk discusses current proposals for batched data transfer such as blake3 with bao, sending CAR files, CAR mirror, and GraphSync. We’ll look at what use cases they do and don’t solve as well as which techniques from one protocol could be applied in others.
-- time: '2023-04-15T15:00:00.000Z'
-speakers: "Franz Heinzmann"
-title: Repco - Exchanging community media and metadata over IPLD
-description: >-
-We present Repco, an open source tool to replicate content from community media publishers. Repco uses IPLD repositories, CAR streams and UCANs to exchange authenticated logs of media content and metadata, which is ingested from different sources (RSS, REST APIs). Repco is developed within a wide network of European community media publishers and builds on long-running discussions on better publishing networks for small-scale media outlets. Future plans include connecting to speech transcription and translation services as well as integrating community features over ActivityPub.
-- time: '2023-04-15T11:30:00.000Z'
-speakers: "Hannah Howard"
-title: Fetch Content Like A Border Collie: Introducing Lassie
-description: >-
-Lassie is a new universal IPFS retrieval client, that speaks multiple data transfer protocols to easily find and fetch your data -- no questions asked. Lassie is already operating at scale in the Saturn network. We'll talk about our design goals with Lassie, how we built it, and how Lassie might learn to speak your bespoke data transfer protocol in the future!
-- time: '2023-04-15T12:45:00.000Z'
-speakers: "undefined undefined"
-title: We Moved The Bytes, Where Did They Go?
-description: >-
-Over the last few months, we assembled the Move The Bytes Working Group to improve data transfer protocols across the IPFS network. This panel discussion will cover what we discussed, what we think we learned, and where we'd like to take this work from here.
-- time: '2023-04-15T12:05:00.000Z'
-speakers: "Hugo Valtier"
-title: RAPIDE
-description: >-
-RAPIDE has been proposed recently as a way to improve the content fetching performance of IPFS. This talk will be a demo of RAPIDE powering ipget 2.0. A brief description of the internals of RAPIDE will also be given to provide context to the audience.
+  Come join the Protocol Thunderdome as we battle to determine the best way to
+  move content addressed bytes! We'll review recent progress in data transfer,
+  including work coming out of the Move The Bytes Working Group, and explore how
+  we can make IPFS 10x faster at getting your stuff than Web2!
+priority: 2
 ---
+
+
+
+
