@@ -17,8 +17,7 @@ const fields = {
   // for all
   'Title': 'title',
   'Talk or Track?': 'type',
-  'Time': 'time', // date + time
-  'Start Time': 'startTime',
+  'Start Time': 'startTime', // date + time
 
   // talk details
   'Talk Description': 'desc',
@@ -139,6 +138,21 @@ const cleanDump = records => {
       Object.keys(fields).forEach(f => {
         o[ fields[f] ] = r[f];
       });
+
+      // linked data are arrays 🤨
+      if (r['Track Date (from TrackLink)']) {
+        o.trackDate = r['Track Date (from TrackLink)'][0];
+        if (!o.startTime) {
+          // and set a start time if there's not one
+          o.startTime = new Date(o.trackDate);
+        }
+      }
+
+      if (DEBUG) {
+        // keep raw data for debugging
+        o.raw = r;
+      }
+
       return o;
     });
 };
@@ -149,6 +163,7 @@ const getTalks = records => {
       r.type == 'Talk'
       && r.status == 'Accepted by track lead'
     ).map(r => {
+      // clean tracks
       if (!r.tracks) {
         r.tracks = r.tracksSubmittedFor;
       }
@@ -200,9 +215,26 @@ const trackToMD = track => {
 };
 
 const talkToMD = talk => {
+
+  const startTime = new Date(talk.startTime);
+  const duration = talk.duration || 1800;
+  const startMs = startTime.getTime();
+  const endMs = startMs + (talk.duration * 1000);
+  const endTime = new Date(endMs);
+
+  const timeStr = [
+    startTime.getHours().toString().padStart(2, '0'),
+    ':',
+    startTime.getMinutes().toString().padEnd(2, '0'),
+    ' - ',
+    endTime.getHours().toString().padStart(2, '0'),
+    ':',
+    endTime.getMinutes().toString().padEnd(2, '0')
+  ].join('');
+
   return [
-    `  - time: '${talk.startTime}'`,
-    `    speakers: "${talk.firstName + ' ' + talk.lastName}"`,
+    `  - time: '${timeStr}'`,
+    `    speakers: ${talk.firstName + ' ' + talk.lastName}`,
     `    title: ${talk.title}`,
     `    description: >-`,
     `${talk.desc}`,
