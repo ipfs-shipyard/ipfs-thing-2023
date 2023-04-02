@@ -356,7 +356,8 @@ const escapeHtml = text => {
 };
 
 const htmlLinebreaks = text =>{
-  return text.replace(/\r?\n|\r/g, '<br>');
+  return text.replace(/\r?\n|\r/g, ' ');
+  //return text.replace(/\r?\n|\r/g, '<br>');
 }
 
 getAirtableData(url, options, onRecordsReady);
