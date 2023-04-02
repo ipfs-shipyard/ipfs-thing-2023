@@ -3,6 +3,9 @@ const https = require('https');
 
 const token = process.env.AIRTABLE_TOKEN;
 
+// right now just dumps talks to console vs writing files
+const DEBUG = false;
+
 if (!token.length) {
   process.error(1);
 }
@@ -90,7 +93,7 @@ const onRecordsReady = records => {
   const trackTitles = Object.keys(grouped);
 
   trackTitles.map(t => grouped[t])
-    .filter(t => t.talks.length > 0)
+    //.filter(t => t.talks.length > 0)
     .map(t => {
       const filename = t.trackFilename
         || t.title.replaceAll(/\W/g, '-') + '.md';
@@ -105,7 +108,12 @@ const onRecordsReady = records => {
     })
     .forEach(t => {
       const path = './content/tracks/' + t.filename;
-      writeFile(path, t.md);
+      if (DEBUG) {
+        console.log('writing', t.filename);
+      }
+      else {
+        writeFile(path, t.md);
+      }
     });
 
   console.log('Tracks', tracks.length);
@@ -149,10 +157,13 @@ const getTalks = records => {
 };
 
 const getTracks = records =>
-  records.filter(r => 
+  records.filter(r =>
     r.type == 'Track'
     && r.trackStatus == 'Confirmed'
-  );
+  ).map(r => {
+    //console.log(r.title);
+    return r;
+  });
 
 const groupTracks = (tracks, talks) => {
   // array of track titles
@@ -209,6 +220,8 @@ difficulty: All Welcome
 description: >-
   ${track.trackDesc}
 priority: ${track.priority}
+attendees: ${track.trackAttendees || 50}
+org: ${track.trackOrg || '' }
 times: '${track.time}'
 timeslots:
 `;
