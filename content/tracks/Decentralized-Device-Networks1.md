@@ -1,31 +1,12 @@
 ---
-
-name: "Integrating IPFS"
-date: '2023-04-16'
-days: 1
+name: Integrating IPFS
+dri: Ryan Plauche
+date: '2023-04-16T05:00:00.000Z'
 venueName: 'Radisson Grand Place, Brussels'
-venueAddress: ''
 difficulty: All Welcome
-description: >-
-  IPFS is not an island - it exists in diverse environments, manifesting in different ways depending on the use-case, ranging from mobile devices to blockchains to naming systems, even soon in space. These integration points provide interesting opportunities to explore the capabilities of IPFS and muse on what IPFS even is. We’ll hear from folks on what they’re doing, what’s working, and ponder how far we can flex IPFS to fit the multitude of places it needs to be.
 priority: 4
-attendees: 50
-org: 
-times: '1:30 PM - 6:00 PM'
-timeslots:
-  - time: '08:30 - 09:00'
-    speakers: David Justice
-    title: "Durin: IPFS on mobile"
-    description: "We announced Durin at IPFS Camp in lisbon, here we will explain again what it provides, current work, and future plans for IPFS in mobile with Durin"
-
-  - time: '08:50 - 08:35'
-    speakers: Ryan Plauche
-    title: "Adapting IPFS for Space"
-    description: "This talk will cover the general design and structure used in creating an IPFS implementation intended for use in spacecraft and ground stations."
-
-  - time: '00:00 - 00:30'
-    speakers: Brooklyn Zelenka
-    title: "Decentralizing Auth, and UCAN Too"
-    description: "UCAN is a decentalized auth format used by a number of dweb, web3, and IPFS projects. Much like how IPFS uses content addressing to liberate data from centralized hosts, UCAN uses CIDs and OCAP to liberate apps from centralized auth servers. Come find out how UCAN can help throughtout the IPFS stack from block-level access to user permissions to application interop."
-
+description: ' IPFS is not an island - it exists in diverse environments, manifesting in different ways depending on the use-case, ranging from mobile devices to blockchains to naming systems, even soon in space. These integration points provide interesting opportunities to explore the capabilities of IPFS and muse on what IPFS even is. We’ll hear from folks on what they’re doing, what’s working, and ponder how far we can flex IPFS to fit the multitude of places it needs to be.'
 ---
+
+
+
