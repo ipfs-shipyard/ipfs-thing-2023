@@ -239,25 +239,25 @@ const talkToMD = talk => {
   return [
     `  - time: '${timeStr}'`,
     `    speakers: ${talk.firstName + ' ' + talk.lastName}`,
-    `    title: "${escapeHtml(talk.title)}"`,
-    `    description: "${escapeHtml(desc)}"`,
+    `    title: "${talk.title}"`,
+    `    description: "${desc}"`,
     ``
   ].join('\n');
 }
 
 const trackDetailsToMD = track => {
   return `
-name: "${escapeHtml(track.title)}"
+name: "${track.title}"
 date: '${track.trackDate}'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  ${htmlLinebreaks(escapeHtml(track.trackDesc))}
+  ${htmlLinebreaks(track.trackDesc)}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
-org: ${escapeHtml(track.trackOrg) || '' }
+org: ${track.trackOrg || '' }
 times: '${track.time}'
 timeslots:
 `;
