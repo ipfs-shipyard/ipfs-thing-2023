@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Approaches and protocols to content routing in IPFS, what we&#039;ve learned so far, and directions for the future. Join this track to explore herding CIDs, bringing content providers closer to the seekers of content, new advances across content routing systems, and a fresh look at the horizon of what&#039;s to come.
+  Approaches and protocols to content routing in IPFS, what we've learned so far, and directions for the future. Join this track to explore herding CIDs, bringing content providers closer to the seekers of content, new advances across content routing systems, and a fresh look at the horizon of what's to come.
 priority: 2
 attendees: 50
 org: 
@@ -26,7 +26,7 @@ timeslots:
   - time: '11:45 - 12:15'
     speakers: Ivan Schasny
     title: "Double Hashing in IPNI: Reader Privacy at scale"
-    description: "In this talk I&#039;d like to speak about IPNI&#039;s journey to implementing Double Hashing at scale. I&#039;ll cover: * what double hashing is and what benefits it gives to the user; * IPNI and DHT double hashing compatibility; * IPNI dataset migration; * how we run double hashing in production; * issues that we encountered. This talk will be interesting to those who already run IPNI by themselves (as they will want to implement Reader Privacy at some point) as well as to those who are just thinking to participate in the IPNI ecosystem."
+    description: "In this talk I'd like to speak about IPNI's journey to implementing Double Hashing at scale. I'll cover: * what double hashing is and what benefits it gives to the user; * IPNI and DHT double hashing compatibility; * IPNI dataset migration; * how we run double hashing in production; * issues that we encountered. This talk will be interesting to those who already run IPNI by themselves (as they will want to implement Reader Privacy at some point) as well as to those who are just thinking to participate in the IPNI ecosystem."
 
   - time: '09:00 - 09:30'
     speakers: Masih Derkani
@@ -36,17 +36,17 @@ timeslots:
   - time: '09:15 - 09:45'
     speakers: Masih Derkani
     title: "cid.contact: one year on"
-    description: "cid.contact is a service that routes content: given a CID it finds providers of it along with metadata on how it can be retrieved. It has been almost a year since the launch of cid.contact. a lot has happened since. This talk goes over the latest and greatest offered by cid.contact, our journey in making it all happen and what&#039;s to come"
+    description: "cid.contact is a service that routes content: given a CID it finds providers of it along with metadata on how it can be retrieved. It has been almost a year since the launch of cid.contact. a lot has happened since. This talk goes over the latest and greatest offered by cid.contact, our journey in making it all happen and what's to come"
 
   - time: '09:45 - 10:15'
     speakers: Torfinn Olsen
     title: "IPFS Content Routing Workgroup, an introduction"
-    description: "The IPFS content routing workgroup aims to improve content routing within the IPFS network by applying an intentional focus on effectiveness of content discovery and delivery mechanisms. We make group decisions around the design and implementation of new content routing protocols, optimize existing ones, and address the various technical challenges associated with decentralized content routing. We&#039;d like to make everyone aware of the important work this group is doing and encourage their participation."
+    description: "The IPFS content routing workgroup aims to improve content routing within the IPFS network by applying an intentional focus on effectiveness of content discovery and delivery mechanisms. We make group decisions around the design and implementation of new content routing protocols, optimize existing ones, and address the various technical challenges associated with decentralized content routing. We'd like to make everyone aware of the important work this group is doing and encourage their participation."
 
   - time: '11:30 - 12:00'
     speakers: Yiannis Psaras
-    title: "DHT Double Hashing Updates &amp; Migration Plan"
-    description: "Double Hashing for the libp2p DHT has been proposed as an approach to improve libp2p&#039;s privacy. The approach, which includes breaking changes to the current DHT, has been discussed at IPFS Thing and Camp 2022. This talk will give a brief update of developments since IPFS Camp and most importantly will lay out the migration plan to the new double-hashing DHT."
+    title: "DHT Double Hashing Updates & Migration Plan"
+    description: "Double Hashing for the libp2p DHT has been proposed as an approach to improve libp2p's privacy. The approach, which includes breaking changes to the current DHT, has been discussed at IPFS Thing and Camp 2022. This talk will give a brief update of developments since IPFS Camp and most importantly will lay out the migration plan to the new double-hashing DHT."
 
   - time: '14:15 - 14:45'
     speakers: Andrew Gillis

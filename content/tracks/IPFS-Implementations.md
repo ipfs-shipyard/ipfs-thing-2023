@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  How do we deliver IPFS content to the masses? In this track, we&#039;ll dive into the magical and maddening topic of HTTP Gateways. Topics include the evolving semantics of /ipfs/cid, .car blocks and rendered flat files, and large-scale efforts to improve gateway architectures such as Project Saturn and Project Rhea.
+  How do we deliver IPFS content to the masses? In this track, we'll dive into the magical and maddening topic of HTTP Gateways. Topics include the evolving semantics of /ipfs/cid, .car blocks and rendered flat files, and large-scale efforts to improve gateway architectures such as Project Saturn and Project Rhea.
 priority: 2
 attendees: 50
 org: 
@@ -16,12 +16,12 @@ timeslots:
   - time: '13:00 - 13:30'
     speakers: Claudia Richoux
     title: "Live CDN Incentives and its Future"
-    description: "I&#039;ll be talking about how to do CDN incentivization at a protocol level correctly- the game theory is pretty simple and I independently converged on a design pretty similar to the one on Skynet. Adding a simple piece of novel cryptography to the payment channels, and integrating that into the transport layer, reduces latency/RTTs and allows for &quot;delegated payments&quot; where a content creator can send a short commitment to a user to &quot;give them a coupon&quot; for the delivery of a particular file."
+    description: "I'll be talking about how to do CDN incentivization at a protocol level correctly- the game theory is pretty simple and I independently converged on a design pretty similar to the one on Skynet. Adding a simple piece of novel cryptography to the payment channels, and integrating that into the transport layer, reduces latency/RTTs and allows for "delegated payments" where a content creator can send a short commitment to a user to "give them a coupon" for the delivery of a particular file."
 
   - time: '14:15 - 14:45'
     speakers: Piotr Galar
     title: "Testing Your IPFS Gateway Implementation: A Step-by-Step Guide"
-    description: "In this talk, I will present our newly developed testing suite for IPFS gateways, which helps implementers ensure their gateway implementations conform to the IPFS gateway specification. I&#039;ll discuss the structure of the test suite, adding new tests, and demonstrate how it is currently being used to verify the Kubo and Bifrost gateway implementations. Additionally, I&#039;ll provide a step-by-step guide for setting up the suite in a CI environment, enabling implementers to receive continuous feedback and detailed reports on their gateway&#039;s features and compliance with the gateway specification."
+    description: "In this talk, I will present our newly developed testing suite for IPFS gateways, which helps implementers ensure their gateway implementations conform to the IPFS gateway specification. I'll discuss the structure of the test suite, adding new tests, and demonstrate how it is currently being used to verify the Kubo and Bifrost gateway implementations. Additionally, I'll provide a step-by-step guide for setting up the suite in a CI environment, enabling implementers to receive continuous feedback and detailed reports on their gateway's features and compliance with the gateway specification."
 
   - time: '12:30 - 13:00'
     speakers: Aarsh Shah
@@ -31,7 +31,7 @@ timeslots:
   - time: '09:00 - 09:30'
     speakers: Adin Schmahmann
     title: "IPFS Service Worker Gateways"
-    description: "We&#039;ll take a look at loading content using IPFS in a web browser without relying on extensions or trusted HTTP Gateways using service workers. We&#039;ll also discuss some of the libraries and recent improvements that have enabled this functionality."
+    description: "We'll take a look at loading content using IPFS in a web browser without relying on extensions or trusted HTTP Gateways using service workers. We'll also discuss some of the libraries and recent improvements that have enabled this functionality."
 
   - time: '12:00 - 12:30'
     speakers: Marcin  Rataj
@@ -45,7 +45,7 @@ timeslots:
 
   - time: '11:30 - 12:00'
     speakers: Alex Kinstler
-    title: "Web3 CDN Saturn accelerates IPFS &amp; Filecoin retrievals"
+    title: "Web3 CDN Saturn accelerates IPFS & Filecoin retrievals"
     description: "Learn how the Saturn network accelerates content addressable data from IPFS and Filecoin Learn about the Beta Test Program for developers to start using Saturn. Learn how to get started with Saturn and future roadmap outlook."
 
 ---
