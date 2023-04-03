@@ -256,6 +256,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: /uploads/Yugasi-logo-transparant.png
+      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -393,6 +395,7 @@ blocks:
         body: ''
       - image:
           src: /uploads/LP-icon-nobkgrnd_vncehp.png
+        body: ''
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -567,6 +570,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
