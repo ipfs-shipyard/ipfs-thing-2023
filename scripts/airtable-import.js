@@ -347,7 +347,7 @@ const escapeYaml = text => {
   //text = text.replace(/\r?\n|\r/g, ' ');
 
   const map = {
-    '"': '\u{0022}'
+    '"': '&#34;'
   };
 
   return text.replace(/["]/g, function(m) { return map[m]; });
