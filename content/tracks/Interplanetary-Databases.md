@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  There’s a new class of distributed database technologies building atop steady advances in IPLD & hash linked data structures in general. In this track we’ll gather those brave enough to take on CAP theorem in a decentralized context, share notes on what’s working, and hear presentations from teams pushing the envelope on what databases can do and where they can exist.
+  There’s a new class of distributed database technologies building atop steady advances in IPLD &amp; hash linked data structures in general. In this track we’ll gather those brave enough to take on CAP theorem in a decentralized context, share notes on what’s working, and hear presentations from teams pushing the envelope on what databases can do and where they can exist.
 priority: 6
 attendees: 50
 org: 
@@ -36,6 +36,6 @@ timeslots:
   - time: '13:00 - 13:30'
     speakers: Alan Shaw
     title: "Pail - DAG based sharded key/value store using Merkle Clocks and CRDTs"
-    description: "Learn about a new a method of key/value storage implemented as an IPLD DAG. It details the format, encoding and mechanisms to mutate the storage as well as how to reconcile mutations made by multiple parties. Hint: Merkle Clocks and CRDTs.  We'll also learn about how you can leverage new web3.storage APIs to leverage decentralized, user controlled authorization for the data using UCANs."
+    description: "Learn about a new a method of key/value storage implemented as an IPLD DAG. It details the format, encoding and mechanisms to mutate the storage as well as how to reconcile mutations made by multiple parties. Hint: Merkle Clocks and CRDTs.  We&#039;ll also learn about how you can leverage new web3.storage APIs to leverage decentralized, user controlled authorization for the data using UCANs."
 
 ---

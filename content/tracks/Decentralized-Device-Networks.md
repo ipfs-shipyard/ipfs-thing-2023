@@ -1,17 +1,17 @@
 ---
 
-name: "Decentralized Compute & AI"
+name: "Decentralized Compute &amp; AI"
 date: '2023-04-17'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.
+  We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we&#039;ll discuss various projects in this area, sharing R&amp;D experiences, future directions, use cases, and benefits.
 priority: 3
 attendees: 50
 org: 
-times: '10:00 AM - 4:00 PM'
+times: '10:00 AM - 6:00 PM'
 timeslots:
   - time: '07:15 - 07:45'
     speakers: Matt Hamilton
@@ -31,7 +31,7 @@ timeslots:
   - time: '14:30 - 15:00'
     speakers: Donald Gossen
     title: "AI, Data, and You - Driving AI Precision with Decentralized Access Control "
-    description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that's used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth. "
+    description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that&#039;s used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth. "
 
   - time: '08:15 - 08:45'
     speakers: Iryna Tsimashenka
@@ -46,7 +46,7 @@ timeslots:
   - time: '09:00 - 09:30'
     speakers: Zeeshan Lakhani
     title: "Foundations for Open-World Compute: Homestar, an IPVM Tale"
-    description: "At Fission, we've been laying down the groundwork for an IPVM implementation called Homestar, a distributed compute engine built with IPFS and IPLD at its core, along with first-class support for the Wasm (WebAssembly) Component Model and Interface Types, a vision for managed effects, and primitives for open-world replayability, capability discovery (Ucan capabilities specifically), and execution coordination. In this talk, we'll predominantly focus on the deterministic Wasm subset of the engine, particularly on why we've sided with the Wasm Component model, how we bidirectionally translate between IPLD and Wasm Interface Types at runtime, and aim to achieve a legitimate "write once, run anywhere" ethos. We'll also dive into approaches related to the monumental challenge involving open-world interoperability, especially in the context of other distributed workflow frameworks and toward the goal of fault-oblivious computing.   References ======== Fission: https://fission.codes/ IPFS: https://ipfs.tech/ IPLD: https://ipld.io/ Wasm (WebAssembly) Component Model: https://github.com/webassembly/component-model Interface Types: https://github.com/WebAssembly/component-model/blob/main/design/mvp/WIT.md Ucan capabilities: https://github.com/ucan-wg/invocation"
+    description: "At Fission, we&#039;ve been laying down the groundwork for an IPVM implementation called Homestar, a distributed compute engine built with IPFS and IPLD at its core, along with first-class support for the Wasm (WebAssembly) Component Model and Interface Types, a vision for managed effects, and primitives for open-world replayability, capability discovery (Ucan capabilities specifically), and execution coordination. In this talk, we&#039;ll predominantly focus on the deterministic Wasm subset of the engine, particularly on why we&#039;ve sided with the Wasm Component model, how we bidirectionally translate between IPLD and Wasm Interface Types at runtime, and aim to achieve a legitimate &quot;write once, run anywhere&quot; ethos. We&#039;ll also dive into approaches related to the monumental challenge involving open-world interoperability, especially in the context of other distributed workflow frameworks and toward the goal of fault-oblivious computing.   References ======== Fission: https://fission.codes/ IPFS: https://ipfs.tech/ IPLD: https://ipld.io/ Wasm (WebAssembly) Component Model: https://github.com/webassembly/component-model Interface Types: https://github.com/WebAssembly/component-model/blob/main/design/mvp/WIT.md Ucan capabilities: https://github.com/ucan-wg/invocation"
 
   - time: '08:00 - 08:30'
     speakers: Ryan Shahine

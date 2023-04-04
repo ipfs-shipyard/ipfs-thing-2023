@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Come join the Protocol Thunderdome as we battle to determine the best way to move content addressed bytes! We'll review recent progress in data transfer, including work coming out of the Move The Bytes Working Group, and explore how we can make IPFS 10x faster at getting your stuff than Web2!
+  Come join the Protocol Thunderdome as we battle to determine the best way to move content addressed bytes! We&#039;ll review recent progress in data transfer, including work coming out of the Move The Bytes Working Group, and explore how we can make IPFS 10x faster at getting your stuff than Web2!
 priority: 2
 attendees: 50
 org: 
@@ -16,7 +16,7 @@ timeslots:
   - time: '09:50 - 10:20'
     speakers: James Walker
     title: "CAR Mirror Reflections"
-    description: "CAR Mirror describes a method for efficiently diffing, deduplicating, packaging, and transmitting IPLD data from source to sink.  In this talk I'll give an introduction to the CAR Mirror protocol and then review the current state of the Go implementation."
+    description: "CAR Mirror describes a method for efficiently diffing, deduplicating, packaging, and transmitting IPLD data from source to sink.  In this talk I&#039;ll give an introduction to the CAR Mirror protocol and then review the current state of the Go implementation."
 
   - time: '14:40 - 15:10'
     speakers: Floris Bruynooghe
@@ -41,12 +41,12 @@ timeslots:
   - time: '11:30 - 12:00'
     speakers: Hannah Howard
     title: "Fetch Content Like A Border Collie: Introducing Lassie"
-    description: "Lassie is a new universal IPFS retrieval client, that speaks multiple data transfer protocols to easily find and fetch your data -- no questions asked. Lassie is already operating at scale in the Saturn network. We'll talk about our design goals with Lassie, how we built it, and how Lassie might learn to speak your bespoke data transfer protocol in the future!"
+    description: "Lassie is a new universal IPFS retrieval client, that speaks multiple data transfer protocols to easily find and fetch your data -- no questions asked. Lassie is already operating at scale in the Saturn network. We&#039;ll talk about our design goals with Lassie, how we built it, and how Lassie might learn to speak your bespoke data transfer protocol in the future!"
 
   - time: '12:45 - 13:15'
     speakers: undefined undefined
     title: "We Moved The Bytes, Where Did They Go?"
-    description: "Over the last few months, we assembled the Move The Bytes Working Group to improve data transfer protocols across the IPFS network. This panel discussion will cover what we discussed, what we think we learned, and where we'd like to take this work from here."
+    description: "Over the last few months, we assembled the Move The Bytes Working Group to improve data transfer protocols across the IPFS network. This panel discussion will cover what we discussed, what we think we learned, and where we&#039;d like to take this work from here."
 
   - time: '12:50 - 12:35'
     speakers: Hugo Valtier
