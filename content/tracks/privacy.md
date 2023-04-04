@@ -1,17 +1,17 @@
 ---
 
-name: "Community &amp; Governance"
-date: '2023-04-15'
+name: "Community & Governance"
+date: '2023-04-17'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-   This track is about the IPFS community and how we work together to govern IPFS standards and our broader ecosystem: specifications, community organizing, and dweb policy &amp; regulation. What&#039;s the latest on the IPFS protocol and governance? What specific problems do we face regarding existing regulation? How can we have better local communities? How do we make the dweb a robust, sustainable commons?
+   This track is about the IPFS community and how we work together to govern IPFS standards and our broader ecosystem: specifications, community organizing, and dweb policy & regulation. What's the latest on the IPFS protocol and governance? What specific problems do we face regarding existing regulation? How can we have better local communities? How do we make the dweb a robust, sustainable commons?
 priority: 2
 attendees: 50
 org: 
-times: '11:00 AM - 4:00 PM'
+times: '10:00 AM - 4:00 PM'
 timeslots:
   - time: '09:50 - 10:35'
     speakers: Cade Diehm
@@ -31,22 +31,22 @@ timeslots:
   - time: '14:00 - 14:45'
     speakers: Yuni Graham
     title: "IPFS + Friends Cafe "
-    description: "I&#039;m not a great public speaker, but I&#039;d love a discussion circle or signup of people interested or who can commit to organizing IPFS + Friends Cafe community events in their city.   miwa (PL) can sponsor a coffeeshop / popup, assist with logistical organization and coordinate some speakers from PL.   These folks would have to commit to at least 2x a year perhaps distributed equidistant between IPFS Thing and IPFS Camp to help keep up the momentum in between our two largest IPFS events of the year.   The goal is to grow the community, so ultimately miwa would step away and these can be self run.   ex: EthCC is fast approaching, would love someone local to commit to organizing content for a one day or half day IPFS + Friends event.   At any rate, I&#039;m down to help Boris with what he needs for the Community track. "
+    description: "I'm not a great public speaker, but I'd love a discussion circle or signup of people interested or who can commit to organizing IPFS + Friends Cafe community events in their city.   miwa (PL) can sponsor a coffeeshop / popup, assist with logistical organization and coordinate some speakers from PL.   These folks would have to commit to at least 2x a year perhaps distributed equidistant between IPFS Thing and IPFS Camp to help keep up the momentum in between our two largest IPFS events of the year.   The goal is to grow the community, so ultimately miwa would step away and these can be self run.   ex: EthCC is fast approaching, would love someone local to commit to organizing content for a one day or half day IPFS + Friends event.   At any rate, I'm down to help Boris with what he needs for the Community track. "
 
   - time: '00:00 - 00:30'
     speakers: David Justice
-    title: "Announcing Browsers Platforms &amp; Standards team blog"
-    description: "We&#039;re dogfooding with IPFS and smart contracts to run the blog for Browsers Platforms and Standards team. We&#039;ve built a new pattern to deploy apps with verified authors and content."
+    title: "Announcing Browsers Platforms & Standards team blog"
+    description: "We're dogfooding with IPFS and smart contracts to run the blog for Browsers Platforms and Standards team. We've built a new pattern to deploy apps with verified authors and content."
 
   - time: '12:10 - 13:40'
     speakers: Yuni Graham
     title: "IPFS Camp Committee"
-    description: "It may seem like there is plenty of time, but IPFS Camp is scheduled for later this fall and a large event such as IPFS Camp, needs quite a bit of planning runway. We need volunteers to be a part of the (content) planning committee. This would require significant investment in terms of time and energy, but you will be rewarding the IPFS Community with a spectacular, well planned event and set us up for future IPFS Camp successes.   Additionally, let&#039;s think ahead on what content we know we&#039;d like to see, new ares of discussion we think could bridge over to bring in new faces, and companies we&#039;d like to see there who may not have joined in the past. Is there something from last year you&#039;d like to see expanded upon? Let&#039;s talk. "
+    description: "It may seem like there is plenty of time, but IPFS Camp is scheduled for later this fall and a large event such as IPFS Camp, needs quite a bit of planning runway. We need volunteers to be a part of the (content) planning committee. This would require significant investment in terms of time and energy, but you will be rewarding the IPFS Community with a spectacular, well planned event and set us up for future IPFS Camp successes.   Additionally, let's think ahead on what content we know we'd like to see, new ares of discussion we think could bridge over to bring in new faces, and companies we'd like to see there who may not have joined in the past. Is there something from last year you'd like to see expanded upon? Let's talk. "
 
   - time: '08:50 - 09:50'
     speakers: Henrique Dias
     title: "Interplanetary Specs"
-    description: "We&#039;ve been working on producing and publishing standards for the stack. This is a quick overview of what we have and where we&#039;re at. What else should we be doing in this space?"
+    description: "We've been working on producing and publishing standards for the stack. This is a quick overview of what we have and where we're at. What else should we be doing in this space?"
 
   - time: '09:10 - 09:25'
     speakers: Marcin Rataj
