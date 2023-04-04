@@ -67,7 +67,7 @@ export function Modal({ children, content, title, link, hash }) {
       <div className="h-full w-full" onClick={open}>
         {children}
       </div>
-      <div className={`modal fixed inset-0 z-50 overflow-scroll flex items-center p-8 justify-center backdrop-blur-xl ${openModal ? "" : "hidden"}`}>
+      <div className={`modal fixed inset-0 z-50 overflow-hidden flex items-center p-8 justify-center backdrop-blur-xl ${openModal ? "" : "hidden"}`}>
         <div className="modal-fader absolute inset-0 bg-black opacity-50" onClick={close}></div>
         <div className="modal-wrap relative max-h-full w-full max-w-3xl bg-gradient-to-r from-accent4 via-accent2 to-accent3 p-1">
           <div className="bg-white">
