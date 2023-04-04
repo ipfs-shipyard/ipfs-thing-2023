@@ -209,10 +209,12 @@ const groupTracks = (tracks, talks) => {
 };
 
 const trackToMD = track => {
-  return '---\n'
-    + trackDetailsToMD(track)
-    + track.talks.map(talkToMD).join('\n')
-    + '\n---\n';
+  return [
+    '---',
+    trackDetailsToMD(track),
+    track.talks.map(talkToMD).join('\n'),
+    '---'
+  ].join('\n');
 };
 
 const talkToMD = talk => {
@@ -236,8 +238,8 @@ const talkToMD = talk => {
   return [
     `  - time: '${timeStr}'`,
     `    speakers: '${talk.firstName + ' ' + talk.lastName}'`,
-    `    title: '${escapeYaml(talk.title)}'`,
-    `    description: '${escapeYaml(talk.desc)}'`,
+    `    title: "${escapeYaml(talk.title)}"`,
+    `    description: "${escapeYaml(talk.desc)}"`,
     ``
   ].join('\n');
 }
@@ -342,26 +344,13 @@ const escapeYaml = text => {
   }
 
   // remove linebreaks for now, ugh Tina
-  text = text.replace(/\r?\n|\r/g, ' ');
+  //text = text.replace(/\r?\n|\r/g, ' ');
 
-  return text;
-
-  /*
   const map = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#039;'
+    '"': '\u{0022}'
   };
 
   return text.replace(/[&<>"']/g, function(m) { return map[m]; });
-  */
 };
-
-const htmlLinebreaks = text =>{
-  return text.replace(/\r?\n|\r/g, ' ');
-  //return text.replace(/\r?\n|\r/g, '<br>');
-}
 
 getAirtableData(url, options, onRecordsReady);
