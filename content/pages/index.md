@@ -1,25 +1,6 @@
 ---
 blocks:
   - style:
-      alignment: 'flex-col-reverse items-center '
-      padding: pt-20 pb-10 pr-10 pl-10
-      featureImage: '  mx-auto'
-      featureContent: w-1/2 min-h-0 text-center
-      labelStyles: 'text-black undefined '
-      headlineStyles: text-accent2 mg-headline-small undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-accent2 undefined undefined
-    background:
-      fillStyles: bg-black opacity-100
-    label: Promo Code
-    headline: 'FLASH SALE! '
-    subhead: Subhead
-    body: |
-      Use Promo Code **THING23** for 45% off a General Ticket!&#x20;
-
-      Valid until March 31.
-    _template: feature
-  - style:
       alignment: flex-col items-start gap-12
       padding: pt-36 pb-28 pr-10 pl-10
       featureImage: wpx-450  mr-auto
@@ -87,27 +68,6 @@ blocks:
       fillStyles: bg-gray-light opacity-100
     navigationLabel: Preliminary Schedule
     _template: eventSchedule
-  - style:
-      alignment: 'flex-col-reverse items-center '
-      padding: pt-8 pb-8 pr-7 pl-7
-      featureImage: '  mx-auto'
-      featureContent: w-1/2 min-h-0 text-center
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black undefined undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
-    background:
-      fillStyles: bg-gray opacity-20
-    label: ''
-    headline: ''
-    subhead: ''
-    body: >
-      \*Please note that these tracks may not land on the days as it is
-      displayed here. Our schedule is constantly evolving as we are parsing
-      through talk submissions. We will announce when the schedule has
-      solidified into their appropriate days.&#x20;
-    navigationLabel: ''
-    _template: feature
   - style:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-0 pr-10 pl-10
@@ -396,6 +356,7 @@ blocks:
         body: ''
       - image:
           src: /uploads/Yugasi-logo-transparant.png
+        body: ''
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -457,14 +418,13 @@ blocks:
           A/V, recordings, and more).
 
 
-          * **Early Bird Builders Ticket** | $99 \*Limited availability
+          * **Early Bird Builders Ticket** | $99 (closed)
 
           * **General Ticket** | $650
 
           * **Supporters Ticket** | $2000
 
-          * **Scholars Ticket** | Free (does not include flights or
-          accommodations)
+          * **Scholars Ticket** | Free (applications closed)
 
 
           All meals during the event will be covered for participants.
@@ -570,6 +530,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
