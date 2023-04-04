@@ -53,6 +53,14 @@ If you've already created your event but want to add or change details in the .m
 
 This is a [Microgen](https://github.com/ipfs-shipyard/ipfs-thing-2023) site.
 
-To run the site locally ```yarn install``` and ```yarn dev```.
+Requirements:
+
+Node.js >=16.10
+
+Corepack is included by default with Node.js >=16.10, but is currently opt-in. To enable it, run the following command:
+
+`corepack enable`
+
+To run the site locally `yarn install` and `yarn dev`.
 
 See full documentation in the docs folder.
