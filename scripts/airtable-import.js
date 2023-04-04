@@ -233,31 +233,28 @@ const talkToMD = talk => {
     endTime.getMinutes().toString().padEnd(2, '0')
   ].join('');
 
-  // ugh
-  const desc = talk.desc ? htmlLinebreaks(talk.desc) : '';
-
   return [
     `  - time: '${timeStr}'`,
-    `    speakers: ${talk.firstName + ' ' + talk.lastName}`,
-    `    title: "${talk.title}"`,
-    `    description: "${desc}"`,
+    `    speakers: '${talk.firstName + ' ' + talk.lastName}'`,
+    `    title: '${escapeYaml(talk.title)}'`,
+    `    description: '${escapeYaml(talk.desc)}'`,
     ``
   ].join('\n');
 }
 
 const trackDetailsToMD = track => {
   return `
-name: "${track.title}"
+name: '${escapeYaml(track.title)}'
 date: '${track.trackDate}'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  ${htmlLinebreaks(track.trackDesc)}
+  ${escapeYaml(track.trackDesc)}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
-org: ${track.trackOrg || '' }
+org: '${escapeYaml(track.trackOrg) || '' }'
 times: '${track.time}'
 timeslots:
 `;
@@ -339,11 +336,17 @@ ${track.desc}
 `;
 };
 
-const escapeHtml = text => {
+const escapeYaml = text => {
   if (!text) {
     return '';
   }
 
+  // remove linebreaks for now, ugh Tina
+  text = text.replace(/\r?\n|\r/g, ' ');
+
+  return text;
+
+  /*
   const map = {
     '&': '&amp;',
     '<': '&lt;',
@@ -353,6 +356,7 @@ const escapeHtml = text => {
   };
 
   return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+  */
 };
 
 const htmlLinebreaks = text =>{
