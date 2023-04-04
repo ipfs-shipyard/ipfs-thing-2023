@@ -2,7 +2,7 @@
   "name": "ipfs-thing-23",
   "version": "1.1",
   "license": "MIT",
-  "packageManager": "yarn@3.5.0",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
