@@ -246,7 +246,7 @@ const talkToMD = talk => {
 
 const trackDetailsToMD = track => {
   return `
-name: '${escapeYaml(track.title)}'
+name: "${escapeYaml(track.title)}"
 date: '${track.trackDate}'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
@@ -350,7 +350,7 @@ const escapeYaml = text => {
     '"': '\u{0022}'
   };
 
-  return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+  return text.replace(/["]/g, function(m) { return map[m]; });
 };
 
 getAirtableData(url, options, onRecordsReady);
