@@ -21,12 +21,12 @@ timeslots:
   - time: '08:30 - 09:00'
     speakers: Asmir Avdicevic
     title: "Measuring on the fast track"
-    description: "Measurements & Performance when building protocols."
+    description: "Measurements &amp; Performance when building protocols."
 
   - time: '09:10 - 09:40'
     speakers: Yiannis Psaras
     title: "State of Content Routing through the DHT: Latest developments and measurement results"
-    description: "During the last couple of quarters we have seen several developments landing on IPFS's public DHT: the content routing-specific operation of Hydras has been disabled, the resource manager was turned on by default and some misconfiguration of it led to several nodes in the network performing worse than expected. In parallel we developed improvements that will hopefully increase the performance. This talk will present data from our measurement experiments and will also lay out our future plans."
+    description: "During the last couple of quarters we have seen several developments landing on IPFS&#039;s public DHT: the content routing-specific operation of Hydras has been disabled, the resource manager was turned on by default and some misconfiguration of it led to several nodes in the network performing worse than expected. In parallel we developed improvements that will hopefully increase the performance. This talk will present data from our measurement experiments and will also lay out our future plans."
 
   - time: '08:00 - 08:30'
     speakers: Yiannis Psaras
@@ -41,7 +41,7 @@ timeslots:
   - time: '21:50 - 22:20'
     speakers: Max Inden
     title: "libp2p performance"
-    description: "Measuring libp2p's transport performance with the new perf protocol https://github.com/libp2p/specs/pull/478."
+    description: "Measuring libp2p&#039;s transport performance with the new perf protocol https://github.com/libp2p/specs/pull/478."
 
   - time: '12:00 - 12:30'
     speakers: Logan Lentz
