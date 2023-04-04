@@ -19,6 +19,7 @@ out
 .env
 .env.local
 .idea
+.yarn
 
 # debug
 npm-debug.log*
