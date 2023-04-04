@@ -216,12 +216,6 @@ blocks:
     body: ''
     items:
       - image:
-          src: /uploads/Screenshot 2023-04-04 at 3.08.40 PM.png
-      - image:
-          src: /uploads/logo-black.4b9c4b1.svg
-      - image:
-          src: /uploads/picture.jpg
-      - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
       - image:
@@ -363,6 +357,12 @@ blocks:
       - image:
           src: /uploads/Yugasi-logo-transparant.png
         body: ''
+      - image:
+          src: /uploads/Screenshot 2023-04-04 at 3.08.40 PM.png
+      - image:
+          src: /uploads/logo-black.4b9c4b1.svg
+      - image:
+          src: /uploads/evp.jpeg
     navigationLabel: Participating Teams
     _template: cards
   - style:
@@ -535,6 +535,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
