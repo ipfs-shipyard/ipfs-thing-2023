@@ -105,7 +105,7 @@ blocks:
         body: >
           Apply for the student rate. You must be able to present a valid
           university email address, university ID, or other official
-          documentation.&#x20;
+          documentation. 
         link: 'https://airtable.com/shrW4PaFIfTcq3FiG'
         buttonLabel: Receive My Student Promo Code
       - label: ''
@@ -215,6 +215,8 @@ blocks:
     subhead: ''
     body: ''
     items:
+      - image:
+          src: /uploads/picture.jpg
       - image:
           src: /uploads/ipfs-logo.jpg
         body: ''
@@ -393,14 +395,14 @@ blocks:
           This event brings together maintainers or core contributors of an IPFS
           implementation, ranging from production usage to working demos. If
           this describes you, please join! If you are unsure, email
-          [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io).&#x20;
+          [ipfs-thing-2023@ipfs.io](mailto\:ipfs-thing-2023@ipfs.io). 
 
 
           If you are an IPFS user, tooling developer, collaborator, or curious
           community member, we enthusiastically invite you to [IPFS
           Camp](https://youtube.com/playlist?list=PLuhRWgmPaHtSEv2DM9J7nSvN7dnVFMM6q),
           an epic decentralized event organized by the community, for the
-          community.&#x20;
+          community. 
 
 
           Details on IPFS Camp 2023 are coming soon and will be announced on
@@ -410,7 +412,7 @@ blocks:
         subhead: ''
         text: "This is a choose-your-own-adventure event, so please choose the track(s), sessions, arrival and departure dates, and activities that are interesting and relevant to you. We are actively working on putting together an amazing schedule based on your submissions, suggestions, and feedback. Help shape this event by\_[submitting your own talk or track](https://airtable.com/shr2Eq1juLJh0ri3i)!\n"
       - headline: How do I participate in IPFS Thing?
-        text: "First, make sure you have registered for IPFS þing. You can **register** directly from our [website](https://2023.ipfs-thing.io/).\_\n\n**Tell a friend** - Let us know if there is someone you think we should invite, or direct them to our [website](https://2023.ipfs-thing.io/).\_\n\n**Lead a Track** - Submit your track in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\n**Give a Talk** - Not ready to lead an entire track, but still would like to contribute? Submit your talk in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\n**Apply as an IPFS Scholar** - Interested in applying to the IPFS Scholars program, please fill out an application [here](https://airtable.com/shrCIJoHbEnv0wmhl).\_\n\n**Volunteer** - Email [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) if you’d like to help make the production of this event a success. We could really use your help!\_\n\n**Sponsor** - Your support helps bring together different implementation teams from around the world to advance IPFS. If you’re interested in sponsorship, please email us at [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) for more information.\_\n\n**Keep up the momentum!** - After the event, all of the tracks will be posted to the IPFS Youtube channel. You can check out the playlists from last year [here](https://www.youtube.com/playlist?list=PLuhRWgmPaHtQhyXIhu2P6e-8WlYOf8wyH). After IPFS þing, be sure to share your talk or track videos with the world! Help the broader community see all of the great work that has transpired and get a sense of what they can expect to see more of at IPFS Camp 2023!\n"
+        text: "First, make sure you have registered for IPFS þing. You can **register** directly from our [website](https://2023.ipfs-thing.io/).\_\n\n**Tell a friend** - Let us know if there is someone you think we should invite, or direct them to our [website](https://2023.ipfs-thing.io/).\_\n\n**Lead a Track** - Submit your track in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\n**Give a Talk** - Not ready to lead an entire track, but still would like to contribute? Submit your talk in the [schedule section](https://2023.ipfs-thing.io/#schedule) of our website.\n\n**Apply as an IPFS Scholar** - Interested in applying to the IPFS Scholars program, please fill out an application [here](https://airtable.com/shrCIJoHbEnv0wmhl).\_\n\n**Volunteer** - Email [ipfs-thing-2023@ipfs.io](mailto\\:ipfs-thing-2023@ipfs.io) if you’d like to help make the production of this event a success. We could really use your help!\_\n\n**Sponsor** - Your support helps bring together different implementation teams from around the world to advance IPFS. If you’re interested in sponsorship, please email us at [ipfs-thing-2023@ipfs.io](mailto\\:ipfs-thing-2023@ipfs.io) for more information.\_\n\n**Keep up the momentum!** - After the event, all of the tracks will be posted to the IPFS Youtube channel. You can check out the playlists from last year [here](https://www.youtube.com/playlist?list=PLuhRWgmPaHtQhyXIhu2P6e-8WlYOf8wyH). After IPFS þing, be sure to share your talk or track videos with the world! Help the broader community see all of the great work that has transpired and get a sense of what they can expect to see more of at IPFS Camp 2023!\n"
       - headline: Is there a cost to participate?
         text: >
           Your ticket price, combined with generous sponsorships, cover the
@@ -429,7 +431,7 @@ blocks:
 
           All meals during the event will be covered for participants.
           Participants (or their employers) are responsible for their flights
-          and accommodations.&#x20;
+          and accommodations. 
 
 
           We have a limited hotel block for the dates of 14-20 April at the
@@ -443,20 +445,19 @@ blocks:
           Yes! We offer multiple levels of sponsorship. From Scholars, Node, and
           Cluster, to Network and Interplanetary, there will be a sponsorship
           for you! Please email us at
-          [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io) for more
-          information on what is included in each sponsorship and to
-          apply.&#x20;
+          [ipfs-thing-2023@ipfs.io](mailto\:ipfs-thing-2023@ipfs.io) for more
+          information on what is included in each sponsorship and to apply. 
       - headline: How can I lead a track?
-        text: "Here's what's involved:&#x20;\n\n* Identify an IPFS-related topic that you know a thing or two about, and think others should care more about.\n* Add your track idea [here.](https://airtable.com/shr2Eq1juLJh0ri3i)\n* Recruit folks you collaborate regularly with to help shape the content of your track.\n\nYou will have total control over the structure of your track. Morning of talks & afternoon of discussion? Go for it! Required reading before attendance? Sounds great.\n\nEvent organizers will work with you to help situate your track in the broader schedule, give feedback, and help to make your event great. We'll get you set up with AV gear, a room, and other logistical support as needed.\_If you have any special requests, please be sure to let us know as soon as you can.\n"
+        text: "Here's what's involved: \n\n* Identify an IPFS-related topic that you know a thing or two about, and think others should care more about.\n* Add your track idea [here.](https://airtable.com/shr2Eq1juLJh0ri3i)\n* Recruit folks you collaborate regularly with to help shape the content of your track.\n\nYou will have total control over the structure of your track. Morning of talks & afternoon of discussion? Go for it! Required reading before attendance? Sounds great.\n\nEvent organizers will work with you to help situate your track in the broader schedule, give feedback, and help to make your event great. We'll get you set up with AV gear, a room, and other logistical support as needed.\_If you have any special requests, please be sure to let us know as soon as you can.\n"
       - headline: Will there be recordings or live virtual sessions I can attend?
         text: >
           Recordings will be uploaded to our [IPFS Youtube
           channel](https://www.youtube.com/@IPFSbot). Please check there for any
-          updates. There will not be any live streaming.&#x20;
+          updates. There will not be any live streaming. 
       - headline: How do I contact the organizers?
         text: >
           You can reach out to us at
-          [ipfs-thing-2023@ipfs.io](mailto:ipfs-thing-2023@ipfs.io)
+          [ipfs-thing-2023@ipfs.io](mailto\:ipfs-thing-2023@ipfs.io)
       - headline: Code of Conduct + Covid Policy
         text: >
           We will be following the IPFS [Code of
@@ -471,7 +472,7 @@ blocks:
 
           * Masks will be provided on-site.
 
-          * Masks and testing are optional and at your discretion.&#x20;
+          * Masks and testing are optional and at your discretion. 
 
           * If you are presenting any symptoms of being sick or have come in
           contact with someone who has presented symptoms or tested positive in
@@ -530,6 +531,7 @@ meta:
     focused entirely on the advancement of IPFS implementations.
   ogImage: /uploads/ipfs-things-23-og.jpg
 ---
+
 
 
 
