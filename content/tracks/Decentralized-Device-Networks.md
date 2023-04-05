@@ -19,7 +19,7 @@ timeslots:
     title: "FVM: The Filecoin Virtual Machine"
     description: "I will cover the basics of what the FVM is, how Filecoin relates to IPFS and how you can use FVM to combine IPFS and Filecoin."
 
-  - time: '14:15 - 14:45'
+  - time: '13:15 - 13:45'
     speakers: 'David Minarsch'
     title: "Decentralized Off-chain Backends: How Autonolas utilizes IPFS across its stack to build trust-minimized off-chain services for DAOs"
     description: "Autonolas is an open-source software stack for the creation of decentralized, off-chain autonomous applications, called autonomous services, that can operate continuously, interact with the world outside of blockchains, run complex logic such as ML algorithms and are secured on-chain.
