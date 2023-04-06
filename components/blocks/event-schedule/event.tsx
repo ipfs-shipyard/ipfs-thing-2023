@@ -143,6 +143,7 @@ function AddEventModalContent({config}) {
 }
 
 function TimeslotTable({ timeslots }) {
+  const sortedTimeslots = timeslots.sort((a, b) => a.time.localeCompare(b.time))
   return (
     <div>
       <h4 className="py-3 mg-small text-black font-bold">Schedule</h4>
@@ -155,7 +156,7 @@ function TimeslotTable({ timeslots }) {
           </tr>
         </thead>
         <tbody>
-          {timeslots?.map((timeslot, i) => (
+          {sortedTimeslots?.map((timeslot, i) => (
             <tr key={i} className="bg-white mg-copy-small border-b border-gray-light">
               <th scope="row" className="px-6 py-4 align-top whitespace-nowrap text-left">{timeslot.time}</th>
               <td className="px-6 py-4 align-top">{timeslot.speakers}</td>
