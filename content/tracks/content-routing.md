@@ -1,7 +1,7 @@
 ---
 
 name: "Content Routing"
-date: '2023-04-17'
+date: '2023-04-16'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
@@ -11,29 +11,13 @@ description: >-
 priority: 2
 attendees: 50
 org: ''
-times: '10:00 AM - 4:00 PM'
+times: '10:00 AM - 6:00 PM'
 
 timeslots:
-  - time: '15:00 - 15:30'
-    speakers: 'Ian Preston'
-    title: "Private data: state of the art"
-    description: "A deep dive into the Peergos architecture and cryptree+ which gives post-quantum ciphertext-level access control, better metadata protection and better performance. Learn about our fully concurrent GC design, and other performance boosts."
-
   - time: '10:15 - 10:45'
     speakers: 'Gui'
     title: "Opening the DHT to large content providers"
     description: "This talk introduces a new method for making content publishing in the DHT less resource-intensive for large content providers. This technique, named Reprovide Sweep reduces the load of content publication by reproviding all provider records located in the same keyspace region at once. This strategy decreases the number of DHT lookups required for content publication, and the number of connections to open by 80x for a content provider advertising 100’000 CID. The talk will be of interest to those interested in IPFS optimization and improving the efficiency of large-scale content publication and discovery on the DHT. "
-
-  - time: '14:15 - 14:45'
-    speakers: 'Ivan Schasny'
-    title: "Double Hashing in IPNI: Reader Privacy at scale"
-    description: "In this talk I'd like to speak about IPNI's journey to implementing Double Hashing at scale. I'll cover:
-* what double hashing is and what benefits it gives to the user;
-* IPNI and DHT double hashing compatibility;
-* IPNI dataset migration;
-* how we run double hashing in production;
-* issues that we encountered.
-This talk will be interesting to those who already run IPNI by themselves (as they will want to implement Reader Privacy at some point) as well as to those who are just thinking to participate in the IPNI ecosystem."
 
   - time: '11:00 - 11:15'
     speakers: 'Masih Derkani'
@@ -54,6 +38,22 @@ This talk will be interesting to those who already run IPNI by themselves (as th
     speakers: 'Yiannis Psaras'
     title: "DHT Double Hashing Updates & Migration Plan"
     description: "Double Hashing for the libp2p DHT has been proposed as an approach to improve libp2p's privacy. The approach, which includes breaking changes to the current DHT, has been discussed at IPFS Thing and Camp 2022. This talk will give a brief update of developments since IPFS Camp and most importantly will lay out the migration plan to the new double-hashing DHT."
+
+  - time: '14:15 - 14:45'
+    speakers: 'Ivan Schasny'
+    title: "Double Hashing in IPNI: Reader Privacy at scale"
+    description: "In this talk I'd like to speak about IPNI's journey to implementing Double Hashing at scale. I'll cover:
+* what double hashing is and what benefits it gives to the user;
+* IPNI and DHT double hashing compatibility;
+* IPNI dataset migration;
+* how we run double hashing in production;
+* issues that we encountered.
+This talk will be interesting to those who already run IPNI by themselves (as they will want to implement Reader Privacy at some point) as well as to those who are just thinking to participate in the IPNI ecosystem."
+
+  - time: '15:00 - 15:30'
+    speakers: 'Ian Preston'
+    title: "Private data: state of the art"
+    description: "A deep dive into the Peergos architecture and cryptree+ which gives post-quantum ciphertext-level access control, better metadata protection and better performance. Learn about our fully concurrent GC design, and other performance boosts."
 
   - time: '16:15 - 16:45'
     speakers: 'gammazero'

@@ -19,35 +19,10 @@ timeslots:
     title: "FVM: The Filecoin Virtual Machine"
     description: "I will cover the basics of what the FVM is, how Filecoin relates to IPFS and how you can use FVM to combine IPFS and Filecoin."
 
-  - time: '14:00 - 14:30'
-    speakers: 'David Minarsch'
-    title: "Decentralized Off-chain Backends: How Autonolas utilizes IPFS across its stack to build trust-minimized off-chain services for DAOs"
-    description: "Autonolas is an open-source software stack for the creation of decentralized, off-chain autonomous applications, called autonomous services, that can operate continuously, interact with the world outside of blockchains, run complex logic such as ML algorithms and are secured on-chain.
-
-Currently these are being used to power trust-minimized off-chain services for leading DAOs, including Balancer and Ceramic. 
-
-In this talk we will present how Autonolas leverages IPFS throughout its stack to: a) reference and retrieve code components, b) provide a production-grade package registry, and c) utilizes IPFS hashing to contribute to crypto-economic integrity of the system."
-
-  - time: '17:00 - 17:15'
-    speakers: 'Yan Michalevsky'
-    title: "Compute on data in space"
-    description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world."
-
-  - time: '16:30 - 17:00'
-    speakers: 'Donald Gossen'
-    title: "AI, Data, and You - Driving AI Precision with Decentralized Access Control "
-    description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that's used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth.
-"
-
   - time: '10:00 - 10:15'
     speakers: 'Iryna Tsimashenka'
     title: "Bacalhau - decentralised compute over data"
     description: "Bacalhau is a new project of Protocol Labs, which allows computation over data (COD) stored on IPFS. You are going to learn exciting use cases, architecture and what problems are solved by using Bacalhau"
-
-  - time: '02:00 - 02:30'
-    speakers: 'Brooklyn Zelenka'
-    title: "IPVM: Content Addressed Compute for an Open World"
-    description: "Curious about the latest from the IPVM WG? This talk presents updates from the working group: a high-level overview of IPVM, standards to date, the latest roadmap, and lessons learned so far. This includes invocation and workflow models, a (pluggable) effect system, a principled approach to partial failure, open interop, kernel functionality, private data handling, and the most common question: what IPVM is *not*!"
 
   - time: '10:30 - 10:30'
     speakers: 'zeeshanlakhani'
@@ -68,5 +43,30 @@ Ucan capabilities: https://github.com/ucan-wg/invocation"
     speakers: 'Ryan Shahine'
     title: "Turbocharging decentralized websites with AI"
     description: "How Portrait retrieves Web3 data to create highly accurate and visually stunning decentralized websites with a single click."
+
+  - time: '14:00 - 14:30'
+    speakers: 'David Minarsch'
+    title: "Decentralized Off-chain Backends: How Autonolas utilizes IPFS across its stack to build trust-minimized off-chain services for DAOs"
+    description: "Autonolas is an open-source software stack for the creation of decentralized, off-chain autonomous applications, called autonomous services, that can operate continuously, interact with the world outside of blockchains, run complex logic such as ML algorithms and are secured on-chain.
+
+Currently these are being used to power trust-minimized off-chain services for leading DAOs, including Balancer and Ceramic. 
+
+In this talk we will present how Autonolas leverages IPFS throughout its stack to: a) reference and retrieve code components, b) provide a production-grade package registry, and c) utilizes IPFS hashing to contribute to crypto-economic integrity of the system."
+
+  - time: '16:30 - 17:00'
+    speakers: 'Donald Gossen'
+    title: "AI, Data, and You - Driving AI Precision with Decentralized Access Control "
+    description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that's used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth.
+"
+
+  - time: '17:00 - 17:15'
+    speakers: 'Yan Michalevsky'
+    title: "Compute on data in space"
+    description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world."
+
+  - time: '02:00 - 02:30'
+    speakers: 'Brooklyn Zelenka'
+    title: "IPVM: Content Addressed Compute for an Open World"
+    description: "Curious about the latest from the IPVM WG? This talk presents updates from the working group: a high-level overview of IPVM, standards to date, the latest roadmap, and lessons learned so far. This includes invocation and workflow models, a (pluggable) effect system, a principled approach to partial failure, open interop, kernel functionality, private data handling, and the most common question: what IPVM is *not*!"
 
 ---

@@ -14,15 +14,15 @@ org: ''
 times: '1:30 PM - 6:00 PM'
 
 timeslots:
-  - time: '10:30 - 11:00'
-    speakers: 'David Justice'
-    title: "Durin: IPFS on mobile"
-    description: "We announced Durin at IPFS Camp in lisbon, here we will explain again what it provides, current work, and future plans for IPFS in mobile with Durin"
-
   - time: '10:05 - 10:35'
     speakers: 'Ryan Plauche'
     title: "Adapting IPFS for Space"
     description: "This talk will cover the general design and structure used in creating an IPFS implementation intended for use in spacecraft and ground stations."
+
+  - time: '10:30 - 11:00'
+    speakers: 'David Justice'
+    title: "Durin: IPFS on mobile"
+    description: "We announced Durin at IPFS Camp in lisbon, here we will explain again what it provides, current work, and future plans for IPFS in mobile with Durin"
 
   - time: '11:00 - 11:30'
     speakers: 'Brooklyn Zelenka'

@@ -14,20 +14,25 @@ org: ''
 times: '11:00 AM - 6:00 PM'
 
 timeslots:
+  - time: '11:25 - 11:55'
+    speakers: 'Rüdiger Klaehn'
+    title: "Moving the bytes with bao"
+    description: "At number0 we have chosen to use blake3 verified streaming for data synchronization. I will explain how bao works, what the tradeoffs are, and what higher layers will benefit from lightning fast partial sync of large files."
+
   - time: '11:50 - 12:20'
     speakers: 'James Walker'
     title: "CAR Mirror Reflections"
     description: "CAR Mirror describes a method for efficiently diffing, deduplicating, packaging, and transmitting IPLD data from source to sink.  In this talk I'll give an introduction to the CAR Mirror protocol and then review the current state of the Go implementation."
 
-  - time: '16:40 - 17:10'
-    speakers: 'Floris Bruynooghe'
-    title: "Delta Chat and Iroh"
-    description: "Delta Chat is a messenger using email as transport and with no additional infrastructure.  This talk will discuss how the minimalist Iroh is used by Delta Chat to easily set up a second device by connecting both devices peer-to-peer."
+  - time: '13:30 - 14:00'
+    speakers: 'Hannah Howard'
+    title: "Fetch Content Like A Border Collie: Introducing Lassie"
+    description: "Lassie is a new universal IPFS retrieval client, that speaks multiple data transfer protocols to easily find and fetch your data -- no questions asked. Lassie is already operating at scale in the Saturn network. We'll talk about our design goals with Lassie, how we built it, and how Lassie might learn to speak your bespoke data transfer protocol in the future!"
 
-  - time: '11:25 - 11:55'
-    speakers: 'Rüdiger Klaehn'
-    title: "Moving the bytes with bao"
-    description: "At number0 we have chosen to use blake3 verified streaming for data synchronization. I will explain how bao works, what the tradeoffs are, and what higher layers will benefit from lightning fast partial sync of large files."
+  - time: '14:05 - 14:35'
+    speakers: 'Jorropo'
+    title: "RAPIDE"
+    description: "RAPIDE has been proposed recently as a way to improve the content fetching performance of IPFS. This talk will be a demo of RAPIDE powering ipget 2.0. A brief description of the internals of RAPIDE will also be given to provide context to the audience."
 
   - time: '14:25 - 14:55'
     speakers: 'Philipp Krüger'
@@ -35,24 +40,19 @@ timeslots:
     description: "Batching block transfer is the main way to optimize DAG exchange compared to bitswap.
 This talk discusses current proposals for batched data transfer such as blake3 with bao, sending CAR files, CAR mirror, and GraphSync. We’ll look at what use cases they do and don’t solve as well as which techniques from one protocol could be applied in others."
 
-  - time: '17:00 - 17:30'
-    speakers: 'Franz Heinzmann'
-    title: "Repco - Exchanging community media and metadata over IPLD"
-    description: "We present Repco, an open source tool to replicate content from community media publishers. Repco uses IPLD repositories, CAR streams and UCANs to exchange authenticated logs of media content and metadata, which is ingested from different sources (RSS, REST APIs). Repco is developed within a wide network of European community media publishers and builds on long-running discussions on better publishing networks for small-scale media outlets. Future plans include connecting to speech transcription and translation services as well as integrating community features over ActivityPub."
-
-  - time: '13:30 - 14:00'
-    speakers: 'Hannah Howard'
-    title: "Fetch Content Like A Border Collie: Introducing Lassie"
-    description: "Lassie is a new universal IPFS retrieval client, that speaks multiple data transfer protocols to easily find and fetch your data -- no questions asked. Lassie is already operating at scale in the Saturn network. We'll talk about our design goals with Lassie, how we built it, and how Lassie might learn to speak your bespoke data transfer protocol in the future!"
-
   - time: '14:45 - 15:15'
     speakers: 'undefined '
     title: "We Moved The Bytes, Where Did They Go?"
     description: "Over the last few months, we assembled the Move The Bytes Working Group to improve data transfer protocols across the IPFS network. This panel discussion will cover what we discussed, what we think we learned, and where we'd like to take this work from here."
 
-  - time: '14:05 - 14:35'
-    speakers: 'Jorropo'
-    title: "RAPIDE"
-    description: "RAPIDE has been proposed recently as a way to improve the content fetching performance of IPFS. This talk will be a demo of RAPIDE powering ipget 2.0. A brief description of the internals of RAPIDE will also be given to provide context to the audience."
+  - time: '16:40 - 17:10'
+    speakers: 'Floris Bruynooghe'
+    title: "Delta Chat and Iroh"
+    description: "Delta Chat is a messenger using email as transport and with no additional infrastructure.  This talk will discuss how the minimalist Iroh is used by Delta Chat to easily set up a second device by connecting both devices peer-to-peer."
+
+  - time: '17:00 - 17:30'
+    speakers: 'Franz Heinzmann'
+    title: "Repco - Exchanging community media and metadata over IPLD"
+    description: "We present Repco, an open source tool to replicate content from community media publishers. Repco uses IPLD repositories, CAR streams and UCANs to exchange authenticated logs of media content and metadata, which is ingested from different sources (RSS, REST APIs). Repco is developed within a wide network of European community media publishers and builds on long-running discussions on better publishing networks for small-scale media outlets. Future plans include connecting to speech transcription and translation services as well as integrating community features over ActivityPub."
 
 ---
