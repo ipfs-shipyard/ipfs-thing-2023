@@ -9,7 +9,9 @@
     "build": "tinacms build && next build",
     "start": "tinacms build && next start",
     "export": "yarn build && next export",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint . --ext .ts,.tsx",
+    "testpub-debug": "DEBUG=true node scripts/airtable-import.js",
+    "testpub": "node scripts/airtable-import.js"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.3.1",
