@@ -13,8 +13,8 @@ priority: 2
 attendees: 50
 org: ''
 times: '10:00 AM - 4:00 PM'
-timeslots:
 
+timeslots:
   - time: '11:50 - 12:35'
     speakers: 'Cade Diehm'
     title: "Memory in Uncertainty: IPFS and digital preservation in the multi-crisis present"

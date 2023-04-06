@@ -12,8 +12,8 @@ priority: 6
 attendees: 50
 org: ''
 times: '1:30 PM - 6:00 PM'
-timeslots:
 
+timeslots:
   - time: '14:45 - 15:15'
     speakers: 'dignifiedquire'
     title: "Iroh - IPFS reimagined (long)"

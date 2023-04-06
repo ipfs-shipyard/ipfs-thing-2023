@@ -12,8 +12,8 @@ priority: 2
 attendees: 50
 org: ''
 times: '10:00 AM - 6:00 PM'
-timeslots:
 
+timeslots:
   - time: '10:30 - 11:00'
     speakers: 'Robin Berjon'
     title: "What Is The Web?"

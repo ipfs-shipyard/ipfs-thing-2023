@@ -12,8 +12,8 @@ priority: 3
 attendees: 50
 org: ''
 times: '11:00 AM - 6:00 PM'
-timeslots:
 
+timeslots:
   - time: '11:00 - 11:30'
     speakers: 'Mauve Signweaver'
     title: "Efficient P2P Databases with IPLD Prolly Trees"

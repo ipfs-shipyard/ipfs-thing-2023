@@ -12,8 +12,8 @@ priority: 4
 attendees: 50
 org: ''
 times: '1:30 PM - 6:00 PM'
-timeslots:
 
+timeslots:
   - time: '10:30 - 11:00'
     speakers: 'David Justice'
     title: "Durin: IPFS on mobile"

@@ -12,8 +12,8 @@ priority: 2
 attendees: 50
 org: ''
 times: '9:00 AM - 10:45 AM'
-timeslots:
 
+timeslots:
   - time: '09:39 - 09:43'
     speakers: 'Ian Preston'
     title: "Implementations Showcase: Nabu - Java IPFS"
