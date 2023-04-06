@@ -188,7 +188,10 @@ const groupTracks = (tracks, talks) => {
   const trackTitles = tracks.map(t => t.title);
 
   // create map of track title => track data
-  const trackList = tracks.reduce((obj, t) => {
+  const trackList = tracks.sort((a,b) => {
+    // sort tracks by date
+    return a.trackDate.localeCompare(b.trackDate);
+  }).reduce((obj, t) => {
     // array to hold talks
     t.talks = [];
     // set track title property
@@ -205,6 +208,13 @@ const groupTracks = (tracks, talks) => {
     else {
       trackList[ talk.tracks[0] ].talks.push(talk);
     }
+  });
+
+  // Sort each track talks by time
+  Object.keys(trackList).forEach(k => {
+    trackList[k].talks = trackList[k].talks.sort((a,b) => {
+      return String(a.startTime).localeCompare(String(b.startTime));
+    });
   });
 
   return trackList;
