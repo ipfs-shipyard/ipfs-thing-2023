@@ -14,11 +14,6 @@ org: ''
 times: '1:30 PM - 6:00 PM'
 
 timeslots:
-  - time: '14:45 - 15:15'
-    speakers: 'dignifiedquire'
-    title: "Iroh - IPFS reimagined (long)"
-    description: "Presenting the current and upcoming features of Iroh."
-
   - time: '13:45 - 14:15'
     speakers: 'Gui'
     title: "Enabling More Applications to Join the libp2p DHT Ecosystem"
@@ -29,6 +24,16 @@ timeslots:
     title: "Automating Kubo's Development Process"
     description: "Learn how we automated Kubo's release process using kuboreleaser and migrated from CircleCI to GitHub Actions. Discover the benefits of automation and how we use Grafana to monitor our development pipeline. Perfect for developers and DevOps engineers interested in improving the developer experience in their projects."
 
+  - time: '14:45 - 15:15'
+    speakers: 'dignifiedquire'
+    title: "Iroh - IPFS reimagined (long)"
+    description: "Presenting the current and upcoming features of Iroh."
+
+  - time: '15:30 - 16:00'
+    speakers: 'Gus Eggert'
+    title: "go-libipfs: build your own IPFS adventure"
+    description: "go-libipfs has been recently proposed as a component library for building IPFS applications and implementations in Go. The goal of this effort is to help people build things. In this talk we will use examples to showcase things that are easy to do with go-libipfs that have been difficult to achieve up to now. More information can be found at: https://github.com/ipfs/go-libipfs"
+
   - time: '16:30 - 17:00'
     speakers: 'Mohsin Zaidi'
     title: "IPFS War Stories"
@@ -38,10 +43,5 @@ timeslots:
     speakers: 'Marten Seemann'
     title: "How to build your own compatible libp2p stack from scratch in an afternoon"
     description: "In this talk, we'll go over all you need to compose a modern and minimal libp2p stack."
-
-  - time: '15:30 - 16:00'
-    speakers: 'Gus Eggert'
-    title: "go-libipfs: build your own IPFS adventure"
-    description: "go-libipfs has been recently proposed as a component library for building IPFS applications and implementations in Go. The goal of this effort is to help people build things. In this talk we will use examples to showcase things that are easy to do with go-libipfs that have been difficult to achieve up to now. More information can be found at: https://github.com/ipfs/go-libipfs"
 
 ---

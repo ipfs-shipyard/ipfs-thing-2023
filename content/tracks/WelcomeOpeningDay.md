@@ -14,10 +14,15 @@ org: ''
 times: '9:00 AM - 10:45 AM'
 
 timeslots:
-  - time: '09:39 - 09:43'
-    speakers: 'Ian Preston'
-    title: "Implementations Showcase: Nabu - Java IPFS"
-    description: "Learn about the newest, fastest (10x faster) IPFS implementation. "
+  - time: '09:00 - 09:10'
+    speakers: 'Dietrich Ayala'
+    title: "Welcome and Introduction"
+    description: ""
+
+  - time: '09:30 - 09:31'
+    speakers: 'Various '
+    title: "Implementations Showcase"
+    description: "A set of lightning talks from the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
 
   - time: '09:31 - 09:35'
     speakers: 'Steve Loeppky'
@@ -29,10 +34,10 @@ timeslots:
     title: "Implementations Showcase: Lassie - a new golang implementation"
     description: ""
 
-  - time: '09:00 - 09:10'
-    speakers: 'Dietrich Ayala'
-    title: "Welcome and Introduction"
-    description: ""
+  - time: '09:39 - 09:43'
+    speakers: 'Ian Preston'
+    title: "Implementations Showcase: Nabu - Java IPFS"
+    description: "Learn about the newest, fastest (10x faster) IPFS implementation. "
 
   - time: '10:05 - 10:10'
     speakers: 'Addie Wagenknecht'
@@ -43,10 +48,5 @@ timeslots:
     speakers: 'All track leads '
     title: "Track-o-rama"
     description: "With over 15 tracks and a choose-your-own adventure format, how will you choose? In this session, track leads will give a 60-second pitch for why EVERYONE should come to their track."
-
-  - time: '09:30 - 09:31'
-    speakers: 'Various '
-    title: "Implementations Showcase"
-    description: "A set of lightning talks from the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
 
 ---
