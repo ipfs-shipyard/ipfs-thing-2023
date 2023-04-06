@@ -38,6 +38,8 @@ const fields = {
   'Last Name': 'lastName',
   'Email Address': 'email',
   'First Name': 'firstName',
+  'I prefer to have an alias displayed on my track or talk instead of my full name.': 'prefersAlias',
+  'Speaker Listing Name': 'alias',
 
   // meta
   'Created': 'createdDate',
@@ -255,9 +257,13 @@ const talkToMD = talk => {
   console.log('new final str', localeTimeStr);
   */
 
+  //  `    speakers: '${talk.firstName + ' ' + talk.lastName || ''}'`,
+  const speakerDisplay = talk.prefersAlias ? talk.alias
+    : `${talk.firstName} ${talk.lastName || ''}`; 
+
   return [
     `  - time: '${localeTimeStr}'`,
-    `    speakers: '${talk.firstName + ' ' + talk.lastName}'`,
+    `    speakers: '${speakerDisplay}'`,
     `    title: "${escapeYaml(talk.title)}"`,
     `    description: "${escapeYaml(talk.desc)}"`,
     ``
