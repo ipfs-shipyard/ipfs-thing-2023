@@ -259,7 +259,7 @@ const talkToMD = talk => {
 
   //  `    speakers: '${talk.firstName + ' ' + talk.lastName || ''}'`,
   const speakerDisplay = talk.prefersAlias ? talk.alias
-    : `${talk.firstName} ${talk.lastName || ''}`; 
+    : `${talk.firstName} ${talk.lastName || ''}`;
 
   return [
     `  - time: '${localeTimeStr}'`,
