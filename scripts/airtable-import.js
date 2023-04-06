@@ -214,6 +214,7 @@ const trackToMD = track => {
   return [
     '---',
     trackDetailsToMD(track),
+    `${track.talks.length > 0 ? 'timeslots:' : ''}`,
     track.talks.map(talkToMD).join('\n'),
     '---'
   ].join('\n');
@@ -283,7 +284,6 @@ priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
 org: '${escapeYaml(track.trackOrg) || '' }'
 times: '${track.time}'
-timeslots:
 `;
 };
 
