@@ -12,8 +12,8 @@ priority: 2
 attendees: 50
 org: ''
 times: '10:00 AM - 4:00 PM'
-timeslots:
 
+timeslots:
   - time: '15:00 - 15:30'
     speakers: 'Ian Preston'
     title: "Private data: state of the art"

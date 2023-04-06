@@ -12,8 +12,8 @@ priority: 3
 attendees: 50
 org: ''
 times: '11:00 AM - 6:00 PM'
-timeslots:
 
+timeslots:
   - time: '11:50 - 12:20'
     speakers: 'James Walker'
     title: "CAR Mirror Reflections"
