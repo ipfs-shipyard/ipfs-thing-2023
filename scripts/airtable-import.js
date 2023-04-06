@@ -257,7 +257,6 @@ const talkToMD = talk => {
   console.log('new final str', localeTimeStr);
   */
 
-  //  `    speakers: '${talk.firstName + ' ' + talk.lastName || ''}'`,
   const speakerDisplay = talk.prefersAlias ? talk.alias
     : `${talk.firstName} ${talk.lastName || ''}`;
 
