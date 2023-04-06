@@ -30,11 +30,6 @@ timeslots:
     description: "The WebNative File System (WNFS) empowers users with extensible metadata, file and directory history, conflict resolution, and encryption with fine-grained access levels.
 We show a rough outline of what its design goals are, how it works, our roadmap, and possibly a demo of our new rust implementation."
 
-  - time: '12:00 - 12:30'
-    speakers: 'Ryan Shahine'
-    title: "Building decentralized websites on IPFS"
-    description: "Get to know how Portrait utilizes IPFS to create decentralized websites for your Web3 identity."
-
   - time: '13:30 - 14:00'
     speakers: 'Alex Potsides'
     title: "Hello Helia"
@@ -46,11 +41,6 @@ What is it, why is it and how to use it!"
     speakers: 'Alex Potsides'
     title: "JavaScript performance - how to wring the most out of your Helia deployment"
     description: "JS is slow, right?  No!  In this talk I'll show you how you can optimise your Helia deployment for blazing performance."
-
-  - time: '14:15 - 14:45'
-    speakers: 'Alex Potsides'
-    title: "Smooth on the inside, crunchy on the outside - how to observe the behaviour of your Helia node"
-    description: "IPFS is a big dark attic full of cobwebs and stuff that blocks your way and may fall on you.  In this talk we'll see how to observe the various components working together in your Helia node."
 
   - time: '14:30 - 15:00'
     speakers: 'Prithvi Shahi'
@@ -66,5 +56,10 @@ What is it, why is it and how to use it!"
     speakers: 'Blaine Cook'
     title: "The Name Name Service – Discoverable, Verifiable Names for Decentralized Infrastructures"
     description: "NNS is a new approach to providing distributed discovery for human-readable names. NNS builds upon DIDs and UCANs to allow permissionless delegation and service discovery, with an emphasis on improving end-user UX for IPFS and related services. This talk will provide an overview of the approach, discuss use-cases, and explore anticipated challenges."
+
+  - time: '16:30 - 17:00'
+    speakers: 'Ryan Shahine'
+    title: "Building decentralized websites on IPFS"
+    description: "Get to know how Portrait utilizes IPFS to create decentralized websites for your Web3 identity."
 
 ---
