@@ -219,12 +219,26 @@ const trackToMD = track => {
 
 const talkToMD = talk => {
 
+  // generate start/end times
   const startTime = new Date(talk.startTime);
   const duration = talk.duration || 1800;
   const startMs = startTime.getTime();
   const endMs = startMs + (talk.duration * 1000);
   const endTime = new Date(endMs);
 
+  // generate localized string for event timezone
+  const opts = {
+    timeZone: 'Europe/Brussels',
+    hour: "2-digit",
+    minute: "2-digit"
+  };
+
+  const sStr = startTime.toLocaleTimeString('fr-BE', opts);
+  const eStr = endTime.toLocaleTimeString('fr-BE', opts);
+  const localeTimeStr = `${sStr} - ${eStr}`;
+
+  // leaving for now until we confirm fix end to end
+  /*
   const timeStr = [
     startTime.getHours().toString().padStart(2, '0'),
     ':',
@@ -235,8 +249,14 @@ const talkToMD = talk => {
     endTime.getMinutes().toString().padEnd(2, '0')
   ].join('');
 
+  console.log('TALK', talk.title, talk.startTime)
+  console.log('asISO', startTime.toISOString())
+  console.log('orig final str', timeStr);
+  console.log('new final str', localeTimeStr);
+  */
+
   return [
-    `  - time: '${timeStr}'`,
+    `  - time: '${localeTimeStr}'`,
     `    speakers: '${talk.firstName + ' ' + talk.lastName}'`,
     `    title: "${escapeYaml(talk.title)}"`,
     `    description: "${escapeYaml(talk.desc)}"`,
