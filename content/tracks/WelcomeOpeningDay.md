@@ -14,39 +14,41 @@ org: ''
 times: '9:00 AM - 10:45 AM'
 timeslots:
 
-  - time: '09:39 - 09:43'
+  - time: '07:30 - 08:00'
     speakers: 'Ian Preston'
-    title: "Implementations Showcase: Nabu - Java IPFS"
+    title: "Nabu: Java IPFS"
     description: "Learn about the newest, fastest (10x faster) IPFS implementation. "
 
-  - time: '09:31 - 09:35'
+  - time: '07:30 - 08:00'
     speakers: 'Steve Loeppky'
-    title: "Implementations Showcase: Kubo"
-    description: "Kubo's role in the IPFS ecosystem, recap of progress over the last year, and plans for the future."
+    title: "Kubo recap, update, and roadmap"
+    description: "Kubo's role in the IPFS ecosystem, recap of progress over the last year, and plans for the future.
 
-  - time: '09:35 - 09:39'
+It's TBD whether I or Gus will be giving this talk."
+
+  - time: '07:30 - 08:00'
     speakers: 'Hannah Howard'
-    title: "Implementations Showcase: Lassie - a new golang implementation"
+    title: "Introducing Lassie! A New IPFS Implementation In Go"
     description: ""
 
-  - time: '09:00 - 09:10'
+  - time: '07:00 - 07:30'
     speakers: 'Dietrich Ayala'
     title: "Welcome and Introduction"
     description: ""
 
-  - time: '10:05 - 10:10'
+  - time: '08:10 - 08:40'
     speakers: 'Addie Wagenknecht'
     title: "IPFS Impact Awards"
-    description: "Announcement and celebration of the winners of the IPFS Community Impact Awards Round 2, selected through the open impact evaluator process."
+    description: "Announcement & celebration of the winners of the IPFS Impact Evaluator Awards Round 2, selected through the open impact evaluator process."
 
-  - time: '10:25 - 10:40'
+  - time: '08:25 - 08:55'
     speakers: 'All track leads undefined'
     title: "Track-o-rama"
     description: "With over 15 tracks and a choose-your-own adventure format, how will you choose? In this session, track leads will give a 60-second pitch for why EVERYONE should come to their track."
 
-  - time: '09:30 - 09:31'
-    speakers: 'Various undefined'
+  - time: '07:30 - 08:00'
+    speakers: 'Steve Loeppky, Hannah Howard, Friedel Ziegelmayer undefined'
     title: "Implementations Showcase"
-    description: "A set of lightning talks from the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
+    description: "Lightning talks from the lead maintainers of key IPFS implementations (Kubo, Lassie, Iroh, and more) on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
 
 ---

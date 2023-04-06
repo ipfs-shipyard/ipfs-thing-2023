@@ -1,18 +1,12 @@
 ---
-
-name: "Roadmapping Next Steps out of the IPFS þing"
-date: '2023-04-17'
+name: Roadmapping Next Steps out of the IPFS þing
+dri: Molly Mackinlay
+date: '2023-04-17T09:00:00.000Z'
 days: 1
-venueName: 'Radisson Grand Place, Brussels'
-venueAddress: ''
-difficulty: All Welcome
-description: >-
-  A discussion / breakout-oriented workshop for defining and committing to next steps out of the weeks conversations, which we can progress and celebrate at upcoming IPFS events in Q3 / Q4 2023.
+times: 4pm - 6pm
+difficulty: ''
 priority: 3
-attendees: 50
-org: ''
-times: '4:00 PM - 6:00 PM'
-timeslots:
-
-
+category: ''
 ---
+
+
