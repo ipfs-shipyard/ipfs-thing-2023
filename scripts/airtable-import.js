@@ -10,7 +10,8 @@ if (!token.length) {
   process.error(1);
 }
 
-const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses';
+//const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses';
+const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses?&view=IPFS%20%C3%BEing%202023%20Track%20%26%20Talk%20Submissions';
 
 const fields = {
   // for all
