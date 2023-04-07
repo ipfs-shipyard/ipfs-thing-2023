@@ -14,20 +14,15 @@ org: ''
 times: '9:00 AM - 10:45 AM'
 
 timeslots:
-  - time: '09:00 - 09:10'
-    speakers: 'Dietrich Ayala'
-    title: "Welcome and Introduction"
+  - time: '09:10 - 09:15'
+    speakers: 'Yiannis Psaras'
+    title: "Measuring IPFS"
+    description: "We will introduce the importance of data-driven protocol design and optimisation and the measurement campaigns that the ProbeLab team has carried out in the past couple of quarters. We will selectively dive into a couple of them, present representative results and provide pointers for the rest. We will also talk about KPIs for the IPFS network and discuss our future plans."
+
+  - time: '09:15 - 09:20'
+    speakers: 'Will Scott'
+    title: "Project Rhea"
     description: ""
-
-  - time: '09:30 - 09:31'
-    speakers: 'Various '
-    title: "Implementations Showcase"
-    description: "A set of lightning talks from the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
-
-  - time: '09:31 - 09:35'
-    speakers: 'Steve Loeppky'
-    title: "Implementations Showcase: Kubo"
-    description: "Kubo's role in the IPFS ecosystem, recap of progress over the last year, and plans for the future."
 
   - time: '09:35 - 09:39'
     speakers: 'Hannah Howard'

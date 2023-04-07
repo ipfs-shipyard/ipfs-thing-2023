@@ -39,22 +39,6 @@ timeslots:
     title: "DHT Double Hashing Updates & Migration Plan"
     description: "Double Hashing for the libp2p DHT has been proposed as an approach to improve libp2p's privacy. The approach, which includes breaking changes to the current DHT, has been discussed at IPFS Thing and Camp 2022. This talk will give a brief update of developments since IPFS Camp and most importantly will lay out the migration plan to the new double-hashing DHT."
 
-  - time: '14:15 - 14:45'
-    speakers: 'Ivan Schasny'
-    title: "Double Hashing in IPNI: Reader Privacy at scale"
-    description: "In this talk I'd like to speak about IPNI's journey to implementing Double Hashing at scale. I'll cover:
-* what double hashing is and what benefits it gives to the user;
-* IPNI and DHT double hashing compatibility;
-* IPNI dataset migration;
-* how we run double hashing in production;
-* issues that we encountered.
-This talk will be interesting to those who already run IPNI by themselves (as they will want to implement Reader Privacy at some point) as well as to those who are just thinking to participate in the IPNI ecosystem."
-
-  - time: '15:00 - 15:30'
-    speakers: 'Ian Preston'
-    title: "Private data: state of the art"
-    description: "A deep dive into the Peergos architecture and cryptree+ which gives post-quantum ciphertext-level access control, better metadata protection and better performance. Learn about our fully concurrent GC design, and other performance boosts."
-
   - time: '16:15 - 16:45'
     speakers: 'gammazero'
     title: "Content Advertisement Mirroring"

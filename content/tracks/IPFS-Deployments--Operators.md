@@ -14,11 +14,6 @@ org: ''
 times: '1:30 PM - 6:00 PM'
 
 timeslots:
-  - time: '13:45 - 14:15'
-    speakers: 'Gui'
-    title: "Enabling More Applications to Join the libp2p DHT Ecosystem"
-    description: "At present, DHT implementations primarily revolve around IPFS. However, it's possible for other applications that leverage libp2p to utilize the DHT without the need to participate in the IPFS DHT and store IPFS data. This presentation outlines a strategy to divide the existing DHT into two parts: a lightweight, multipurpose DHT and an IPFS DHT protocol built on top of it. This proposed approach would enable non-IPFS applications to join the lightweight DHT while running their own protocol on top of it. This would promote interoperability with other applications, contribute to the growth of the libp2p DHT, and enhance the security of all its users."
-
   - time: '14:15 - 14:45'
     speakers: '@galargh'
     title: "Automating Kubo's Development Process"
@@ -30,14 +25,19 @@ timeslots:
     description: "Presenting the current and upcoming features of Iroh."
 
   - time: '15:30 - 16:00'
-    speakers: 'Gus Eggert'
-    title: "go-libipfs: build your own IPFS adventure"
-    description: "go-libipfs has been recently proposed as a component library for building IPFS applications and implementations in Go. The goal of this effort is to help people build things. In this talk we will use examples to showcase things that are easy to do with go-libipfs that have been difficult to achieve up to now. More information can be found at: https://github.com/ipfs/go-libipfs"
+    speakers: 'undefined '
+    title: "BREAK"
+    description: "45 minutes"
 
   - time: '16:30 - 17:00'
     speakers: 'Mohsin Zaidi'
     title: "IPFS War Stories"
     description: "Lessons learned from running IPFS nodes in a production environment.  Ceramic Network's operational burden from IPFS nodes."
+
+  - time: '17:00 - 17:30'
+    speakers: 'Anshuman Prasad'
+    title: "Game asset loading with IPFS"
+    description: "Learn how game devs can use IPFS from within Unreal Engine or Unity to package and distribute modular game files. This has the potential to reduce game download sizes, simplify patching, handle distribution and reduce infra lock-in"
 
   - time: '17:30 - 18:00'
     speakers: 'Marten Seemann'

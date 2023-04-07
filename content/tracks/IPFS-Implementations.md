@@ -14,33 +14,20 @@ org: ''
 times: '10:00 AM - 4:00 PM'
 
 timeslots:
-  - time: '10:30 - 11:00'
-    speakers: 'Will Scott'
-    title: "What is Rhea?"
-    description: "Diving into the decentralization of the IPFS gateway, and how Saturn can provide a replacement for centralized infrastructure"
+  - time: '09:00 - 09:30'
+    speakers: 'undefined '
+    title: "WELCOME AND OPENING"
+    description: "1 hour 45 minutes"
 
   - time: '11:00 - 11:30'
     speakers: 'Adin Schmahmann'
     title: "IPFS Service Worker Gateways"
     description: "We'll take a look at loading content using IPFS in a web browser without relying on extensions or trusted HTTP Gateways using service workers. We'll also discuss some of the libraries and recent improvements that have enabled this functionality."
 
-  - time: '13:30 - 13:50'
-    speakers: 'Alex Kinstler'
-    title: "Web3 CDN Saturn accelerates IPFS & Filecoin retrievals"
-    description: "Learn how the Saturn network accelerates content addressable data from IPFS and Filecoin
-Learn about the Beta Test Program for developers to start using Saturn.
-Learn how to get started with Saturn and future roadmap outlook."
-
-  - time: '13:50 - 14:20'
-    speakers: 'lidel'
-    title: "Self-hosting IPFS Gateway with bifrost-gateway"
-    description: "This will be a talk about scaling IPFS Gateways. At ipfs.io we are in the process of moving from a single binary that does everything (Kubo) into discrete, separate services, that can be deployed and managed separately. 
-
-Will use project Rhea (new ipfs.io backend) as an example, but the goal will be to show how to do easy self-hosting and run own gateway using our turn-key bifrost-gateway docker image with either Saturn CDN or a regular Kubo as a backend.
-
-If time allows, we will also show how to create own, optimized gateway implementation using go-libipfs/gateway with custom backend that implements the new GO API.
-
-"
+  - time: '12:30 - 13:00'
+    speakers: 'undefined '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '14:20 - 14:40'
     speakers: 'Aarsh Shah'

@@ -14,19 +14,24 @@ org: ''
 times: '1:30 PM - 6:00 PM'
 
 timeslots:
+  - time: '10:00 - 10:30'
+    speakers: 'Ryan Plauche'
+    title: "Welcome to this track"
+    description: ""
+
   - time: '10:05 - 10:35'
     speakers: 'Ryan Plauche'
     title: "Adapting IPFS for Space"
     description: "This talk will cover the general design and structure used in creating an IPFS implementation intended for use in spacecraft and ground stations."
 
-  - time: '10:30 - 11:00'
-    speakers: 'David Justice'
-    title: "Durin: IPFS on mobile"
-    description: "We announced Durin at IPFS Camp in lisbon, here we will explain again what it provides, current work, and future plans for IPFS in mobile with Durin"
-
   - time: '11:00 - 11:30'
     speakers: 'Brooklyn Zelenka'
     title: "Decentralizing Auth, and UCAN Too"
     description: "UCAN is a decentalized auth format used by a number of dweb, web3, and IPFS projects. Much like how IPFS uses content addressing to liberate data from centralized hosts, UCAN uses CIDs and OCAP to liberate apps from centralized auth servers. Come find out how UCAN can help throughtout the IPFS stack from block-level access to user permissions to application interop."
+
+  - time: '12:00 - Invalid Date'
+    speakers: 'Irakli Gozalishvili'
+    title: "UCAN too"
+    description: "Interactive workshop for learning core concepts of UCANs (and ucanto RPC) through a playful coding. "
 
 ---
