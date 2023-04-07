@@ -34,9 +34,9 @@ const fields = {
   'Title & Organization': 'spkrTitle',
   'If you are affiliated with an organization and would like your logo to be displayed on our event website as a participating team at IPFS thing, please upload a high res image below.': 'logo',
   'Headshot': 'headshot',
-  'Last Name': 'lastName',
   'Email Address': 'email',
   'First Name': 'firstName',
+  'Last Name': 'lastName',
   'I prefer to have an alias displayed on my track or talk instead of my full name.': 'prefersAlias',
   'Speaker Listing Name': 'alias',
 
@@ -246,6 +246,12 @@ const trackToMD = track => {
   ].join('\n');
 };
 
+const personLabelFromRecord = (r) => {
+  const fullName = `${r.firstName || 'None'} ${r.lastName || ''}`;
+  const fullDisplay = r.prefersAlias ? r.alias : fullName;
+  return fullDisplay;
+}
+
 const talkToMD = talk => {
 
   // generate start/end times
@@ -266,8 +272,7 @@ const talkToMD = talk => {
   const eStr = endTime.toLocaleTimeString('fr-BE', opts);
   const localeTimeStr = `${sStr} - ${eStr}`;
 
-  const speakerName = `${talk.firstName || 'None'} ${talk.lastName || ''}`;
-  const speakerDisplay = talk.prefersAlias ? talk.alias : speakerName;
+  const speakerDisplay = personLabelFromRecord(talk);
 
   return [
     `  - time: '${localeTimeStr}'`,
@@ -291,6 +296,7 @@ description: >-
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
 org: '${escapeYaml(track.trackOrg) || '' }'
+dri: '${personLabelFromRecord(track)}'
 times: '${track.time}'
 `;
 };
