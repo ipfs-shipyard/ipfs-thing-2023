@@ -14,6 +14,11 @@ org: ''
 times: '10:00 AM - 6:00 PM'
 
 timeslots:
+  - time: '10:00 - 10:30'
+    speakers: 'Dietrich Ayala'
+    title: "WELCOME + OPENING"
+    description: ""
+
   - time: '10:30 - 11:00'
     speakers: 'Robin Berjon'
     title: "What Is The Web?"
@@ -29,6 +34,18 @@ timeslots:
     title: "WNFS: Versioned and Encrypted Data on IPFS"
     description: "The WebNative File System (WNFS) empowers users with extensible metadata, file and directory history, conflict resolution, and encryption with fine-grained access levels.
 We show a rough outline of what its design goals are, how it works, our roadmap, and possibly a demo of our new rust implementation."
+
+  - time: '12:00 - 12:30'
+    speakers: 'Fabrice Desré'
+    title: "Improving the Web security model with content based addressing"
+    description: "The web security model relies on a combination of mechanisms to provide origin isolation and prevent some classes of attacks: the Same Origin Policy and Content Security Policies. While effective for their goals, these mechanisms also have side effects that prevent legitimate applications to be built on the Web.
+In this talk we'll explore how content based addressing can be leveraged to build 
+different security models that enable a new class of Web apps."
+
+  - time: '12:30 - 13:00'
+    speakers: 'undefined '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '13:30 - 14:00'
     speakers: 'Alex Potsides'
@@ -52,6 +69,11 @@ What is it, why is it and how to use it!"
     title: "The Incredible Benefits of libp2p + HTTP: A Match Made in Decentralization Heaven"
     description: "In this talk, we'll go over our proposal for a new libp2p+HTTP protocol."
 
+  - time: '15:30 - 16:00'
+    speakers: 'undefined '
+    title: "BREAK"
+    description: "30 minutes"
+
   - time: '16:00 - 16:30'
     speakers: 'Blaine Cook'
     title: "The Name Name Service – Discoverable, Verifiable Names for Decentralized Infrastructures"
@@ -61,5 +83,15 @@ What is it, why is it and how to use it!"
     speakers: 'Ryan Shahine'
     title: "Building decentralized websites on IPFS"
     description: "Get to know how Portrait utilizes IPFS to create decentralized websites for your Web3 identity."
+
+  - time: '17:00 - 17:30'
+    speakers: 'icidasset'
+    title: "ODD.js, a technical overview."
+    description: "ODD.js is a toolkit that allows you to build a distributed web application where the user is in full control of their data thanks to WNFS and UCAN. We’ll take a look at which additional layers are built on top of WNFS and how UCAN is utilised throughout this. ODD.js is built by the folks at Fission, but that doesn’t necessarily mean your web application is tied to the Fission infrastructure. This SDK allows various components to be customised and swapped out, as we did with Walletauth, where MetaMask is used as the identity layer."
+
+  - time: '17:30 - 18:00'
+    speakers: 'fusionstrings'
+    title: "IPFS native frontend development using Importmaps"
+    description: "Frontend Development for IPFS can be greatly simplified with use of importmaps, a new web standard. This talk explains challenges on the and how JSPM created tooling and CDN aims to fill the gap."
 
 ---

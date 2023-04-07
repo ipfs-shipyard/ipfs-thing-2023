@@ -14,6 +14,11 @@ org: ''
 times: '11:00 AM - 6:00 PM'
 
 timeslots:
+  - time: '09:00 - 09:30'
+    speakers: 'undefined '
+    title: "WELCOME + OPENING"
+    description: ""
+
   - time: '10:30 - 11:00'
     speakers: 'Aaron Goldman'
     title: "Anchors Away (consistency in an IPFS world)"
@@ -23,6 +28,16 @@ timeslots:
     speakers: 'Mauve Signweaver'
     title: "Efficient P2P Databases with IPLD Prolly Trees"
     description: "This talk will go over what IPLD Prolly Trees are and how they can be used to build efficient Peer to Peer Databases which can query large amounts of data using built in indexes."
+
+  - time: '11:45 - 12:15'
+    speakers: 'J Chris Anderson'
+    title: "Fireproof: Immutable Realtime Database"
+    description: "Introduction to Fireproof, features, goals, codebase, use-cases"
+
+  - time: '12:30 - 13:00'
+    speakers: 'undefined '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '13:30 - 14:00'
     speakers: 'Taosheng Shi'
@@ -45,5 +60,39 @@ This talk introduces the ideas underpinning Rhizome, and demonstrates how they c
     description: "Learn about a new a method of key/value storage implemented as an IPLD DAG. It details the format, encoding and mechanisms to mutate the storage as well as how to reconcile mutations made by multiple parties. Hint: Merkle Clocks and CRDTs.
 
 We'll also learn about how you can leverage new web3.storage APIs to leverage decentralized, user controlled authorization for the data using UCANs."
+
+  - time: '15:30 - 16:00'
+    speakers: 'undefined '
+    title: "BREAK"
+    description: "45 minutes"
+
+  - time: '16:00 - 16:30'
+    speakers: 'Swarnabha  Sinha'
+    title: "About Koii Network new  settlement layer K2, and how efficiently it will solve the use cases"
+    description: "1/ 📣 K2 has officially launched & we could not be more proud! 
+
+K2 is our network's settlement layer that provides lightning fast transactions.
+
+The K2 upgrades are a huge step forward for the network & for #Web3 as a whole. Here's what this means for the future of Koii.
+
+2/ You can now run your own K2 node. ☊
+
+When you run a K2 node, you’ll help keep our network in sync and earn your share of the daily KOII mint. 
+
+Validators share 10% of the daily tokens, so the earlier you start, the more you’ll earn.
+
+
+
+
+3/ The applications for K2 are infinite.
+
+It enables blockchain bridges, decentralized social platforms 👩🏽‍💻, #Web3 games🕹, & more. 
+
+We have 500+ ecosystem projects ready to build on Koii. K2 is the foundation for all of them, enabling a network of light-speed transactions."
+
+  - time: '16:45 - 17:15'
+    speakers: 'undefined '
+    title: "Tableland?"
+    description: ""
 
 ---
