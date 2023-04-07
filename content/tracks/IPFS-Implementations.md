@@ -14,6 +14,11 @@ org: ''
 times: '10:00 AM - 4:00 PM'
 
 timeslots:
+  - time: '09:00 - 09:30'
+    speakers: 'None '
+    title: "WELCOME AND OPENING"
+    description: ""
+
   - time: '10:30 - 11:00'
     speakers: 'Will Scott'
     title: "What is Rhea?"
@@ -23,6 +28,11 @@ timeslots:
     speakers: 'Adin Schmahmann'
     title: "IPFS Service Worker Gateways"
     description: "We'll take a look at loading content using IPFS in a web browser without relying on extensions or trusted HTTP Gateways using service workers. We'll also discuss some of the libraries and recent improvements that have enabled this functionality."
+
+  - time: '12:30 - 13:00'
+    speakers: 'None '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '13:30 - 13:50'
     speakers: 'Alex Kinstler'
@@ -56,5 +66,10 @@ If time allows, we will also show how to create own, optimized gateway implement
     speakers: 'laudiacay'
     title: "Live CDN Incentives and its Future"
     description: "I'll be talking about how to do CDN incentivization at a protocol level correctly- the game theory is pretty simple and I independently converged on a design pretty similar to the one on Skynet. Adding a simple piece of novel cryptography to the payment channels, and integrating that into the transport layer, reduces latency/RTTs and allows for &#34;delegated payments&#34; where a content creator can send a short commitment to a user to &#34;give them a coupon&#34; for the delivery of a particular file."
+
+  - time: '15:30 - 16:00'
+    speakers: 'None '
+    title: "BREAK"
+    description: "45 minutes"
 
 ---

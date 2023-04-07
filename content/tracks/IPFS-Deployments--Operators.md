@@ -34,10 +34,20 @@ timeslots:
     title: "go-libipfs: build your own IPFS adventure"
     description: "go-libipfs has been recently proposed as a component library for building IPFS applications and implementations in Go. The goal of this effort is to help people build things. In this talk we will use examples to showcase things that are easy to do with go-libipfs that have been difficult to achieve up to now. More information can be found at: https://github.com/ipfs/go-libipfs"
 
+  - time: '15:30 - 16:00'
+    speakers: 'None '
+    title: "BREAK"
+    description: "45 minutes"
+
   - time: '16:30 - 17:00'
     speakers: 'Mohsin Zaidi'
     title: "IPFS War Stories"
     description: "Lessons learned from running IPFS nodes in a production environment.  Ceramic Network's operational burden from IPFS nodes."
+
+  - time: '17:00 - 17:30'
+    speakers: 'Anshuman Prasad'
+    title: "Game asset loading with IPFS"
+    description: "Learn how game devs can use IPFS from within Unreal Engine or Unity to package and distribute modular game files. This has the potential to reduce game download sizes, simplify patching, handle distribution and reduce infra lock-in"
 
   - time: '17:30 - 18:00'
     speakers: 'Marten Seemann'

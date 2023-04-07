@@ -20,6 +20,11 @@ timeslots:
     title: "What Should We Governance?"
     description: "In order to keep IPFS and its broader ecosystem pushing in a direction that benefits all people, to support impactful collective action and ownership, and to avoid it being captured by larger players we need to deploy matching governance capabilities. The goal of this workshop is to produce a list of issues and pain points regarding governance of the IPFS ecosystem and to use that as a launching point for work on building robust cooperation."
 
+  - time: '10:00 - 10:00'
+    speakers: 'Robin Berjon'
+    title: "WELCOME + OPENING"
+    description: ""
+
   - time: '10:50 - 11:05'
     speakers: 'Henrique Dias'
     title: "Interplanetary Specs"
@@ -48,12 +53,32 @@ I think I would need 5-10 minutes (questions aside) to present this."
 
 This talk presents the findings of the 2022 Filecoin-supported collaboration between New Design Congress and Webrecorder, highlighting how the DWeb landscape, its technologies and institutions are out of step with the realities of rising instability and complexity of the 21st century -- and what we can do today to begin to address these problems. "
 
+  - time: '12:30 - 13:30'
+    speakers: 'None '
+    title: "LUNCH"
+    description: "1 hour"
+
+  - time: '13:30 - 13:45'
+    speakers: 'Boris Mann'
+    title: "[TBD] Open Source governance, funding, etc."
+    description: "[Boris to fill out]"
+
+  - time: '13:50 - 14:05'
+    speakers: 'Robin Berjon'
+    title: " Decentralized Data Compliance"
+    description: "A quick tour of the problems we face with decentralised data compliance, and the work of the  Decentralized Data Compliance Working Group."
+
   - time: '14:10 - 15:40'
     speakers: 'Yuni Graham'
     title: "IPFS Camp Committee"
     description: "It may seem like there is plenty of time, but IPFS Camp is scheduled for later this fall and a large event such as IPFS Camp, needs quite a bit of planning runway. We need volunteers to be a part of the (content) planning committee. This would require significant investment in terms of time and energy, but you will be rewarding the IPFS Community with a spectacular, well planned event and set us up for future IPFS Camp successes. 
 
 Additionally, let's think ahead on what content we know we'd like to see, new ares of discussion we think could bridge over to bring in new faces, and companies we'd like to see there who may not have joined in the past. Is there something from last year you'd like to see expanded upon? Let's talk. "
+
+  - time: '15:30 - 16:00'
+    speakers: 'None '
+    title: "BREAK"
+    description: "45 minutes"
 
   - time: '16:00 - 16:45'
     speakers: 'Yuni Graham'

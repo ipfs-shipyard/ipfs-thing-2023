@@ -14,6 +14,11 @@ org: ''
 times: '11:00 AM - 6:00 PM'
 
 timeslots:
+  - time: '11:00 - 11:25'
+    speakers: 'Hannah Howard'
+    title: "Track Intro"
+    description: "15 minutes"
+
   - time: '11:25 - 11:55'
     speakers: 'Rüdiger Klaehn'
     title: "Moving the bytes with bao"
@@ -23,6 +28,11 @@ timeslots:
     speakers: 'James Walker'
     title: "CAR Mirror Reflections"
     description: "CAR Mirror describes a method for efficiently diffing, deduplicating, packaging, and transmitting IPLD data from source to sink.  In this talk I'll give an introduction to the CAR Mirror protocol and then review the current state of the Go implementation."
+
+  - time: '12:30 - 13:00'
+    speakers: 'None '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '13:30 - 14:00'
     speakers: 'Hannah Howard'
@@ -41,9 +51,19 @@ timeslots:
 This talk discusses current proposals for batched data transfer such as blake3 with bao, sending CAR files, CAR mirror, and GraphSync. We’ll look at what use cases they do and don’t solve as well as which techniques from one protocol could be applied in others."
 
   - time: '14:45 - 15:15'
-    speakers: 'undefined '
+    speakers: 'None '
     title: "We Moved The Bytes, Where Did They Go?"
     description: "Over the last few months, we assembled the Move The Bytes Working Group to improve data transfer protocols across the IPFS network. This panel discussion will cover what we discussed, what we think we learned, and where we'd like to take this work from here."
+
+  - time: '15:30 - 16:00'
+    speakers: 'None '
+    title: "BREAK"
+    description: "45 minutes"
+
+  - time: '16:15 - 16:35'
+    speakers: 'dvd'
+    title: "Retrieval Compatibility in the IP Network"
+    description: "Retrieval Compatibility in the IP Network - bitswap, graphsync, and more!"
 
   - time: '16:40 - 17:10'
     speakers: 'Floris Bruynooghe'
@@ -54,5 +74,10 @@ This talk discusses current proposals for batched data transfer such as blake3 w
     speakers: 'Franz Heinzmann'
     title: "Repco - Exchanging community media and metadata over IPLD"
     description: "We present Repco, an open source tool to replicate content from community media publishers. Repco uses IPLD repositories, CAR streams and UCANs to exchange authenticated logs of media content and metadata, which is ingested from different sources (RSS, REST APIs). Repco is developed within a wide network of European community media publishers and builds on long-running discussions on better publishing networks for small-scale media outlets. Future plans include connecting to speech transcription and translation services as well as integrating community features over ActivityPub."
+
+  - time: '17:20 - Invalid Date'
+    speakers: 'None '
+    title: "Reflections, Discussions, Looking Ahead"
+    description: "Open ended discussion for as long as we need"
 
 ---
