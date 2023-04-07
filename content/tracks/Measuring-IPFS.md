@@ -34,10 +34,25 @@ timeslots:
     title: "State of Content Routing through the DHT: Latest developments and measurement results"
     description: "During the last couple of quarters we have seen several developments landing on IPFS's public DHT: the content routing-specific operation of Hydras has been disabled, the resource manager was turned on by default and some misconfiguration of it led to several nodes in the network performing worse than expected. In parallel we developed improvements that will hopefully increase the performance. This talk will present data from our measurement experiments and will also lay out our future plans."
 
+  - time: '11:50 - 12:20'
+    speakers: 'Max (mxinden)'
+    title: "libp2p performance"
+    description: "Measuring libp2p's transport performance with the new perf protocol https://github.com/libp2p/specs/pull/478."
+
   - time: '12:10 - 12:40'
     speakers: 'Zhengyu Wu'
     title: "Is IPFS Ready for Decentralized Video Streaming?"
     description: "Participants will have ideas about how video stream is currently on IPFS. Also have idea how can we improved video streaming with IPFS."
+
+  - time: '12:30 - 13:00'
+    speakers: 'None '
+    title: "LUNCH"
+    description: "1 hour"
+
+  - time: '13:30 - 14:00'
+    speakers: 'Molly Mackinlay '
+    title: "IPFS KPIs: Measure what matters"
+    description: "This talk will point us to the right direction on what needs to be measured and monitored as high-level project KPIs for IPFS. It will go beyond low-level network measurements of specific components that make up IPFS to a broader view of the IPFS as a major platform for Web3 applications."
 
   - time: '14:00 - 14:30'
     speakers: 'Logan Lentz'
@@ -53,9 +68,19 @@ In this talk I will give an overview of the largest hack of the internet (aka. h
 
 If you always wondered how hole punching works, how much more successful UDP is over TCP, whether IPv4 or v6 makes a difference, which country is most friendly to p2p and how to overcome symetric NATs, join for the talk!"
 
-  - time: '23:50 - 00:20'
-    speakers: 'Max (mxinden)'
-    title: "libp2p performance"
-    description: "Measuring libp2p's transport performance with the new perf protocol https://github.com/libp2p/specs/pull/478."
+  - time: '14:40 - 15:10'
+    speakers: 'None '
+    title: "Panel: Data-Oriented Protocol Design and Development - Challenges and Opportunities"
+    description: ""
+
+  - time: '15:30 - 16:00'
+    speakers: 'None '
+    title: "BREAK"
+    description: "45 min"
+
+  - time: '16:00 - 16:30'
+    speakers: 'None '
+    title: "Open Slot - Bring Your Own Ideas"
+    description: ""
 
 ---

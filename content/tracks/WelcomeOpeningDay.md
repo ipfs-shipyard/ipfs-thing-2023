@@ -19,6 +19,16 @@ timeslots:
     title: "Welcome and Introduction"
     description: ""
 
+  - time: '09:10 - 09:15'
+    speakers: 'Yiannis Psaras'
+    title: "Measuring IPFS"
+    description: "We will introduce the importance of data-driven protocol design and optimisation and the measurement campaigns that the ProbeLab team has carried out in the past couple of quarters. We will selectively dive into a couple of them, present representative results and provide pointers for the rest. We will also talk about KPIs for the IPFS network and discuss our future plans."
+
+  - time: '09:15 - 09:20'
+    speakers: 'Will Scott'
+    title: "Project Rhea"
+    description: ""
+
   - time: '09:30 - 09:31'
     speakers: 'Various '
     title: "Implementations Showcase"
@@ -38,6 +48,16 @@ timeslots:
     speakers: 'Ian Preston'
     title: "Implementations Showcase: Nabu - Java IPFS"
     description: "Learn about the newest, fastest (10x faster) IPFS implementation. "
+
+  - time: '09:43 - 09:47'
+    speakers: 'dignifiedquire'
+    title: "Implementations Showcase: Iroh - IPFS Reimagined"
+    description: "Presenting the current and upcoming features of Iroh."
+
+  - time: '09:50 - 10:05'
+    speakers: 'None '
+    title: "IPFS Everywhere"
+    description: "Lightning talks from the maintainers of the latest IPFS plugins, integrations, embedded nodes, and more — all working to make IPFS available to everyone, everywhere."
 
   - time: '10:05 - 10:10'
     speakers: 'Addie Wagenknecht'
