@@ -10,8 +10,7 @@ if (!token.length) {
   process.error(1);
 }
 
-//const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses';
-const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses?&view=IPFS%20%C3%BEing%202023%20Track%20%26%20Talk%20Submissions';
+const url = 'https://api.airtable.com/v0/apptAzTf0HPbYkCbn/Responses?view=IPFS%20%C3%BEing%202023%20Track%20%26%20Talk%20Submissions';
 
 const fields = {
   // for all
@@ -65,27 +64,44 @@ const options = {
 };
 
 // add some error handling jeez
-const getAirtableData = (url, options, callback) => {
-  https.get(url, options, res => {
-    let data = [];
+const getAirtableData = (baseURL, options, callback) => {
+  let records = [];
+  let offset = null;
 
-    res.on('data', chunk => {
-      data.push(chunk);
-    });
+  (getNextPage = () => {
+    const offsetStr = offset != null ? `&offset=${offset}` : '';
+    const url = `${baseURL}${offsetStr}`;
+    https.get(url, options, res => {
+      let data = [];
 
-    res.on('end', () => {
-      const bc = Buffer.concat(data);
-      const str = bc.toString();
-      const obj = JSON.parse(str);
-      const records = cleanDump(obj.records);
-      callback(records);
+      res.on('data', chunk => {
+        data.push(chunk);
+      });
+
+      res.on('end', () => {
+        const bc = Buffer.concat(data);
+        const str = bc.toString();
+        const obj = JSON.parse(str);
+        records = records.concat(obj.records);
+        if (obj.offset != null) {
+          offset = obj.offset;
+          getNextPage();
+        }
+        else {
+          callback(records);
+        }
+      });
+    }).on('error', err => {
+      console.log('Error: ', err.message);
     });
-  }).on('error', err => {
-    console.log('Error: ', err.message);
-  });
+  })();
 };
 
-const onRecordsReady = records => {
+const onRecordsReady = rawRecords => {
+  console.log('Records', rawRecords.length);
+
+  const records = cleanDump(rawRecords);
+
   const talks = getTalks(records);
 
   const tracks = getTracks(records);
