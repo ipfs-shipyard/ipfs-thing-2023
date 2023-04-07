@@ -11,6 +11,7 @@ description: >-
 priority: 3
 attendees: 50
 org: ''
+dri: '@momack2'
 times: '4:00 PM - 6:00 PM'
 
 timeslots:

@@ -11,6 +11,7 @@ description: >-
 priority: 6
 attendees: 50
 org: ''
+dri: 'James Walker'
 times: '1:30 PM - 6:00 PM'
 
 timeslots:

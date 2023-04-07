@@ -11,6 +11,7 @@ description: >-
 priority: 4
 attendees: 50
 org: ''
+dri: 'Ryan Plauche'
 times: '1:30 PM - 6:00 PM'
 
 timeslots:
