@@ -266,26 +266,8 @@ const talkToMD = talk => {
   const eStr = endTime.toLocaleTimeString('fr-BE', opts);
   const localeTimeStr = `${sStr} - ${eStr}`;
 
-  // leaving for now until we confirm fix end to end
-  /*
-  const timeStr = [
-    startTime.getHours().toString().padStart(2, '0'),
-    ':',
-    startTime.getMinutes().toString().padEnd(2, '0'),
-    ' - ',
-    endTime.getHours().toString().padStart(2, '0'),
-    ':',
-    endTime.getMinutes().toString().padEnd(2, '0')
-  ].join('');
-
-  console.log('TALK', talk.title, talk.startTime)
-  console.log('asISO', startTime.toISOString())
-  console.log('orig final str', timeStr);
-  console.log('new final str', localeTimeStr);
-  */
-
-  const speakerDisplay = talk.prefersAlias ? talk.alias
-    : `${talk.firstName} ${talk.lastName || ''}`;
+  const speakerName = `${talk.firstName || 'None'} ${talk.lastName || ''}`;
+  const speakerDisplay = talk.prefersAlias ? talk.alias : speakerName;
 
   return [
     `  - time: '${localeTimeStr}'`,
