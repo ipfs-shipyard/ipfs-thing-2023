@@ -90,7 +90,7 @@ function EventModalContent({ event }) {
             {event.venueName}
           </span></li>
         }
-        <li><b>Organization</b>: {event.org}</li>
+        <li><b>Track Lead</b>: {event.dri}</li>
         <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
       </ul>
       <div className="event-tags">
