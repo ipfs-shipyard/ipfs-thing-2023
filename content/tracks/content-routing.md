@@ -14,6 +14,11 @@ org: ''
 times: '10:00 AM - 6:00 PM'
 
 timeslots:
+  - time: '10:00 - 10:15'
+    speakers: 'Masih Derkani'
+    title: "Welcome and Introduction to the Content Routing Track"
+    description: "Introduction to the Content Routing track and an overview of the talks ahead."
+
   - time: '10:15 - 10:45'
     speakers: 'Gui'
     title: "Opening the DHT to large content providers"
@@ -33,6 +38,11 @@ timeslots:
     speakers: 'Torfinn Olsen'
     title: "IPFS Content Routing Workgroup, an introduction"
     description: "The IPFS content routing workgroup aims to improve content routing within the IPFS network by applying an intentional focus on effectiveness of content discovery and delivery mechanisms. We make group decisions around the design and implementation of new content routing protocols, optimize existing ones, and address the various technical challenges associated with decentralized content routing. We'd like to make everyone aware of the important work this group is doing and encourage their participation."
+
+  - time: '12:30 - 13:30'
+    speakers: 'undefined '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '13:30 - 14:00'
     speakers: 'Yiannis Psaras'
@@ -54,6 +64,11 @@ This talk will be interesting to those who already run IPNI by themselves (as th
     speakers: 'Ian Preston'
     title: "Private data: state of the art"
     description: "A deep dive into the Peergos architecture and cryptree+ which gives post-quantum ciphertext-level access control, better metadata protection and better performance. Learn about our fully concurrent GC design, and other performance boosts."
+
+  - time: '15:30 - 16:15'
+    speakers: 'undefined '
+    title: "BREAK"
+    description: "45 minutes"
 
   - time: '16:15 - 16:45'
     speakers: 'gammazero'

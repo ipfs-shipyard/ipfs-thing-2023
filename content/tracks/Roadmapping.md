@@ -13,6 +13,10 @@ attendees: 50
 org: ''
 times: '4:00 PM - 6:00 PM'
 
-
+timeslots:
+  - time: '16:00 - 18:00'
+    speakers: 'All Of Us'
+    title: "Group roadmapping session"
+    description: "We all roadmap together."
 
 ---
