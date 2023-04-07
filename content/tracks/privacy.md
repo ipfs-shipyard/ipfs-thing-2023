@@ -12,6 +12,7 @@ This track is about the IPFS community and how we work together to govern IPFS s
 priority: 2
 attendees: 50
 org: ''
+dri: 'Robin Berjon'
 times: '10:00 AM - 4:00 PM'
 
 timeslots:

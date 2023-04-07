@@ -11,6 +11,7 @@ description: >-
 priority: 2
 attendees: 50
 org: ''
+dri: 'Masih Derkani'
 times: '10:00 AM - 6:00 PM'
 
 timeslots:

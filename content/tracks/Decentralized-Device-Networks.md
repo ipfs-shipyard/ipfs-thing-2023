@@ -11,6 +11,7 @@ description: >-
 priority: 3
 attendees: 50
 org: ''
+dri: 'Iryna Tsimashenka'
 times: '10:00 AM - 4:00 PM'
 
 timeslots:

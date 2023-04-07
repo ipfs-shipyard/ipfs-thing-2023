@@ -11,6 +11,7 @@ description: >-
 priority: 2
 attendees: 50
 org: ''
+dri: 'Will Scott'
 times: '10:00 AM - 4:00 PM'
 
 timeslots:

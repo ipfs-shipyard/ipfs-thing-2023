@@ -11,6 +11,7 @@ description: >-
 priority: 2
 attendees: 50
 org: ''
+dri: 'Mosh Lee'
 times: '9:00 AM - 10:45 AM'
 
 timeslots:
