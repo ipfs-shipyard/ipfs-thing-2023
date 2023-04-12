@@ -1,7 +1,7 @@
 ---
 
 name: "Integrating IPFS"
-date: '2023-04-16'
+date: '2023-04-17'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
