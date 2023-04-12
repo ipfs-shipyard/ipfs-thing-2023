@@ -92,8 +92,8 @@ It enables blockchain bridges, decentralized social platforms 👩🏽‍💻, #
 We have 500+ ecosystem projects ready to build on Koii. K2 is the foundation for all of them, enabling a network of light-speed transactions."
 
   - time: '16:45 - 17:15'
-    speakers: 'None '
-    title: "Tableland?"
-    description: ""
+    speakers: 'Carson Farmer'
+    title: "Evaluating tradeoffs when representing database state"
+    description: "Join us in this talk as we explore some of the tradeoffs and opportunities that come with building databases for the decentralized web. Building on past experience, new developments, and user needs, we will discuss proofs, queries, and the trials and tribulations of designing interplanetary databases."
 
 ---

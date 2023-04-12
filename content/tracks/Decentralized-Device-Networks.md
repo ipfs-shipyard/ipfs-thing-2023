@@ -67,13 +67,9 @@ In this talk, we'll discuss the use of AIR and how these different math topics w
     description: "In this talk I would discuss what is the Cloud model. Why it is important to web3 and how it can be implemented to be decentralized leveraging ipfs components alongside some interesting engineering concepts."
 
   - time: '12:00 - 12:30'
-    speakers: 'David Minarsch'
-    title: "Decentralized Off-chain Backends: How Autonolas utilizes IPFS across its stack to build trust-minimized off-chain services for DAOs"
-    description: "Autonolas is an open-source software stack for the creation of decentralized, off-chain autonomous applications, called autonomous services, that can operate continuously, interact with the world outside of blockchains, run complex logic such as ML algorithms and are secured on-chain.
-
-Currently these are being used to power trust-minimized off-chain services for leading DAOs, including Balancer and Ceramic. 
-
-In this talk we will present how Autonolas leverages IPFS throughout its stack to: a) reference and retrieve code components, b) provide a production-grade package registry, and c) utilizes IPFS hashing to contribute to crypto-economic integrity of the system."
+    speakers: 'Ryan Shahine'
+    title: "Turbocharging decentralized websites with AI"
+    description: "How Portrait retrieves Web3 data to create highly accurate and visually stunning decentralized websites with a single click."
 
   - time: '12:30 - 13:00'
     speakers: 'None '
@@ -81,9 +77,13 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
     description: "1 hour"
 
   - time: '13:30 - 14:00'
-    speakers: 'Ryan Shahine'
-    title: "Turbocharging decentralized websites with AI"
-    description: "How Portrait retrieves Web3 data to create highly accurate and visually stunning decentralized websites with a single click."
+    speakers: 'David Minarsch'
+    title: "Decentralized Off-chain Backends: How Autonolas utilizes IPFS across its stack to build trust-minimized off-chain services for DAOs"
+    description: "Autonolas is an open-source software stack for the creation of decentralized, off-chain autonomous applications, called autonomous services, that can operate continuously, interact with the world outside of blockchains, run complex logic such as ML algorithms and are secured on-chain.
+
+Currently these are being used to power trust-minimized off-chain services for leading DAOs, including Balancer and Ceramic. 
+
+In this talk we will present how Autonolas leverages IPFS throughout its stack to: a) reference and retrieve code components, b) provide a production-grade package registry, and c) utilizes IPFS hashing to contribute to crypto-economic integrity of the system."
 
   - time: '14:00 - 14:30'
     speakers: 'TechieTeee'
