@@ -66,7 +66,7 @@ blocks:
     _template: embed
   - background:
       fillStyles: bg-gray-light opacity-100
-    navigationLabel: Preliminary Schedule
+    navigationLabel: Schedule
     _template: eventSchedule
   - style:
       alignment: flex-col-reverse items-start gap-6
