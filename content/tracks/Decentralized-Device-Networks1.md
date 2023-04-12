@@ -12,7 +12,7 @@ priority: 4
 attendees: 50
 org: ''
 dri: 'Ryan Plauche'
-times: '1:30 PM - 6:00 PM'
+times: '10:00 AM - 3:00 PM'
 
 timeslots:
   - time: '10:00 - 10:30'
@@ -39,10 +39,5 @@ timeslots:
     speakers: 'Brooklyn Zelenka'
     title: "Decentralizing Auth, and UCAN Too"
     description: "UCAN is a decentalized auth format used by a number of dweb, web3, and IPFS projects. Much like how IPFS uses content addressing to liberate data from centralized hosts, UCAN uses CIDs and OCAP to liberate apps from centralized auth servers. Come find out how UCAN can help throughtout the IPFS stack from block-level access to user permissions to application interop."
-
-  - time: '15:30 - 16:00'
-    speakers: 'None '
-    title: "BREAK"
-    description: "45 minutes"
 
 ---
