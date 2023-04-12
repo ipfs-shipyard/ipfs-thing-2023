@@ -53,12 +53,7 @@ timeslots:
   - time: '14:15 - 14:45'
     speakers: 'Ivan Schasny'
     title: "Double Hashing in IPNI: Reader Privacy at scale"
-    description: "In this talk I'd like to speak about IPNI's journey to implementing Double Hashing at scale. I'll cover:
-* what double hashing is and what benefits it gives to the user;
-* IPNI and DHT double hashing compatibility;
-* IPNI dataset migration;
-* how we run double hashing in production;
-* issues that we encountered.
+    description: "In this talk I'd like to speak about IPNI's journey to implementing Double Hashing at scale. I'll cover: what double hashing is and what benefits it gives to the user; IPNI and DHT double hashing compatibility; IPNI dataset migration; how we run double hashing in production; issues that we encountered.
 This talk will be interesting to those who already run IPNI by themselves (as they will want to implement Reader Privacy at some point) as well as to those who are just thinking to participate in the IPNI ecosystem."
 
   - time: '15:00 - 15:30'

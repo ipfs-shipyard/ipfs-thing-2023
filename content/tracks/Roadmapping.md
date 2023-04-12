@@ -8,7 +8,7 @@ venueAddress: ''
 difficulty: All Welcome
 description: >-
   A discussion / breakout-oriented workshop for defining and committing to next steps out of the week's conversations, which we can progress and celebrate at upcoming IPFS events in Q3 / Q4 2023.
-priority: 3
+priority: 4
 attendees: 50
 org: ''
 dri: '@momack2'
