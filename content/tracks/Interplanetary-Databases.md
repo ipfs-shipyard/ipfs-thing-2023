@@ -16,7 +16,7 @@ times: '11:00 AM - 6:00 PM'
 
 timeslots:
   - time: '10:00 - 10:30'
-    speakers: 'None '
+    speakers: 'J Chris Anderson'
     title: "WELCOME + OPENING"
     description: ""
 

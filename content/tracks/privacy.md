@@ -1,7 +1,7 @@
 ---
 
 name: "Community & Governance"
-date: '2023-04-17'
+date: '2023-04-18'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
@@ -84,17 +84,9 @@ Additionally, let's think ahead on what content we know we'd like to see, new ar
   - time: '16:00 - 16:45'
     speakers: 'Yuni Graham'
     title: "IPFS + Friends Cafe "
-    description: "I'm not a great public speaker, but I'd love a discussion circle or signup of people interested or who can commit to organizing IPFS + Friends Cafe community events in their city. 
+    description: "This session is a discussion circle for people interested or who can commit to organizing IPFS + Friends Cafe community events in their city. The idea is to have a cohort of people who can commit to at least 2x events a year (perhaps distributed equidistant between IPFS Thing and IPFS Camp) to help keep up the momentum in between our two largest IPFS events of the year. 
 
-miwa (PL) can sponsor a coffeeshop / popup, assist with logistical organization and coordinate some speakers from PL. 
-
-These folks would have to commit to at least 2x a year perhaps distributed equidistant between IPFS Thing and IPFS Camp to help keep up the momentum in between our two largest IPFS events of the year. 
-
-The goal is to grow the community, so ultimately miwa would step away and these can be self run. 
-
-ex: EthCC is fast approaching, would love someone local to commit to organizing content for a one day or half day IPFS + Friends event. 
-
-At any rate, I'm down to help Boris with what he needs for the Community track. "
+miwa (PL) can sponsor a coffeeshop / popup, assist with logistical organization and coordinate some speakers from PL. ex: EthCC is fast approaching, would love someone local to commit to organizing content for a one day or half day IPFS + Friends event. "
 
   - time: '02:00 - 02:30'
     speakers: 'David Justice'

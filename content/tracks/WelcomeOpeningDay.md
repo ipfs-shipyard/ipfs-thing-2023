@@ -63,12 +63,22 @@ timeslots:
   - time: '09:50 - 10:05'
     speakers: 'None '
     title: "IPFS Everywhere"
-    description: "Lightning talks from the maintainers of the latest IPFS plugins, integrations, embedded nodes, and more — all working to make IPFS available to everyone, everywhere."
+    description: "Lightning talks from the creators of the latest IPFS plugins, integrations, embedded nodes, and more — all working to make a better web available to anyone, anywhere."
+
+  - time: '09:51 - 09:55'
+    speakers: 'Ryan Plauche'
+    title: "Are We Interplanetary Yet? Designing IPFS for Space"
+    description: "In this talk, we'll take a peek at"
 
   - time: '10:05 - 10:10'
     speakers: 'Addie Wagenknecht'
     title: "IPFS Impact Awards"
     description: "Announcement and celebration of the winners of the IPFS Community Impact Awards Round 2, selected through the open impact evaluator process."
+
+  - time: '10:10 - 10:13'
+    speakers: 'Yuni Graham'
+    title: "IPFS Camp Announcement"
+    description: ""
 
   - time: '10:25 - 10:40'
     speakers: 'All track leads '
