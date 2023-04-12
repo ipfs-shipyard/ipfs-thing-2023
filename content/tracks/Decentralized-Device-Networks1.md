@@ -17,13 +17,13 @@ times: '1:30 PM - 6:00 PM'
 timeslots:
   - time: '10:00 - 10:30'
     speakers: 'Ryan Plauche'
-    title: "Welcome to this track"
-    description: ""
+    title: "Welcome and Introduction to Integrating IPFS Track"
+    description: "Introduction to the Integrating IPFS track and an overview of the talks ahead"
 
   - time: '10:05 - 10:35'
     speakers: 'Ryan Plauche'
     title: "Adapting IPFS for Space"
-    description: "This talk will cover the general design and structure used in creating an IPFS implementation intended for use in spacecraft and ground stations."
+    description: "This talk will introduce Myceli, a IPFS implementation designed for space applications. We'll discuss the current design, future plans, and give a brief demo."
 
   - time: '10:30 - 11:00'
     speakers: 'David Justice'
@@ -31,14 +31,14 @@ timeslots:
     description: "We announced Durin at IPFS Camp in lisbon, here we will explain again what it provides, current work, and future plans for IPFS in mobile with Durin"
 
   - time: '11:00 - 11:30'
-    speakers: 'Brooklyn Zelenka'
-    title: "Decentralizing Auth, and UCAN Too"
-    description: "UCAN is a decentalized auth format used by a number of dweb, web3, and IPFS projects. Much like how IPFS uses content addressing to liberate data from centralized hosts, UCAN uses CIDs and OCAP to liberate apps from centralized auth servers. Come find out how UCAN can help throughtout the IPFS stack from block-level access to user permissions to application interop."
-
-  - time: '12:00 - 12:30'
     speakers: 'Irakli Gozalishvili'
     title: "UCAN too"
     description: "Interactive workshop for learning core concepts of UCANs (and ucanto RPC) through a playful coding. "
+
+  - time: '13:30 - 14:00'
+    speakers: 'Brooklyn Zelenka'
+    title: "Decentralizing Auth, and UCAN Too"
+    description: "UCAN is a decentalized auth format used by a number of dweb, web3, and IPFS projects. Much like how IPFS uses content addressing to liberate data from centralized hosts, UCAN uses CIDs and OCAP to liberate apps from centralized auth servers. Come find out how UCAN can help throughtout the IPFS stack from block-level access to user permissions to application interop."
 
   - time: '15:30 - 16:00'
     speakers: 'None '

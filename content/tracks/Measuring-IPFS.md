@@ -1,7 +1,7 @@
 ---
 
 name: "Measuring IPFS"
-date: '2023-04-16'
+date: '2023-04-15'
 days: 1
 venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
@@ -12,55 +12,50 @@ priority: 2
 attendees: 50
 org: ''
 dri: 'Yiannis Psaras'
-times: '10:00 AM - 6:00 PM'
+times: '11:00 AM - 6:00 PM'
 
 timeslots:
-  - time: '10:00 - 10:30'
+  - time: '11:00 - 11:30'
     speakers: 'Yiannis Psaras'
     title: "Track Opening talk: Data Driven Protocol Design and Optimisation: What it is and what are the latest developments."
     description: "We will introduce the importance of data-driven protocol design and optimisation and the measurement campaigns that the ProbeLab team has carried out in the past couple of quarters. We will selectively dive into a couple of them, present representative results and provide pointers for the rest. We will also talk about KPIs for the IPFS network and discuss our future plans."
 
-  - time: '10:30 - 11:00'
+  - time: '11:30 - 11:50'
     speakers: 'Asmir Avdicevic'
     title: "Measuring on the fast track"
     description: "Measurements & Performance when building protocols."
 
-  - time: '10:50 - 11:20'
+  - time: '11:50 - 12:10'
     speakers: 'Gui'
     title: "Effectiveness of Bitswap Discovery Process"
     description: "Bitswap is the current data exchange protocol for IPFS. When a new CID is requested, kubo will first broadcast the request to all directly connected peers over Bitswap. If the content wasn’t provided by any connected peers after a timeout, kubo will start a DHT walk to find where the content is located. This talk discusses the effectiveness of the Bitswap discovery broadcast and the use of Bitswap as a Content Router."
 
-  - time: '11:10 - 11:40'
-    speakers: 'Yiannis Psaras'
-    title: "State of Content Routing through the DHT: Latest developments and measurement results"
-    description: "During the last couple of quarters we have seen several developments landing on IPFS's public DHT: the content routing-specific operation of Hydras has been disabled, the resource manager was turned on by default and some misconfiguration of it led to several nodes in the network performing worse than expected. In parallel we developed improvements that will hopefully increase the performance. This talk will present data from our measurement experiments and will also lay out our future plans."
-
-  - time: '11:50 - 12:20'
-    speakers: 'Max (mxinden)'
-    title: "libp2p performance"
-    description: "Measuring libp2p's transport performance with the new perf protocol https://github.com/libp2p/specs/pull/478."
-
-  - time: '12:10 - 12:40'
+  - time: '12:10 - 12:30'
     speakers: 'Zhengyu Wu'
     title: "Is IPFS Ready for Decentralized Video Streaming?"
     description: "Participants will have ideas about how video stream is currently on IPFS. Also have idea how can we improved video streaming with IPFS."
 
-  - time: '12:30 - 13:00'
+  - time: '12:30 - 13:30'
     speakers: 'None '
     title: "LUNCH"
     description: "1 hour"
 
-  - time: '13:30 - 14:00'
+  - time: '13:30 - 13:50'
+    speakers: 'Max (mxinden)'
+    title: "libp2p performance"
+    description: "Measuring libp2p's transport performance with the new perf protocol https://github.com/libp2p/specs/pull/478."
+
+  - time: '13:50 - 14:30'
+    speakers: 'Yiannis Psaras'
+    title: "State of Content Routing through the DHT: Latest developments and measurement results"
+    description: "During the last couple of quarters we have seen several developments landing on IPFS's public DHT: the content routing-specific operation of Hydras has been disabled, the resource manager was turned on by default and some misconfiguration of it led to several nodes in the network performing worse than expected. In parallel we developed improvements that will hopefully increase the performance. This talk will present data from our measurement experiments and will also lay out our future plans."
+
+  - time: '14:30 - 15:00'
     speakers: 'Molly Mackinlay '
     title: "IPFS KPIs: Measure what matters"
     description: "This talk will point us to the right direction on what needs to be measured and monitored as high-level project KPIs for IPFS. It will go beyond low-level network measurements of specific components that make up IPFS to a broader view of the IPFS as a major platform for Web3 applications."
 
-  - time: '14:00 - 14:30'
-    speakers: 'Logan Lentz'
-    title: "Navigating the Path to Ethical IPFS Analytics"
-    description: "Unlocking a Few Secrets of IPFS Engagement: Learn about our journey creating an Anonymous Analytics Platform that respects user privacy while giving developers usable information about their data on IPFS. "
-
-  - time: '14:20 - 14:50'
+  - time: '15:00 - 15:30'
     speakers: 'Max (mxinden)'
     title: "Hole Punching in the wild"
     description: "In 2022 we rolled out hole punching in libp2p. One year has passed since. We launched a large measurement campaign with many volunteers deploying vantage points in their home network, punching holes across the globe.
@@ -69,17 +64,17 @@ In this talk I will give an overview of the largest hack of the internet (aka. h
 
 If you always wondered how hole punching works, how much more successful UDP is over TCP, whether IPv4 or v6 makes a difference, which country is most friendly to p2p and how to overcome symetric NATs, join for the talk!"
 
-  - time: '14:40 - 15:10'
-    speakers: 'None '
-    title: "Panel: Data-Oriented Protocol Design and Development - Challenges and Opportunities"
-    description: ""
-
   - time: '15:30 - 16:00'
     speakers: 'None '
     title: "BREAK"
     description: "45 min"
 
   - time: '16:00 - 16:30'
+    speakers: 'Logan Lentz'
+    title: "Navigating the Path to Ethical IPFS Analytics"
+    description: "Unlocking a Few Secrets of IPFS Engagement: Learn about our journey creating an Anonymous Analytics Platform that respects user privacy while giving developers usable information about their data on IPFS. "
+
+  - time: '16:30 - 17:00'
     speakers: 'None '
     title: "Open Slot - Bring Your Own Ideas"
     description: ""
