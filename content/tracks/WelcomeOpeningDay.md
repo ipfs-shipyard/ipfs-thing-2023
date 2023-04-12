@@ -20,20 +20,25 @@ timeslots:
     title: "Welcome and Introduction"
     description: ""
 
-  - time: '09:10 - 09:15'
+  - time: '09:10 - 09:14'
     speakers: 'Yiannis Psaras'
     title: "Measuring IPFS"
     description: "We will introduce the importance of data-driven protocol design and optimisation and the measurement campaigns that the ProbeLab team has carried out in the past couple of quarters. We will selectively dive into a couple of them, present representative results and provide pointers for the rest. We will also talk about KPIs for the IPFS network and discuss our future plans."
 
-  - time: '09:15 - 09:20'
+  - time: '09:15 - 09:19'
     speakers: 'Will Scott'
-    title: "Project Rhea"
+    title: "Decentralizing IPFS Gateways with Project Rhea"
     description: ""
 
-  - time: '09:30 - 09:31'
-    speakers: 'Various '
+  - time: '09:20 - 09:24'
+    speakers: 'Robin Berjon'
+    title: "IPFS Principles"
+    description: "A journey to the heart of the IPFS protocol, principles, and specifications."
+
+  - time: '09:25 - 09:26'
+    speakers: 'None '
     title: "Implementations Showcase"
-    description: "A set of lightning talks from the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
+    description: "Lightning talks from the lead maintainers of key IPFS implementations on the current state and future of each."
 
   - time: '09:31 - 09:35'
     speakers: 'Steve Loeppky'
@@ -43,7 +48,7 @@ timeslots:
   - time: '09:35 - 09:39'
     speakers: 'Hannah Howard'
     title: "Implementations Showcase: Lassie - a new golang implementation"
-    description: ""
+    description: "A minimal, universal retrieval client for IPFS and FIlecoin."
 
   - time: '09:39 - 09:43'
     speakers: 'Ian Preston'

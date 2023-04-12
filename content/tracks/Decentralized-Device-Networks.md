@@ -90,16 +90,16 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
     title: "Federated Learning on FVM"
     description: "In this hands-on workshop, participants will learn the fundamentals of federated machine learning with FVM through a brief introduction, followed by a hands-on activity. They will learn how to set up and manage a federated learning environment, how to design and train models using federated learning techniques, and how to analyze and evaluate the performance of federated models and deploy their models to FVM. By the end of the workshop, participants will have a practical understanding of the key concepts and skills needed to implement federated machine learning with FVM in their own projects."
 
-  - time: '14:30 - 15:15'
+  - time: '14:30 - 14:45'
+    speakers: 'Yan Michalevsky'
+    title: "Compute on data in space"
+    description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world."
+
+  - time: '15:15 - 16:00'
     speakers: 'Donald Gossen'
     title: "AI, Data, and You - Driving AI Precision with Decentralized Access Control "
     description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that's used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth.
 "
-
-  - time: '15:00 - 15:15'
-    speakers: 'Yan Michalevsky'
-    title: "Compute on data in space"
-    description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world."
 
   - time: '02:00 - 02:30'
     speakers: 'Brooklyn Zelenka'
