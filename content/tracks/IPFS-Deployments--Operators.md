@@ -44,14 +44,13 @@ timeslots:
     description: Presenting the current and upcoming features of Iroh.
   - time: '15:30 - 16:00'
     speakers: Gus Eggert
-    title: 'go-libipfs: build your own IPFS adventure'
+    title: 'Boxo: Build Your Own IPFS Adventure'
     description: >-
-      go-libipfs has been recently proposed as a component library for building
-      IPFS applications and implementations in Go. The goal of this effort is to
-      help people build things. In this talk we will use examples to showcase
-      things that are easy to do with go-libipfs that have been difficult to
-      achieve up to now. More information can be found at:
-      https://github.com/ipfs/go-libipfs
+      Boxo has been recently released as a component library for building
+      IPFS applications and implementations in Go. We'll talk about where Boxo
+      came from, where it's going, how you can use Boxo to get stuff done, and
+      how Boxo helps the IPFS community get stuff done. More information can be found at:
+      https://github.com/ipfs/boxo
   - time: '15:30 - 16:00'
     speakers: 'None '
     title: BREAK
