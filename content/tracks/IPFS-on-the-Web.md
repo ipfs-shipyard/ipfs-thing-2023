@@ -95,4 +95,9 @@ What is it, why is it and how to use it!"
     title: "IPFS native frontend development using Importmaps"
     description: "Frontend Development for IPFS can be greatly simplified with use of importmaps, a new web standard. This talk explains challenges on the and how JSPM created tooling and CDN aims to fill the gap."
 
+  - time: '18:00 - 18:30'
+    speakers: 'David Justice'
+    title: "Announcing Browsers Platforms & Standards team blog"
+    description: "We're dogfooding with IPFS and smart contracts to run the blog for Browsers Platforms and Standards team. We've built a new pattern to deploy apps with verified authors and content."
+
 ---

@@ -88,9 +88,4 @@ Additionally, let's think ahead on what content we know we'd like to see, new ar
 
 miwa (PL) can sponsor a coffeeshop / popup, assist with logistical organization and coordinate some speakers from PL. ex: EthCC is fast approaching, would love someone local to commit to organizing content for a one day or half day IPFS + Friends event. "
 
-  - time: '02:00 - 02:30'
-    speakers: 'David Justice'
-    title: "Announcing Browsers Platforms & Standards team blog"
-    description: "We're dogfooding with IPFS and smart contracts to run the blog for Browsers Platforms and Standards team. We've built a new pattern to deploy apps with verified authors and content."
-
 ---
