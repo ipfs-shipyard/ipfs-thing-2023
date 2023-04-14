@@ -7,7 +7,9 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Come join the Protocol Thunderdome as we battle to determine the best way to move content addressed bytes! We'll review recent progress in data transfer, including work coming out of the Move The Bytes Working Group, and explore how we can make IPFS 10x faster at getting your stuff than Web2!
+  Room: Amsterdam + Luxembourg
+
+Come join the Protocol Thunderdome as we battle to determine the best way to move content addressed bytes! We'll review recent progress in data transfer, including work coming out of the Move The Bytes Working Group, and explore how we can make IPFS 10x faster at getting your stuff than Web2!
 priority: 3
 attendees: 50
 org: ''
