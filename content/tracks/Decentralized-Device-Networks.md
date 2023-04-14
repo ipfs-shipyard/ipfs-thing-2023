@@ -7,9 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Room: Amsterdam + Luxembourg
-
-We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.
+  We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.
 priority: 3
 attendees: 50
 org: ''
@@ -73,7 +71,7 @@ In this talk, we'll discuss the use of AIR and how these different math topics w
     title: "Turbocharging decentralized websites with AI"
     description: "How Portrait retrieves Web3 data to create highly accurate and visually stunning decentralized websites with a single click."
 
-  - time: '12:30 - 13:30'
+  - time: '12:30 - 13:00'
     speakers: 'None '
     title: "LUNCH"
     description: "1 hour"
@@ -111,15 +109,15 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
 > 易于使用的前端，用于创建 DAO、管理其数据集以及对其数据运行计算
 "
 
-  - time: '15:00 - 15:15'
-    speakers: 'Alfonso de la Rocha'
-    title: ""
-    description: ""
-
-  - time: '15:15 - 16:00'
+  - time: '15:00 - 15:45'
     speakers: 'Donald Gossen'
     title: "AI, Data, and You - Driving AI Precision with Decentralized Access Control "
     description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that's used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth.
 "
+
+  - time: '02:00 - 02:30'
+    speakers: 'Brooklyn Zelenka'
+    title: "IPVM: Content Addressed Compute for an Open World"
+    description: "Curious about the latest from the IPVM WG? This talk presents updates from the working group: a high-level overview of IPVM, standards to date, the latest roadmap, and lessons learned so far. This includes invocation and workflow models, a (pluggable) effect system, a principled approach to partial failure, open interop, kernel functionality, private data handling, and the most common question: what IPVM is *not*!"
 
 ---
