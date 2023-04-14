@@ -7,7 +7,9 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation, and recommendations for builders and operators.
+  Room: Madrid
+
+A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation, and recommendations for builders and operators.
 priority: 3
 attendees: 50
 org: ''
@@ -51,11 +53,6 @@ timeslots:
     description: "During the last couple of quarters we have seen several developments landing on IPFS's public DHT: the content routing-specific operation of Hydras has been disabled, the resource manager was turned on by default and some misconfiguration of it led to several nodes in the network performing worse than expected. In parallel we developed improvements that will hopefully increase the performance. This talk will present data from our measurement experiments and will also lay out our future plans."
 
   - time: '14:30 - 15:00'
-    speakers: 'Molly Mackinlay '
-    title: "IPFS KPIs: Measure what matters"
-    description: "This talk will point us to the right direction on what needs to be measured and monitored as high-level project KPIs for IPFS. It will go beyond low-level network measurements of specific components that make up IPFS to a broader view of the IPFS as a major platform for Web3 applications."
-
-  - time: '15:00 - 15:30'
     speakers: 'Max (mxinden)'
     title: "Hole Punching in the wild"
     description: "In 2022 we rolled out hole punching in libp2p. One year has passed since. We launched a large measurement campaign with many volunteers deploying vantage points in their home network, punching holes across the globe.
@@ -64,17 +61,17 @@ In this talk I will give an overview of the largest hack of the internet (aka. h
 
 If you always wondered how hole punching works, how much more successful UDP is over TCP, whether IPv4 or v6 makes a difference, which country is most friendly to p2p and how to overcome symetric NATs, join for the talk!"
 
+  - time: '15:00 - 15:30'
+    speakers: 'Logan Lentz'
+    title: "Navigating the Path to Ethical IPFS Analytics"
+    description: "Unlocking a Few Secrets of IPFS Engagement: Learn about our journey creating an Anonymous Analytics Platform that respects user privacy while giving developers usable information about their data on IPFS. "
+
   - time: '15:30 - 16:00'
     speakers: 'None '
     title: "BREAK"
     description: "45 min"
 
   - time: '16:00 - 16:30'
-    speakers: 'Logan Lentz'
-    title: "Navigating the Path to Ethical IPFS Analytics"
-    description: "Unlocking a Few Secrets of IPFS Engagement: Learn about our journey creating an Anonymous Analytics Platform that respects user privacy while giving developers usable information about their data on IPFS. "
-
-  - time: '16:30 - 17:00'
     speakers: 'None '
     title: "Open Slot - Bring Your Own Ideas"
     description: ""
