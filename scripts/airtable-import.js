@@ -292,13 +292,17 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  ${escapeYaml(track.trackDesc)}
+  ${escapeYaml(indent(track.trackDesc))}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
 org: '${escapeYaml(track.trackOrg) || '' }'
 dri: '${personLabelFromRecord(track)}'
 times: '${track.time}'
 `;
+};
+
+const indent = text => {
+  return text.split('\n').map(line => `  ${line}`).join('\n');
 };
 
 const trackToTOML = track => {
