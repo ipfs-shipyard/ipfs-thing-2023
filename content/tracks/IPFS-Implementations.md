@@ -7,6 +7,8 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
+  Room: Royal A+B
+  
   How do we deliver IPFS content to the masses? In this track, we'll dive into the magical and maddening topic of HTTP Gateways. Topics include the evolving semantics of /ipfs/cid, .car blocks and rendered flat files, and large-scale efforts to improve gateway architectures such as Project Saturn and Project Rhea.
 priority: 2
 attendees: 50
