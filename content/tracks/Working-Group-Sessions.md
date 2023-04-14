@@ -10,7 +10,9 @@ venueName: 'Radisson Grand Place, Brussels'
 description: >-
   Please click the above link to see the unconference sessions or to add yours!
   https://docs.google.com/spreadsheets/d/1W0uaGDGtpEBEO_XHPUcfsbrvsHmoVhvSHB0ZMPOFZME/edit?usp=sharing
+times: '10:00 am - 6:00 pm'
 ---
+
 
 
 
