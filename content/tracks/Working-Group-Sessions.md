@@ -7,8 +7,11 @@ days: 1
 website: >-
   https://docs.google.com/spreadsheets/d/1W0uaGDGtpEBEO_XHPUcfsbrvsHmoVhvSHB0ZMPOFZME/edit?usp=sharing
 venueName: 'Radisson Grand Place, Brussels'
-description: Please click the above link to see the unconference sessions or to add yours!
+description: >-
+  Please click the above link to see the unconference sessions or to add yours!
+  https://docs.google.com/spreadsheets/d/1W0uaGDGtpEBEO_XHPUcfsbrvsHmoVhvSHB0ZMPOFZME/edit?usp=sharing
 ---
+
 
 
 
