@@ -292,7 +292,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  ${escapeYaml(indent(track.trackDesc))}
+${escapeYaml(indent(track.trackDesc))}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
 org: '${escapeYaml(track.trackOrg) || '' }'
