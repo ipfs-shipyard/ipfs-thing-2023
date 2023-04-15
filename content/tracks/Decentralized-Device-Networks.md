@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Room: Amsterdam + Luxembourg
+  Room: Amsterdam + Luxembourg.
   
   We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.
 priority: 3
