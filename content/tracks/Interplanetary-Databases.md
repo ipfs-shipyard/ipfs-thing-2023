@@ -14,7 +14,7 @@ priority: 2
 attendees: 50
 org: ''
 dri: 'J Chris Anderson'
-times: '11:00 AM - 6:00 PM'
+times: '10:00 AM - 6:00 PM'
 
 timeslots:
   - time: '10:00 - 10:30'
