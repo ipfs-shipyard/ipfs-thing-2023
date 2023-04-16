@@ -1,8 +1,19 @@
 ---
-name: IPFS Retro
-date: 2023-04-19T14:15:00.000Z
-days: 1
-times: '16:15 - 18:00'
-priority: 4
----
 
+name: "IPFS Retro"
+date: '2023-04-19'
+days: 1
+venueName: 'Radisson Grand Place, Brussels'
+venueAddress: ''
+difficulty: All Welcome
+description: >-
+  Room: Royal A+B
+priority: 4
+attendees: 50
+org: ''
+dri: 'None '
+times: '4:15 pm - 6:00 pm'
+
+
+
+---
