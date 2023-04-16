@@ -47,4 +47,9 @@ timeslots:
     title: "UCAN too"
     description: "Interactive workshop for learning core concepts of UCANs (and ucanto RPC) through a playful coding. "
 
+  - time: '15:00 - 15:30'
+    speakers: 'Brooklyn Zelenka'
+    title: "IPVM: Content Addressed Compute for an Open World"
+    description: "Curious about the latest from the IPVM WG? This talk presents updates from the working group: a high-level overview of IPVM, standards to date, the latest roadmap, and lessons learned so far. This includes invocation and workflow models, a (pluggable) effect system, a principled approach to partial failure, open interop, kernel functionality, private data handling, and the most common question: what IPVM is *not*!"
+
 ---
