@@ -24,7 +24,7 @@ timeslots:
 
   - time: '10:05 - 10:35'
     speakers: 'Ryan Plauche'
-    title: "Adapting IPFS for Space"
+    title: "Are We Interplanetary Yet?"
     description: "This talk will introduce Myceli, a IPFS implementation designed for space applications. We'll discuss the current design, future plans, and give a brief demo."
 
   - time: '10:40 - 11:10'
