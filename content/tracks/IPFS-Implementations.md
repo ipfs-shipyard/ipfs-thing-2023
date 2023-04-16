@@ -17,7 +17,7 @@ dri: 'Will Scott'
 times: '10:00 AM - 4:00 PM'
 
 timeslots:
-  - time: '09:00 - 09:30'
+  - time: '10:00 - 10:30'
     speakers: 'None '
     title: "WELCOME AND OPENING"
     description: ""
@@ -32,17 +32,17 @@ timeslots:
     title: "IPFS Service Worker Gateways"
     description: "We'll take a look at loading content using IPFS in a web browser without relying on extensions or trusted HTTP Gateways using service workers. We'll also discuss some of the libraries and recent improvements that have enabled this functionality."
 
-  - time: '12:30 - 13:00'
-    speakers: 'None '
-    title: "LUNCH"
-    description: "1 hour"
-
-  - time: '13:30 - 13:50'
+  - time: '11:30 - 11:50'
     speakers: 'Alex Kinstler'
     title: "Web3 CDN Saturn accelerates IPFS & Filecoin retrievals"
     description: "Learn how the Saturn network accelerates content addressable data from IPFS and Filecoin
 Learn about the Beta Test Program for developers to start using Saturn.
 Learn how to get started with Saturn and future roadmap outlook."
+
+  - time: '12:30 - 13:30'
+    speakers: 'None '
+    title: "LUNCH"
+    description: "1 hour"
 
   - time: '13:50 - 14:20'
     speakers: 'lidel'

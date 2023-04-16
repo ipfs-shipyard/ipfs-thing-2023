@@ -111,10 +111,14 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
 > 易于使用的前端，用于创建 DAO、管理其数据集以及对其数据运行计算
 "
 
+  - time: '15:00 - 15:15'
+    speakers: 'Alfonso De la Rocha'
+    title: "InterPlanetary Consensus (IPC): Adding a consensus layer wherever is needed"
+    description: "In this brief talk we are going to present the latest developments in IPC (InterPlanetary Consensus), its road to production, and how it can be leveraged to add a high-performant and interoperable consensus layer to many use cases, adding verifiability a consistency to your computation and data."
+
   - time: '15:15 - 16:00'
-    speakers: 'Donald Gossen'
-    title: "AI, Data, and You - Driving AI Precision with Decentralized Access Control "
-    description: "AIs trained on publicly available data have a problem: their inferences source content that may or may not have consented to use. Controlling how AIs source their training data will influence how publishers receive proper attribution in the not-too-distant future. Additionally, the data that's used for training is hitting its limit. The response: access to private datasets will be the rate limiting factor for AIs to maintain their competitive advantage. These two issues are intertwined, and working towards their resolution will help advance AI adoption and growth.
-"
+    speakers: 'Donald Gossen, Harry Grieve, Wes Floyd, questions by Iryna '
+    title: "AI data & compute - AI scaling limits solved via decentralisation"
+    description: "The scale of an AI system is limited by data and compute availability. Access to data is in jeopardy due to attribution issues and the associated legal challenges, whereas compute is stockpiled and price-gouged by cloud oligopolists. Decentralised protocols offer programmatic solutions to both problems and uncap the positive impact that AI systems can have on society."
 
 ---
