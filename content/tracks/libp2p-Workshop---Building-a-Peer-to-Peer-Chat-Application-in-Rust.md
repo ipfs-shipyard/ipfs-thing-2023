@@ -10,6 +10,8 @@ description: >-
   communicate. The workshop will give hands-on experience on how to build
   peer-to-peer vs. client-to-server. 
 priority: 3
+venueName: 'Room: Madrid'
 ---
+
 
 
