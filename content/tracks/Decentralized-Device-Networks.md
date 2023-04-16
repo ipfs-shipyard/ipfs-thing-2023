@@ -14,11 +14,11 @@ priority: 3
 attendees: 50
 org: ''
 dri: 'Iryna Tsimashenka'
-times: '10:00 AM - 4:00 PM'
+times: '09:00 AM - 4:00 PM'
 
 timeslots:
   - time: '09:00 - 09:15'
-    speakers: 'None '
+    speakers: 'Iryna Tsimashenka'
     title: "WELCOME + OPENING"
     description: ""
 
@@ -98,7 +98,7 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
     description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world."
 
   - time: '14:45 - 15:00'
-    speakers: 'taosheng shi'
+    speakers: 'Taosheng Shi'
     title: "Kenos: Data Operating System on Filecoin VM"
     description: "Kenos takes the tangle of interdependencies in the current state of the art, and makes it more coherent, reliable, and easier to deploy.
 
