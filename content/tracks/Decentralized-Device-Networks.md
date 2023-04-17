@@ -101,15 +101,10 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
     speakers: 'Taosheng Shi'
     title: "Kenos: Data Operating System on Filecoin VM"
     description: "Kenos takes the tangle of interdependencies in the current state of the art, and makes it more coherent, reliable, and easier to deploy.
-
-> Web3 数据 DAO 的操作系统
-
-> 将智能合约、分布式计算和 FIL 存储市场整合到一个包中
-
-> IPLD Prolly Trees 用于处理大量结构化数据，否则这些数据将不可行
-
-> 易于使用的前端，用于创建 DAO、管理其数据集以及对其数据运行计算
-"
+> Operating System for Web3 Data DAOs
+> Combining Smart Contracts, Distributed Compute, and FIL storage markets into one package
+> IPLD Prolly Trees for handling large amounts of structured data which would not be viable otherwise
+> Easy to use front end for creating DAOs, managing their datasets, and running compute over their data"
 
   - time: '15:00 - 15:15'
     speakers: 'Alfonso De la Rocha'
