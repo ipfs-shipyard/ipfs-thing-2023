@@ -40,7 +40,7 @@ We show a rough outline of what its design goals are, how it works, our roadmap,
 
   - time: '12:00 - 12:30'
     speakers: 'Fabrice Desré'
-    title: "Improving the Web security model with content based addressing"
+    title: "Content Based Addressing and the Web Security Model"
     description: "The web security model relies on a combination of mechanisms to provide origin isolation and prevent some classes of attacks: the Same Origin Policy and Content Security Policies. While effective for their goals, these mechanisms also have side effects that prevent legitimate applications to be built on the Web.
 In this talk we'll explore how content based addressing can be leveraged to build 
 different security models that enable a new class of Web apps."
