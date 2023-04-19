@@ -23,7 +23,7 @@ timeslots:
     description: "We will introduce the importance of data-driven protocol design and optimisation and the measurement campaigns that the ProbeLab team has carried out in the past couple of quarters. We will selectively dive into a couple of them, present representative results and provide pointers for the rest. We will also talk about KPIs for the IPFS network and discuss our future plans."
 
   - time: '11:30 - 11:50'
-    speakers: 'Asmir Avdicevic'
+    speakers: 'Asmir c'
     title: "Measuring on the fast track"
     description: "Measurements & Performance when building protocols."
 
