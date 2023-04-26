@@ -7,11 +7,11 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Room: Royal A+B
+  Room: Royal A+B 
 priority: 4
 attendees: 50
 org: ''
-dri: 'None '
+dri: 'Juan Benet'
 times: '4:15 pm - 6:00 pm'
 
 
