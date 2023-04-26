@@ -17,6 +17,7 @@ const fields = {
   'Title': 'title',
   'Talk or Track?': 'type',
   'Start Time': 'startTime', // date + time
+  'Youtube Link': 'videoLink',
 
   // talk details
   'Talk Description': 'desc',
@@ -29,6 +30,7 @@ const fields = {
   'Track Date (from TrackLink)': 'trackDate',
   'Duration': 'duration',
   'Order': 'order',
+  'Slide Deck': 'slidesLink',
 
   // speaker / track lead
   'Title & Organization': 'spkrTitle',
@@ -110,29 +112,36 @@ const onRecordsReady = rawRecords => {
 
   const trackTitles = Object.keys(grouped);
 
-  trackTitles.map(t => grouped[t])
-    //.filter(t => t.talks.length > 0)
-    .map(t => {
-      const filename = t.trackFilename
-        || t.title.replaceAll(/\W/g, '-') + '.md';
-      t.filename = filename;
+  const tracksParsed = trackTitles.map(t => grouped[t]);
 
-      //const toml = trackToTOML(t);
-      //t.toml = toml;
-      const md = trackToMD(t);
-      t.md = md;
+  // render to target format
+  //
+  // TODO: make format configurable
+  // right now is just frontmatter for Tina
+  const tracksRendered = tracksParsed.map(t => {
+    const filename = t.trackFilename
+      || t.title.replaceAll(/\W/g, '-') + '.md';
+    t.filename = filename;
 
-      return t;
-    })
-    .forEach(t => {
+    //const toml = trackToTOML(t);
+    //t.toml = toml;
+    const fm = trackToFM(t);
+    t.fm = fm;
+
+    return t;
+  });
+
+  // if debug mode just dump first track
+  if (DEBUG) {
+    console.log(tracksRendered[0]);
+  }
+  else {
+    // write
+    tracksRendered.forEach(t => {
       const path = './content/tracks/' + t.filename;
-      if (DEBUG) {
-        console.log('writing', t);
-      }
-      else {
-        writeFile(path, t.md);
-      }
+      writeFile(path, t.fm);
     });
+  }
 
   console.log('Tracks', tracks.length);
   console.log('Talks', talks.length);
@@ -236,12 +245,12 @@ const groupTracks = (tracks, talks) => {
   return trackList;
 };
 
-const trackToMD = track => {
+const trackToFM = track => {
   return [
     '---',
-    trackDetailsToMD(track),
+    trackDetailsToFM(track),
     `${track.talks.length > 0 ? 'timeslots:' : ''}`,
-    track.talks.map(talkToMD).join('\n'),
+    track.talks.map(talkToFM).join('\n'),
     '---'
   ].join('\n');
 };
@@ -250,9 +259,15 @@ const personLabelFromRecord = (r) => {
   const fullName = `${r.firstName || 'None'} ${r.lastName || ''}`;
   const fullDisplay = r.prefersAlias ? r.alias : fullName;
   return fullDisplay;
-}
+};
 
-const talkToMD = talk => {
+const isPublishable = (obj, key) => {
+  return obj.hasOwnProperty(key)
+    && obj[key] != undefined
+    && obj[key].length > 0;
+};
+
+const talkToFM = talk => {
 
   // generate start/end times
   const startTime = new Date(talk.startTime);
@@ -274,16 +289,32 @@ const talkToMD = talk => {
 
   const speakerDisplay = personLabelFromRecord(talk);
 
+  const slidesLink = isPublishable(talk,'slidesLink')
+    ? `\n\n<a href="${talk.slidesLink}">View slides</a>`
+    : '';
+
+  const videoLink = isPublishable(talk, 'videoLink')
+    ?  `\n\n<a href="${talk.videoLink}">View video</a>`
+    : '';
+
+  const desc = `${escapeYaml(talk.desc)} ${slidesLink} ${videoLink}`;
+
   return [
     `  - time: '${localeTimeStr}'`,
     `    speakers: '${speakerDisplay}'`,
     `    title: "${escapeYaml(talk.title)}"`,
-    `    description: "${escapeYaml(talk.desc)}"`,
+    `    description: "${desc}"`,
     ``
   ].join('\n');
 }
 
-const trackDetailsToMD = track => {
+const trackDetailsToFM = track => {
+  const videoLink = isPublishable(track, 'videoLink')
+    ? `\n\n<a href="${track.videoLink}">View video playlist</a>`
+    : '';
+
+  const desc = `${escapeYaml(indent(track.trackDesc))} ${videoLink}`;
+
   return `
 name: "${escapeYaml(track.title)}"
 date: '${track.trackDate}'
@@ -292,7 +323,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-${escapeYaml(indent(track.trackDesc))}
+${desc}
 priority: ${track.priority}
 attendees: ${track.trackAttendees || 50}
 org: '${escapeYaml(track.trackOrg) || '' }'
