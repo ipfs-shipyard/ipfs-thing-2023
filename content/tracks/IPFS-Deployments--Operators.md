@@ -11,7 +11,7 @@ description: >-
   
   From best practices to the mistakes made along the way, this track is a chance to highlight how members of the community are running IPFS nodes at scale. Let's share what's working well and what implementations can do to make things even better!  
   
-  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtTYOY5l8nehP_Vt6Ek-svrp">View video playlist</a>
+  [View video playlist](https://youtube.com/playlist?list=PLuhRWgmPaHtTYOY5l8nehP_Vt6Ek-svrp)
 priority: 6
 attendees: 50
 org: ''
