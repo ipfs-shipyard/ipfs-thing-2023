@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Room: Royal A+B  
+  Room: Royal A+B
 priority: 4
 attendees: 50
 org: ''
