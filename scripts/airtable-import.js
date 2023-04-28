@@ -290,11 +290,11 @@ const talkToFM = talk => {
   const speakerDisplay = personLabelFromRecord(talk);
 
   const slidesLink = isPublishable(talk,'slidesLink')
-    ? `\n\n<a href="${talk.slidesLink}">View slides</a>`
+    ? `\n\n<a href='${talk.slidesLink}'>View slides</a>`
     : '';
 
   const videoLink = isPublishable(talk, 'videoLink')
-    ?  `\n\n<a href="${talk.videoLink}">View video</a>`
+    ?  `\n\n<a href='${talk.videoLink}'>View video</a>`
     : '';
 
   const desc = `${escapeYaml(talk.desc)}${slidesLink}${videoLink}`;
