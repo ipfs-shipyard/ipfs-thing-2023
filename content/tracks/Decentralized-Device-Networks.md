@@ -9,7 +9,9 @@ difficulty: All Welcome
 description: >-
   Room: Amsterdam + Luxembourg.
   
-  We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.
+  We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.  
+  
+  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtQ_lKtbTR-vIW1LYuTjcaPw">View video playlist</a>
 priority: 3
 attendees: 50
 org: ''
@@ -25,12 +27,16 @@ timeslots:
   - time: '09:15 - 10:00'
     speakers: 'Matt Hamilton'
     title: "FVM: The Filecoin Virtual Machine"
-    description: "I will cover the basics of what the FVM is, how Filecoin relates to IPFS and how you can use FVM to combine IPFS and Filecoin."
+    description: "I will cover the basics of what the FVM is, how Filecoin relates to IPFS and how you can use FVM to combine IPFS and Filecoin.
+
+<a href='https://youtu.be/LK9QjOJIPkQ'>View video</a>"
 
   - time: '10:00 - 10:15'
     speakers: 'Iryna Tsimashenka'
     title: "Bacalhau - decentralised compute over data"
-    description: "Bacalhau is a new project of Protocol Labs, which allows computation over data (COD) stored on IPFS. You are going to learn exciting use cases, architecture and what problems are solved by using Bacalhau"
+    description: "Bacalhau is a new project of Protocol Labs, which allows computation over data (COD) stored on IPFS. You are going to learn exciting use cases, architecture and what problems are solved by using Bacalhau
+
+<a href='https://youtu.be/eaz7bhdY918'>View video</a>"
 
   - time: '10:15 - 10:30'
     speakers: 'Wes Floyd'
@@ -40,7 +46,9 @@ timeslots:
 In this talk we'll cover the architecture of Project Lilypad and some fun new use cases it enables such as generative art (Project Waterlily), community building with generative NFTs, and enhanced Decentralized Finance (DeFi) primitives.
 
 
-"
+
+
+<a href='https://youtu.be/X6LY01KEY8E'>View video</a>"
 
   - time: '10:30 - 11:00'
     speakers: 'zeeshanlakhani'
@@ -55,23 +63,31 @@ IPFS: https://ipfs.tech/
 IPLD: https://ipld.io/
 Wasm (WebAssembly) Component Model: https://github.com/webassembly/component-model
 Interface Types: https://github.com/WebAssembly/component-model/blob/main/design/mvp/WIT.md
-Ucan capabilities: https://github.com/ucan-wg/invocation"
+Ucan capabilities: https://github.com/ucan-wg/invocation
+
+<a href='https://youtu.be/BFAMy5-VHak'>View video</a>"
 
   - time: '11:00 - 11:30'
     speakers: 'Mike Voronov'
     title: "AquaVM: pi-calculus based distributed algorithms"
     description: "At Fluence we are developing an open stack solution called Aquamarine that allows developers to choreograph and compose distributed, peer-to-peer hosted services. An integral pillar of this stack is CRDT-based AquaVM (http://github.com/fluencelabs/aquavm). It is the Rust-based AIR interpreter compiles to WebAssembly and allows for the seamless orchestration of peer-to-peer hosted, Wasm-based services. AIR is our own intermediate representation inspired by pi and lambda calculus as well as category theory.
-In this talk, we'll discuss the use of AIR and how these different math topics were used for AquaVM architecturing from scratch including AI applications."
+In this talk, we'll discuss the use of AIR and how these different math topics were used for AquaVM architecturing from scratch including AI applications.
+
+<a href='https://youtu.be/PxOFMriqyUQ'>View video</a>"
 
   - time: '11:30 - 12:00'
     speakers: 'Samy Fodil'
     title: "How to Build a Decentralized Cloud Computing"
-    description: "In this talk I would discuss what is the Cloud model. Why it is important to web3 and how it can be implemented to be decentralized leveraging ipfs components alongside some interesting engineering concepts."
+    description: "In this talk I would discuss what is the Cloud model. Why it is important to web3 and how it can be implemented to be decentralized leveraging ipfs components alongside some interesting engineering concepts.
+
+<a href='https://youtu.be/tFTExuukQPk'>View video</a>"
 
   - time: '12:00 - 12:30'
     speakers: 'Ryan Shahine'
     title: "Turbocharging decentralized websites with AI"
-    description: "How Portrait retrieves Web3 data to create highly accurate and visually stunning decentralized websites with a single click."
+    description: "How Portrait retrieves Web3 data to create highly accurate and visually stunning decentralized websites with a single click.
+
+<a href='https://youtu.be/MT2y0spngvA'>View video</a>"
 
   - time: '12:30 - 13:30'
     speakers: 'None '
@@ -85,17 +101,23 @@ In this talk, we'll discuss the use of AIR and how these different math topics w
 
 Currently these are being used to power trust-minimized off-chain services for leading DAOs, including Balancer and Ceramic. 
 
-In this talk we will present how Autonolas leverages IPFS throughout its stack to: a) reference and retrieve code components, b) provide a production-grade package registry, and c) utilizes IPFS hashing to contribute to crypto-economic integrity of the system."
+In this talk we will present how Autonolas leverages IPFS throughout its stack to: a) reference and retrieve code components, b) provide a production-grade package registry, and c) utilizes IPFS hashing to contribute to crypto-economic integrity of the system.
+
+<a href='https://youtu.be/bzSjPTF-6G4'>View video</a>"
 
   - time: '14:00 - 14:30'
     speakers: 'TechieTeee'
     title: "Federated Learning on FVM"
-    description: "In this hands-on workshop, participants will learn the fundamentals of federated machine learning with FVM through a brief introduction, followed by a hands-on activity. They will learn how to set up and manage a federated learning environment, how to design and train models using federated learning techniques, and how to analyze and evaluate the performance of federated models and deploy their models to FVM. By the end of the workshop, participants will have a practical understanding of the key concepts and skills needed to implement federated machine learning with FVM in their own projects."
+    description: "In this hands-on workshop, participants will learn the fundamentals of federated machine learning with FVM through a brief introduction, followed by a hands-on activity. They will learn how to set up and manage a federated learning environment, how to design and train models using federated learning techniques, and how to analyze and evaluate the performance of federated models and deploy their models to FVM. By the end of the workshop, participants will have a practical understanding of the key concepts and skills needed to implement federated machine learning with FVM in their own projects.
+
+<a href='https://youtu.be/CZDIFUMACM8'>View video</a>"
 
   - time: '14:30 - 14:45'
     speakers: 'Yan Michalevsky'
     title: "Compute on data in space"
-    description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world."
+    description: "In this talk, we discuss how computation moves from Earth to space and how satellites start playing an important role in processing sensitive data and providing the cryptographic infrastructure much needed for privacy. We discuss a collaboration between Cryptosat and Project Bacalhau to enable executing workloads in space, with the goal of providing a seamless experience to its users while accessing a Trusted Execution Environment literally out of this world.
+
+<a href='https://youtu.be/nCI2qgH1Ha4'>View video</a>"
 
   - time: '14:45 - 15:00'
     speakers: 'Taosheng Shi'
@@ -109,16 +131,22 @@ In this talk we will present how Autonolas leverages IPFS throughout its stack t
 > Web3 数据 DAO 的操作系统
 > 将智能合约、分布式计算和 FIL 存储市场整合到一个包中
 > IPLD Prolly Trees 用于处理大量结构化数据，否则这些数据将不可行
-> 易于使用的前端，用于创建 DAO、管理其数据集以及对其数据运行计算"
+> 易于使用的前端，用于创建 DAO、管理其数据集以及对其数据运行计算
+
+<a href='https://youtu.be/YLw93as5tOI'>View video</a>"
 
   - time: '15:00 - 15:15'
     speakers: 'Alfonso De la Rocha'
     title: "InterPlanetary Consensus (IPC): Adding a consensus layer wherever is needed"
-    description: "In this brief talk we are going to present the latest developments in IPC (InterPlanetary Consensus), its road to production, and how it can be leveraged to add a high-performant and interoperable consensus layer to many use cases, adding verifiability a consistency to your computation and data."
+    description: "In this brief talk we are going to present the latest developments in IPC (InterPlanetary Consensus), its road to production, and how it can be leveraged to add a high-performant and interoperable consensus layer to many use cases, adding verifiability a consistency to your computation and data.
+
+<a href='https://youtu.be/qPLhqPGDZyk'>View video</a>"
 
   - time: '15:15 - 16:00'
     speakers: 'Donald Gossen, Harry Grieve, Wes Floyd, questions by Iryna '
     title: "AI data & compute - AI scaling limits solved via decentralisation"
-    description: "The scale of an AI system is limited by data and compute availability. Access to data is in jeopardy due to attribution issues and the associated legal challenges, whereas compute is stockpiled and price-gouged by cloud oligopolists. Decentralised protocols offer programmatic solutions to both problems and uncap the positive impact that AI systems can have on society."
+    description: "The scale of an AI system is limited by data and compute availability. Access to data is in jeopardy due to attribution issues and the associated legal challenges, whereas compute is stockpiled and price-gouged by cloud oligopolists. Decentralised protocols offer programmatic solutions to both problems and uncap the positive impact that AI systems can have on society.
+
+<a href='https://youtu.be/1awacsikTho'>View video</a>"
 
 ---
