@@ -10,8 +10,6 @@ description: >-
   Room: Royal A+B.
   
   A discussion / breakout-oriented workshop for defining and committing to next steps out of the week's conversations, which we can progress and celebrate at upcoming IPFS events in Q3 / Q4 2023.
-
-<a href="https://youtu.be/nqiiqd8nTNo">View video playlist</a>
 priority: 4
 attendees: 50
 org: ''
@@ -22,6 +20,6 @@ timeslots:
   - time: '16:00 - 18:00'
     speakers: 'All Of Us'
     title: "Group roadmapping session"
-    description: "We all roadmap together.<br><a href="https://youtu.be/nqiiqd8nTNo">View video</a>"
+    description: "We all roadmap together."
 
 ---
