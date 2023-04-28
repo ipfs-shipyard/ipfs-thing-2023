@@ -11,7 +11,7 @@ description: >-
   
   Approaches and protocols to content routing in IPFS, what we've learned so far, and directions for the future. Join this track to explore herding CIDs, bringing content providers closer to the seekers of content, new advances across content routing systems, and a fresh look at the horizon of what's to come.  
   
-  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtRBWV3SvInC5ATS8aKV3lsW">View video playlist</a>
+  [View video playlist](https://youtube.com/playlist?list=PLuhRWgmPaHtRBWV3SvInC5ATS8aKV3lsW)
 priority: 2
 attendees: 50
 org: ''

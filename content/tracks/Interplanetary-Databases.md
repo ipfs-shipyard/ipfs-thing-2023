@@ -11,7 +11,7 @@ description: >-
   
   There’s a new class of distributed database technologies building atop steady advances in IPLD & hash linked data structures in general. In this track we’ll gather those brave enough to take on CAP theorem in a decentralized context, share notes on what’s working, and hear presentations from teams pushing the envelope on what databases can do and where they can exist.  
   
-  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtTO8hr2CYiJPTSe7wybW_op">View video playlist</a>
+  [View video playlist](https://youtube.com/playlist?list=PLuhRWgmPaHtTO8hr2CYiJPTSe7wybW_op)
 priority: 2
 attendees: 50
 org: ''
