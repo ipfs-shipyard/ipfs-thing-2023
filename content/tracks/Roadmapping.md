@@ -11,7 +11,7 @@ description: >-
   
   A discussion / breakout-oriented workshop for defining and committing to next steps out of the week's conversations, which we can progress and celebrate at upcoming IPFS events in Q3 / Q4 2023.  
   
-  [View video playlist](https://youtu.be/nqiiqd8nTNo)
+  <a href="https://youtu.be/nqiiqd8nTNo">View video playlist</a>
 priority: 4
 attendees: 50
 org: ''

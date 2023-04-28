@@ -11,7 +11,7 @@ description: >-
   
   A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation, and recommendations for builders and operators.  
   
-  [View video playlist](https://youtube.com/playlist?list=PLuhRWgmPaHtQkkbiq-PbIkt9_S2NjJz6x)
+  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtQkkbiq-PbIkt9_S2NjJz6x">View video playlist</a>
 priority: 3
 attendees: 50
 org: ''
