@@ -11,9 +11,13 @@ description: >-
 priority: 4
 attendees: 50
 org: ''
-dri: 'None '
+dri: 'Juan Benet'
 times: '4:15 pm - 6:00 pm'
 
-
+timeslots:
+  - time: '16:30 - Invalid Date'
+    speakers: 'Juan Benet'
+    title: "Retro"
+    description: ""
 
 ---
