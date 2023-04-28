@@ -9,7 +9,7 @@ difficulty: All Welcome
 description: >-
   Room: Royal A+B
   
-  Submit your demos, lightning talks, posters, anything you'd like to showcase to your fellow IPFS Thing-ers!  
+  Submit your demos, lightning talks, posters, anything you'd like to showcase to your fellow IPFS Thing-ers!
 priority: 3
 attendees: 50
 org: ''
@@ -20,36 +20,26 @@ timeslots:
   - time: '13:30 - 13:40'
     speakers: 'Guillaume Veldekens'
     title: "Immortalizing stories on IPFS"
-    description: "Participants will gain valuable insights into a real-life use case of IPFS and blockchain technology for preserving meaningful stories. They will also learn about the concept of soulbound tokens and how they can be utilized to securely store and manage important data.
-
-<a href="https://youtu.be/JCp1c7KzfW8">View video</a>"
+    description: "Participants will gain valuable insights into a real-life use case of IPFS and blockchain technology for preserving meaningful stories. They will also learn about the concept of soulbound tokens and how they can be utilized to securely store and manage important data."
 
   - time: '13:40 - 13:50'
     speakers: 'Miroslav  Bajtoš'
     title: "Zinnia, a runtime for interplanetary volunteer computing"
-    description: "
-
-<a href="https://www.youtube.com/watch?v=bD1b_r53RA0">View video</a>"
+    description: ""
 
   - time: '13:50 - 14:00'
     speakers: 'Amean Asad'
     title: "Saturn Payment Mechanism using FVM (tentative title)"
-    description: "
-
-<a href="https://www.youtube.com/watch?v=tKi-cbOlHXM">View video</a>"
+    description: ""
 
   - time: '14:00 - 14:10'
     speakers: 'Niki Gokani'
     title: "IPFS Camp India FAQ & AMA"
-    description: "FAQs @ IPFS Thing about weather, flights, food, water, COMMUNITY! Free flowing session to ask all your doubts about IPFS Camp In Bangalore!
-
-<a href="https://www.youtube.com/watch?v=JK1E6--sdbA">View video</a>"
+    description: "FAQs @ IPFS Thing about weather, flights, food, water, COMMUNITY! Free flowing session to ask all your doubts about IPFS Camp In Bangalore!"
 
   - time: '14:10 - 14:20'
     speakers: 'Boris Mann'
     title: "Fission Mascot Magic"
-    description: "
-
-<a href="https://www.youtube.com/watch?v=jDCK6xldrlk">View video</a>"
+    description: ""
 
 ---
