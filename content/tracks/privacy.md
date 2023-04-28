@@ -11,7 +11,7 @@ description: >-
   
   This track is about the IPFS community and how we work together to govern IPFS standards and our broader ecosystem: specifications, community organizing, and dweb policy & regulation. What's the latest on the IPFS protocol and governance? What specific problems do we face regarding existing regulation? How can we have better local communities? How do we make the dweb a robust, sustainable commons?  
   
-  [View video playlist](https://youtube.com/playlist?list=PLuhRWgmPaHtTIFbOVO5YfXkoFg6wIGbBN)
+  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtTIFbOVO5YfXkoFg6wIGbBN">View video playlist</a>
 priority: 2
 attendees: 50
 org: ''

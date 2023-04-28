@@ -11,7 +11,7 @@ description: >-
   
   We believe computing and AI can become more powerful and useful by embracing content addressing and a “merkle-native” way of doing things. In this track, we'll discuss various projects in this area, sharing R&D experiences, future directions, use cases, and benefits.  
   
-  [View video playlist](https://youtube.com/playlist?list=PLuhRWgmPaHtQ_lKtbTR-vIW1LYuTjcaPw)
+  <a href="https://youtube.com/playlist?list=PLuhRWgmPaHtQ_lKtbTR-vIW1LYuTjcaPw">View video playlist</a>
 priority: 3
 attendees: 50
 org: ''
