@@ -11,7 +11,7 @@ description: >-
 priority: 4
 attendees: 50
 org: ''
-dri: 'None '
+dri: 'Juan Benet'
 times: '4:15 pm - 6:00 pm'
 
 
