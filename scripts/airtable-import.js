@@ -226,7 +226,9 @@ const groupTracks = (tracks, talks) => {
 
   // add each talk to its track
   talks.forEach(talk => {
-    if (typeof talk.tracks == 'undefined') {
+    if (!talk.hasOwnProperty('tracks')
+      || typeof talk.tracks != 'Array'
+      || !trackList.hasOwnProperty(talk.tracks[0])) {
       // if talk is on a track that isn't confirmed
       // then drop it for now, will fix in airtable
     }
