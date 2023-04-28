@@ -297,7 +297,8 @@ const talkToFM = talk => {
     ?  `\n\n<a href='${talk.videoLink}'>View video</a>`
     : '';
 
-  const desc = `${escapeYaml(talk.desc)}${slidesLink}${videoLink}`;
+  //const desc = `${escapeYaml(talk.desc)}${slidesLink}${videoLink}`;
+  const desc = `${escapeYaml(talk.desc)}`;
 
   return [
     `  - time: '${localeTimeStr}'`,
@@ -313,7 +314,8 @@ const trackDetailsToFM = track => {
     ? `\n\n[View video playlist](${track.videoLink})`
     : '';
 
-  const desc = `${escapeYaml(indent(track.trackDesc))}${indent(videoLink)}`;
+  //const desc = `${escapeYaml(indent(track.trackDesc))}${indent(videoLink)}`;
+  const desc = `${escapeYaml(indent(track.trackDesc))}`;
 
   return `
 name: "${escapeYaml(track.title)}"
