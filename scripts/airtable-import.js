@@ -310,7 +310,7 @@ const talkToFM = talk => {
 
 const trackDetailsToFM = track => {
   const videoLink = isPublishable(track, 'videoLink')
-    ? `\n\n<a href="${track.videoLink}">View video playlist</a>`
+    ? `\n\n[View video playlist](${track.videoLink})`
     : '';
 
   const desc = `${escapeYaml(indent(track.trackDesc))}${indent(videoLink)}`;
