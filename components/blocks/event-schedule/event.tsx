@@ -29,10 +29,10 @@ function Card({ children, color }) {
   )
 }
 
-export function EventCard({ event }) {
+export function EventCard({ event, urlHash }) {
   const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
   return (
-    <Modal content={<EventModalContent event={event}/>} title={event.name} link={event.website} hash={event.hash}>
+    <Modal content={<EventModalContent event={event}/>} title={event.name} link={event.website} hash={event.hash} urlHash={urlHash}>
       <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
         <Card color={event.color}>
           <div className="flex-1">

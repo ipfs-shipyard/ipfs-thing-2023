@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import dayjs from 'dayjs'
 import { EventCard } from './event'
 import Link from 'next/link.js'
@@ -16,20 +17,34 @@ function dayOffset(start, date) {
   return dayjs(date).diff(dayjs(start), 'days')
 }
 
-function EventCardWrapper({e, i}) {
-  if (!e.isWithinRange) {
+function EventCardWrapper({event, index, urlHash}) {
+
+  if (!event.isWithinRange) {
     return null
   }
   return (
-    <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
-        <Link href={`/${e.hash}`} scroll={false}>
-          <EventCard event={e} key={i} />
+    <div className={`col-start-${(event.startDay + 1)} col-end-${(event.startDay + event.days + 1)} shrink-0 h-full auto-rows-fr`}>
+        <Link href={`/${event.hash}`} scroll={false} >
+          <EventCard event={event} key={index} urlHash={urlHash} />
         </Link>
     </div>
   )
 }
 
 export function ScheduleTable({ events, config }) {
+  const [urlHash, setUrlHash] = useState('');
+  const [hashChangeEventRegistered, setHashChangeEventRegistered] = useState(false);
+
+  useEffect(() => {
+    setUrlHash(window.location.hash)
+    if (!hashChangeEventRegistered) {
+      window.addEventListener('hashchange', (hashChangeEvent) => {
+        setUrlHash( (new URL(hashChangeEvent.newURL)).hash)
+      });
+      setHashChangeEventRegistered(true)
+    }
+  }, []);
+
   const startDate = dayjs(config.dateStart)
   const endDate = dayjs(config.dateEnd)
 
@@ -54,7 +69,7 @@ export function ScheduleTable({ events, config }) {
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {prioritizedEvents.map((e, i) => (<EventCardWrapper e={e} i={i}  key={i} />))}
+        {prioritizedEvents.map((event, index) => (<EventCardWrapper event={event} index={index} urlHash={urlHash} key={index} />))}
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}
