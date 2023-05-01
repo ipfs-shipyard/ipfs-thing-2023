@@ -1,3 +1,4 @@
+import Markdown from 'markdown-to-jsx'
 import dayjs from 'dayjs'
 import classNames from 'classnames'
 import { Modal } from '../../modal'
@@ -98,9 +99,11 @@ function EventModalContent({ event }) {
           (tag && <Tag key={i}>{tag}</Tag>)
         ))}
       </div>
-      <p className="mg-copy-small mt-4">
-        {event.description}
-      </p>
+      {event.description && (
+        <p className="markdown mg-copy-small mt-4">
+          <Markdown>{event.description}</Markdown>
+        </p>
+      )}
       {event.timeslots?.length >= 1 && <TimeslotTable timeslots={event.timeslots} />}
     </>
   )

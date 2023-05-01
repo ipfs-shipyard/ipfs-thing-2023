@@ -7,7 +7,7 @@ priority: 9
 venueName: Plein Publiek BXL
 venueAddress: 'Mont des Arts, 1000 Bruxelles, Belgium'
 difficulty: All Welcome
-description: 'https://lu.ma/ipfsthing-closing19'
+description: '[https://lu.ma/ipfsthing-closing19](https://lu.ma/ipfsthing-closing19)'
 ---
 
 
