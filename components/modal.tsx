@@ -18,11 +18,6 @@ function bindKey(bindKey, handler) {
   }, []);
 }
 
-function getLocationHash() {
-  if (typeof window !== 'undefined') {
-    return window.location.hash
-  }
-}
 
 function setLocationHash(hash) {
   if (typeof window !== 'undefined') {
@@ -34,8 +29,9 @@ function setLocationHash(hash) {
   }
 }
 
-export function Modal({ children, content, title, link, hash }) {
-  const [openModal, setOpenModal] = useState(getLocationHash() === hash);
+export function Modal({ children, content, title, link, hash, urlHash }) {
+  const [openModal, setOpenModal] = useState(urlHash === hash);
+
   const open = () => {
     setLocationHash(hash)
     setOpenModal(true)
@@ -45,19 +41,14 @@ export function Modal({ children, content, title, link, hash }) {
     setOpenModal(false)
   }
 
-  // const [hashChangeEventRegistered, setHashChangeEventRegistered] = useState(false);
-  // if (typeof window !== 'undefined' && !hashChangeEventRegistered) {
-  //   window.addEventListener('hashchange', (hashChangeEvent) => {
-  //     const oldUrlHash = (new URL(hashChangeEvent.oldURL)).hash
-  //     const newUrlHash = (new URL(hashChangeEvent.newURL)).hash
-  //     if (newUrlHash === event.hash) {
-  //       open()
-  //     } else if (oldUrlHash === event.hash) {
-  //       close()
-  //     }
-  //   })
-  //   setHashChangeEventRegistered(true)
-  // }
+  useEffect(() => {
+    if (urlHash === hash) {
+      open()
+    } else {
+      setOpenModal(false)
+    }
+  }, [urlHash]);
+
 
   /* TODO: This runs on every modal */
   bindKey('Escape', close)
