@@ -7,7 +7,7 @@ venueName: 'Radisson Grand Place, Brussels'
 venueAddress: ''
 difficulty: All Welcome
 description: >-
-  Room: Royal A+B
+  Room: Royal A+B  
 priority: 4
 attendees: 50
 org: ''
@@ -18,6 +18,8 @@ timeslots:
   - time: '16:30 - Invalid Date'
     speakers: 'Juan Benet'
     title: "Retro"
-    description: ""
+    description: "
+
+[View video](https://youtu.be/XaJgT1VlMKI)"
 
 ---
