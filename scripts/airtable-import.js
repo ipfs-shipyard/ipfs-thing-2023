@@ -268,7 +268,6 @@ const isPublishable = (obj, key) => {
 };
 
 const talkToFM = talk => {
-
   // generate start/end times
   const startTime = new Date(talk.startTime);
   const duration = talk.duration || 1800;
@@ -290,15 +289,15 @@ const talkToFM = talk => {
   const speakerDisplay = personLabelFromRecord(talk);
 
   const slidesLink = isPublishable(talk,'slidesLink')
-    ? `\n\n<a href='${talk.slidesLink}'>View slides</a>`
+    ? `\n\n[View slides](${talk.slidesLink})`
     : '';
 
   const videoLink = isPublishable(talk, 'videoLink')
-    ?  `\n\n<a href='${talk.videoLink}'>View video</a>`
+    ?  `\n\n[View video](${talk.videoLink})`
     : '';
 
-  //const desc = `${escapeYaml(talk.desc)}${slidesLink}${videoLink}`;
-  const desc = `${escapeYaml(talk.desc)}`;
+  const desc = `${escapeYaml(talk.desc)}${slidesLink}${videoLink}`;
+  //const desc = `${escapeYaml(talk.desc)}`;
 
   return [
     `  - time: '${localeTimeStr}'`,
@@ -314,8 +313,8 @@ const trackDetailsToFM = track => {
     ? `\n\n[View video playlist](${track.videoLink})`
     : '';
 
-  //const desc = `${escapeYaml(indent(track.trackDesc))}${indent(videoLink)}`;
-  const desc = `${escapeYaml(indent(track.trackDesc))}`;
+  const desc = `${escapeYaml(indent(track.trackDesc))}${indent(videoLink)}`;
+  //const desc = `${escapeYaml(indent(track.trackDesc))}`;
 
   return `
 name: "${escapeYaml(track.title)}"
