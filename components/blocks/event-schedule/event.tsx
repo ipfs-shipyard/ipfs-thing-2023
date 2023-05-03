@@ -166,7 +166,9 @@ function TimeslotTable({ timeslots }) {
               <td className="px-6 py-4">
                 <span className="font-bold">{timeslot.title}</span>
                 {timeslot.description && (
-                  <p>{timeslot.description}</p>
+                  <p className="markdown">
+                    <Markdown>{timeslot.description}</Markdown>
+                  </p>
                 )}
               </td>
             </tr>
