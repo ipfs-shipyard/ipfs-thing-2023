@@ -2,6 +2,7 @@ import Markdown from 'markdown-to-jsx'
 import dayjs from 'dayjs'
 import classNames from 'classnames'
 import { Modal } from '../../modal'
+import Link from 'next/link.js'
 
 function Card({ children, color }) {
   let borderColor = 'bg-gray'
@@ -34,48 +35,50 @@ export function EventCard({ event, urlHash }) {
   const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
   return (
     <Modal content={<EventModalContent event={event}/>} title={event.name} link={event.website} hash={event.hash} urlHash={urlHash}>
-      <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
-        <Card color={event.color}>
-          <div className="flex-1">
-            <div className="flex gap-2">
-              <h5 className="flex-1 text-black mg-headline-small">
-                {event.name}
-              </h5>
-              {event.isLive &&
-                <div className="w-12 mt-0.5 flex-none">
-                  <img width="48" height="18" src="/live-streaming.svg" />
+      <Link href={`/${event.hash}`} scroll={false}>
+        <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
+          <Card color={event.color}>
+            <div className="flex-1">
+              <div className="flex gap-2">
+                <h5 className="flex-1 text-black mg-headline-small">
+                  {event.name}
+                </h5>
+                {event.isLive &&
+                  <div className="w-12 mt-0.5 flex-none">
+                    <img width="48" height="18" src="/live-streaming.svg" />
+                  </div>
+                }
+              </div>
+              <div className="mg-copy-small mt-2">
+                {event.times !== "To be confirmed" &&
+                  <div>{event.times}</div>
+                }
+                {event.venueName && event.venueName != "Private" &&
+                  <div>{event.venueName}</div>
+                }
+                <div>
+                  👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
+                </div>
+                <div className="mt-3">
+                  {event.org}
+                </div>
+              </div>
+            </div>
+            <div className="flex-1 flex items-end">
+              <div className="event-tags">
+                {event.tags?.map((tag, i) => (
+                  (tag && <Tag key={i}>{tag}</Tag>)
+                ))}
+              </div>
+              {event.logomark &&
+                <div className="logomark inline-block">
+                  <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
                 </div>
               }
             </div>
-            <div className="mg-copy-small mt-2">
-              {event.times !== "To be confirmed" &&
-                <div>{event.times}</div>
-              }
-              {event.venueName && event.venueName != "Private" &&
-                <div>{event.venueName}</div>
-              }
-              <div>
-                👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
-              </div>
-              <div className="mt-3">
-                {event.org}
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 flex items-end">
-            <div className="event-tags">
-              {event.tags?.map((tag, i) => (
-                (tag && <Tag key={i}>{tag}</Tag>)
-              ))}
-            </div>
-            {event.logomark &&
-              <div className="logomark inline-block">
-                <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
-              </div>
-            }
-          </div>
-        </Card>
-      </div>
+          </Card>
+        </div>
+      </Link>
     </Modal>
   )
 }
@@ -100,9 +103,9 @@ function EventModalContent({ event }) {
         ))}
       </div>
       {event.description && (
-        <p className="markdown mg-copy-small mt-4">
+        <div className="markdown mg-copy-small mt-4">
           <Markdown>{event.description}</Markdown>
-        </p>
+        </div>
       )}
       {event.timeslots?.length >= 1 && <TimeslotTable timeslots={event.timeslots} />}
     </>
@@ -166,9 +169,9 @@ function TimeslotTable({ timeslots }) {
               <td className="px-6 py-4">
                 <span className="font-bold">{timeslot.title}</span>
                 {timeslot.description && (
-                  <p className="markdown">
+                  <div className="markdown">
                     <Markdown>{timeslot.description}</Markdown>
-                  </p>
+                  </div>
                 )}
               </td>
             </tr>
