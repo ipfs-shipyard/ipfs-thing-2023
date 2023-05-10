@@ -38,7 +38,6 @@ export function ScheduleTable({ events, config }) {
     setUrlHash(window.location.hash)
     if (!hashChangeEventRegistered) {
       window.addEventListener('hashchange', (hashChangeEvent) => {
-        console.log('hashChangeEvent', hashChangeEvent)
         setUrlHash( (new URL(hashChangeEvent.newURL)).hash)
       });
       setHashChangeEventRegistered(true)
