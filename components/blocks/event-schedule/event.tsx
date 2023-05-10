@@ -2,6 +2,7 @@ import Markdown from 'markdown-to-jsx'
 import dayjs from 'dayjs'
 import classNames from 'classnames'
 import { Modal } from '../../modal'
+import Link from 'next/link.js'
 
 function Card({ children, color }) {
   let borderColor = 'bg-gray'
@@ -33,54 +34,56 @@ function Card({ children, color }) {
 export function EventCard({ event, urlHash }) {
   const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
   return (
-    <Modal content={<EventModalContent event={event}/>} title={event.name} link={event.website} hash={event.hash} urlHash={urlHash}>
-      <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
-        <Card color={event.color}>
-          <div className="flex-1">
-            <div className="flex gap-2">
-              <h5 className="flex-1 text-black mg-headline-small">
-                {event.name}
-              </h5>
-              {event.isLive &&
-                <div className="w-12 mt-0.5 flex-none">
-                  <img width="48" height="18" src="/live-streaming.svg" />
+    <Modal content={<EventModalContent event={event} urlHash={urlHash}/>} title={event.name} link={event.website} hash={event.hash} urlHash={urlHash}>
+      <Link href={`/${event.hash}`} scroll={false}>
+        <div className={classNames('w-full', 'h-full', 'overflow-hidden', { 'opacity-70': isWorkInProgress })}>
+          <Card color={event.color}>
+            <div className="flex-1">
+              <div className="flex gap-2">
+                <h5 className="flex-1 text-black mg-headline-small">
+                  {event.name}
+                </h5>
+                {event.isLive &&
+                  <div className="w-12 mt-0.5 flex-none">
+                    <img width="48" height="18" src="/live-streaming.svg" />
+                  </div>
+                }
+              </div>
+              <div className="mg-copy-small mt-2">
+                {event.times !== "To be confirmed" &&
+                  <div>{event.times}</div>
+                }
+                {event.venueName && event.venueName != "Private" &&
+                  <div>{event.venueName}</div>
+                }
+                <div>
+                  👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
+                </div>
+                <div className="mt-3">
+                  {event.org}
+                </div>
+              </div>
+            </div>
+            <div className="flex-1 flex items-end">
+              <div className="event-tags">
+                {event.tags?.map((tag, i) => (
+                  (tag && <Tag key={i}>{tag}</Tag>)
+                ))}
+              </div>
+              {event.logomark &&
+                <div className="logomark inline-block">
+                  <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
                 </div>
               }
             </div>
-            <div className="mg-copy-small mt-2">
-              {event.times !== "To be confirmed" &&
-                <div>{event.times}</div>
-              }
-              {event.venueName && event.venueName != "Private" &&
-                <div>{event.venueName}</div>
-              }
-              <div>
-                👤 {event.attendees && `${event.attendees} -`} {event.difficulty}
-              </div>
-              <div className="mt-3">
-                {event.org}
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 flex items-end">
-            <div className="event-tags">
-              {event.tags?.map((tag, i) => (
-                (tag && <Tag key={i}>{tag}</Tag>)
-              ))}
-            </div>
-            {event.logomark &&
-              <div className="logomark inline-block">
-                <img height="48" className="w-auto h-12 object-contain" src={event.logomark} />
-              </div>
-            }
-          </div>
-        </Card>
-      </div>
+          </Card>
+        </div>
+      </Link>
     </Modal>
   )
 }
 
-function EventModalContent({ event }) {
+function EventModalContent({ event, urlHash }) {
   return (
     <>
       <ul className="list-disc mg-copy-small ml-4">
@@ -100,11 +103,11 @@ function EventModalContent({ event }) {
         ))}
       </div>
       {event.description && (
-        <p className="markdown mg-copy-small mt-4">
+        <div className="markdown mg-copy-small mt-4">
           <Markdown>{event.description}</Markdown>
-        </p>
+        </div>
       )}
-      {event.timeslots?.length >= 1 && <TimeslotTable timeslots={event.timeslots} />}
+      {event.timeslots?.length >= 1 && <TimeslotTable timeslots={event.timeslots} hash={event.hash} urlHash={urlHash} />}
     </>
   )
 }
@@ -145,7 +148,7 @@ function AddEventModalContent({config}) {
   )
 }
 
-function TimeslotTable({ timeslots }) {
+function TimeslotTable({ timeslots, hash, urlHash }) {
   const sortedTimeslots = timeslots.sort((a, b) => a.time.localeCompare(b.time))
   return (
     <div>
@@ -158,21 +161,26 @@ function TimeslotTable({ timeslots }) {
             <th scope="col" className="px-6 py-3">INFO</th>
           </tr>
         </thead>
-        <tbody>
-          {sortedTimeslots?.map((timeslot, i) => (
-            <tr key={i} className="bg-white mg-copy-small border-b border-gray-light">
-              <th scope="row" className="px-6 py-4 align-top whitespace-nowrap text-left">{timeslot.time}</th>
-              <td className="px-6 py-4 align-top">{timeslot.speakers}</td>
-              <td className="px-6 py-4">
-                <span className="font-bold">{timeslot.title}</span>
-                {timeslot.description && (
-                  <p className="markdown">
-                    <Markdown>{timeslot.description}</Markdown>
-                  </p>
-                )}
-              </td>
-            </tr>
-          ))}
+        <tbody className="mg-copy-small">
+          {sortedTimeslots?.map((timeslot, i) => {
+            const timeslotId = `${hash}-timeslot${i+1}`
+            const currentTimeslot = urlHash?.replace('/', '-timeslot')
+            const isCurrent = timeslotId === currentTimeslot
+            return (
+              <tr id={timeslotId} key={i} className={`relative border-b border-gray-light ${isCurrent ? 'bg-gray-light' : 'bg-white' }`} >
+                <th scope="row" className="px-6 py-4 align-top whitespace-nowrap text-left">{timeslot.time}</th>
+                <td className="px-6 py-4 align-top">{timeslot.speakers}</td>
+                <td className="px-6 py-4">
+                  <a className="font-bold underline" href={`/${hash}/${i+1}`}>{timeslot.title}</a>
+                  {timeslot.description && (
+                    <div className="markdown">
+                      <Markdown>{timeslot.description}</Markdown>
+                    </div>
+                  )}
+                </td>
+              </tr>
+            )
+          })}
         </tbody>
       </table>
     </div>

@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import dayjs from 'dayjs'
 import { EventCard } from './event'
-import Link from 'next/link.js'
 
 
 function genDates(start, numDays) {
@@ -24,9 +23,9 @@ function EventCardWrapper({event, index, urlHash}) {
   }
   return (
     <div className={`col-start-${(event.startDay + 1)} col-end-${(event.startDay + event.days + 1)} shrink-0 h-full auto-rows-fr`}>
-        <Link href={`/${event.hash}`} scroll={false} >
-          <EventCard event={event} key={index} urlHash={urlHash} />
-        </Link>
+      <div className={`col-start-${(event.startDay + 1)} col-end-${(event.startDay + event.days + 1)} shrink-0 h-full auto-rows-fr`}>
+        <EventCard event={event} key={index} urlHash={urlHash} />
+      </div>
     </div>
   )
 }

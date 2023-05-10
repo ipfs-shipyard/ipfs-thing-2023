@@ -30,11 +30,28 @@ function setLocationHash(hash) {
 }
 
 export function Modal({ children, content, title, link, hash, urlHash }) {
+  const modalHash = urlHash.includes('/') ? urlHash.split('/').at(0) : urlHash
   const [openModal, setOpenModal] = useState(urlHash === hash);
+  
+  const scrollToTimeslot = () => {
+    const timeslotIndex = urlHash.includes('/') && urlHash.split('/').at(1)
+    if (modalHash && timeslotIndex) {
+      const timeSlotId = `${modalHash}-timeslot${Number(timeslotIndex) + 1}`
+      const element = document.getElementById(timeSlotId)
+      element && element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
 
   const open = () => {
-    setLocationHash(hash)
-    setOpenModal(true)
+    if (!openModal) {
+      setLocationHash(hash)
+      setOpenModal(true)
+    }
+
+    // The modal needs to be open before we can scroll to the timeslot
+    setTimeout(() => {
+      scrollToTimeslot()
+    }, 100);
   }
   const close = () => {
     setLocationHash('#')
@@ -42,7 +59,7 @@ export function Modal({ children, content, title, link, hash, urlHash }) {
   }
 
   useEffect(() => {
-    if (urlHash === hash) {
+    if (modalHash === hash) {
       open()
     } else {
       setOpenModal(false)
